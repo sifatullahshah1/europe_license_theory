@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:easy_localization/easy_localization.dart';
 import 'package:europe_license_theory/app_theme_work/widgets_reusing.dart';
 import 'package:flutter/cupertino.dart';
@@ -105,68 +107,56 @@ class ConstantFunctions {
 
   //========= URL Launch ============================================
 
-  static Future MakeEmail(context,
+  static Future openLink(String url) => _launchUrl(url);
+
+  static Future openEmail(
       {required String toEmail,
-      required String subject,
-      required String body}) async {
+        required String subject,
+        required String body}) async {
     try {
-      final launchUri =
+      final url =
           'mailto:$toEmail?subject=${Uri.encodeFull(subject)}&body=${Uri.encodeFull(body)}';
-      canLaunchUrl(Uri.parse(launchUri)).then((value) async {
-        if (value) {
-          await launchUrl(Uri.parse(launchUri));
-        } else {
-          WidgetsReusing.getSnakeBar(context, "Not supported email");
-        }
-      });
+      await _launchUrl(url);
     } catch (e) {
-      WidgetsReusing.getSnakeBar(context, "${e.toString()}");
+      print('openEmail ${e.toString()}');
     }
   }
 
-  static Future MakePhoneCall(context, {required String phone_number}) async {
+  static void openPhoneCall({required String phoneNumber}) async {
     try {
-      final Uri launchUri = Uri(
-        scheme: 'tel',
-        path: phone_number,
-      );
-      canLaunchUrl(launchUri).then((value) async {
-        if (value) {
-          await launchUrl(launchUri);
-        } else {
-          WidgetsReusing.getSnakeBar(context, "Not supported call");
-        }
-      });
+      final url = 'tel:$phoneNumber';
+      if (await canLaunch(url)) {
+        await _launchUrl(url);
+      } else {
+        print('canLaunch false');
+      }
+      await _launchUrl(url);
     } catch (e) {
-      WidgetsReusing.getSnakeBar(context, "${e.toString()}");
+      print('openPhoneCall ${e.toString()}');
     }
   }
 
-  static Future<void> MakePhoneSms(context,
-      {required String phone_number, required String message}) async {
+  static Future openSMS(
+      {required String phoneNumber, required String message}) async {
     try {
-      final Uri launchUri =
-          Uri(scheme: 'sms', path: phone_number, queryParameters: {
-        "": "",
-        "body": "$message",
-      });
-      await launchUrl(launchUri);
+      if (Platform.isAndroid) {
+        final url = 'sms:$phoneNumber ?body=$message';
+        if (await canLaunch(url)) {
+          await _launchUrl(url);
+        }
+      }
     } catch (e) {
-      WidgetsReusing.getSnakeBar(context, "${e.toString()}");
+      print('openSMS ${e.toString()}');
     }
   }
 
-  static Future OpenUrlSite(context, String launchUri) async {
+  static Future _launchUrl(String url) async {
     try {
-      canLaunchUrl(Uri.parse(launchUri)).then((value) async {
-        if (value) {
-          await launchUrl(Uri.parse(launchUri));
-        } else {
-          WidgetsReusing.getSnakeBar(context, "Not supported site");
-        }
-      });
+      if (await canLaunch(url)) {
+        await launch(url);
+      }
     } catch (e) {
-      WidgetsReusing.getSnakeBar(context, "${e.toString()}");
+      print('_launchUrl ${e.toString()}');
     }
   }
 

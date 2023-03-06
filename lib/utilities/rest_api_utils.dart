@@ -1,44 +1,35 @@
 import 'package:easy_localization/easy_localization.dart';
+import 'package:europe_license_theory/app_theme_work/theme_texts.dart';
+import 'package:europe_license_theory/app_theme_work/widgets_reusing.dart';
+import 'package:europe_license_theory/utilities/app_assets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:invoice/app_theme_work/theme_texts.dart';
-import 'package:invoice/app_theme_work/widgets_reusing.dart';
-import 'package:invoice/utilities/app_assets.dart';
+import 'package:flutter_svg/svg.dart';
+// import 'package:flutter_svg/flutter_svg.dart'
 import 'package:lottie/lottie.dart';
 
 class RestApiUtils {
   RestApiUtils._();
 
   // APIs Production Links
-  static String ip_config = "https://cv.codematics.co/api/";
+  // static String ip_config = "https://cv.codematics.co/api/";
 
   // APIs development Links
-  // static String ip_config_dev = "http://cv.sidrafoundation.pk/api/";
+  static String ip_config_dev = "http://cv.sidrafoundation.pk/api/";
 
-  //===== for babar no use to comment =====================
-  //dev app
-  // static final String dev_invoice_templates =
-  //     ip_config_dev + "dev-invoice-templates";
-
-  //dev app
-  // static final String dev_invoice_template_original =
-  //     ip_config_dev + "localized-invoice-template-dummy";
-
-  //===== for babar no use to comment =====================
 
   // static final String ImageUrl = "http://cv.sidrafoundation.pk/storage/invoice_template_image/";
   static final String ImageUrl = "https://cv.codematics.co/storage/invoice_template_image/";
 
-  static final String invoice_templates = "${ip_config}v2/invoice-templates";
-  static final String invoice_template_original = "${ip_config}invoice-template-original";
-  static final String invoice_template_dummy = "http://cv.codematics.co/api/localized-invoice-template-dummy/";
+  // static final String invoice_templates = "${ip_config}v2/invoice-templates";
+  // static final String invoice_template_original = "${ip_config}invoice-template-original";
+  // static final String invoice_template_dummy = "http://cv.codematics.co/api/localized-invoice-template-dummy/";
 
 
   //==================================================================
 
-  static final String feedback = ip_config + "feedback";
-  static final String feedback_response = ip_config + "feedback-response";
+  // static final String feedback = ip_config + "feedback";
+  // static final String feedback_response = ip_config + "feedback-response";
 
   //Response Status and Message
   static String error_400 = "Error occurred";
@@ -174,33 +165,5 @@ class RestApiUtils {
     );
   }
 
-  static Widget ShowEmptyBoxLoadView(context,
-      {required String path, required String title}) {
-    return Container(
-      alignment: Alignment.center,
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          path != ""
-              ? SvgPicture.asset(
-                  path,
-                  width: 130,
-                  height: 130,
-                )
-              : SizedBox(),
-          SizedBox(height: path != "" ? 20 : 0),
-          Text(
-            title,
-            textAlign: TextAlign.center,
-            maxLines: 2,
-            style: Theme.of(context).textTheme.bodyText2!.copyWith(
-                fontFamily: ThemeTexts.Bold,
-                color: Colors.black87,
-                fontSize: 15),
-          ),
-        ],
-      ),
-    );
-  }
+
 }

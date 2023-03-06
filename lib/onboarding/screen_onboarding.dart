@@ -1,12 +1,13 @@
+import 'package:easy_localization/easy_localization.dart';
+import 'package:europe_license_theory/app_theme_work/theme_colors.dart';
+import 'package:europe_license_theory/app_theme_work/theme_texts.dart';
+import 'package:europe_license_theory/login/screens/screen_verify_number.dart';
+import 'package:europe_license_theory/onboarding/onboarding/screen_term_condition.dart';
+import 'package:europe_license_theory/screen_dashboard.dart';
+import 'package:europe_license_theory/utilities/app_assets.dart';
+import 'package:europe_license_theory/utilities/constant_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:invoice/app_theme_work/theme_colors.dart';
-import 'package:invoice/app_theme_work/theme_texts.dart';
-import 'package:invoice/app_theme_work/widgets_reusing.dart';
-import 'package:invoice/create_invoice/screen_business/screen_business_list.dart';
-import 'package:invoice/dashboard/screens/screen_dashboard.dart';
-import 'package:invoice/utilities/app_assets.dart';
-import 'package:invoice/utilities/constant_functions.dart';
 
 class ScreenOnboarding extends StatefulWidget {
   @override
@@ -18,25 +19,16 @@ class _ScreenOnboardingState extends State<ScreenOnboarding> {
   PageController _pageController =
       PageController(initialPage: 0, keepPage: true);
 
-  String title01 = "Create business invoice in one go!";
-  String title02 = "Choose template";
-  String title03 = "Generate invoice and share";
-
-  String description01 = "Request a ride and be picked up on the same route by the driver";
-  String description02 = "Publish a ride and pick up passengers along the way";
-  String description03 = "Know where your drivers are ahead of time and view their current location on a map in real time";
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomInset: false,
       backgroundColor: Colors.white,
       body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 18),
+        padding: const EdgeInsets.symmetric(horizontal: 20),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Container(
+            SizedBox(
               height: MediaQuery.of(context).size.height * 0.6,
               child: PageView(
                 controller: _pageController,
@@ -44,66 +36,51 @@ class _ScreenOnboardingState extends State<ScreenOnboarding> {
                   setCurrentPage(value);
                 },
                 children: [
-                  onBoardPage(AppAssets.board_01, title01, description01),
-                  onBoardPage(AppAssets.board_02, title02, description02),
-                  onBoardPage(AppAssets.board_03, title03, description03),
+                  onBoardPage(
+                      AppAssets.board_01,
+                      "onbaording.title01".tr(),
+                      "onbaording.description01".tr()),
+                  onBoardPage(
+                      AppAssets.board_02,
+                      "onbaording.title02".tr(),
+                      "onbaording.description02".tr()),
+                  onBoardPage(
+                      AppAssets.board_03,
+                      "onbaording.title03".tr(),
+                      "onbaording.description03".tr()),
                 ],
               ),
             ),
-            // WidgetsReusing.GetTextButtonWithBackGround(
-            //     context,
-            //     "Login",
-            //     openLgoinPage,
-            //     EdgeInsets.symmetric(horizontal: 20, vertical: 30)),
-            Padding(
-              padding: EdgeInsets.only(
-                  top: MediaQuery.of(context).size.height * 0.1),
+            Container(
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: List.generate(3, (index) => getIndicator(index)),
               ),
             ),
-
-            WidgetsReusing.GetTextButton(
-              context,
-              "Business Information",
-              () async {
-                await Navigator.push(
-                    context,
-                    ConstantFunctions.OpenNewActivity(ScreenBusinessList(
-                      isFromInvoiceScreen: true,
-                      isFromOnBoardingScreen: true,
-                      is_purchased: false,
-                    )));
-              },
-              EdgeInsets.only(top: 25),
-            ),
             Container(
-              margin: EdgeInsets.only(top: 15),
+              margin: EdgeInsets.only(top: 20),
+              padding: EdgeInsets.symmetric(horizontal: 22),
+              height: MediaQuery.of(context).size.height * 0.2,
               alignment: Alignment.center,
               width: MediaQuery.of(context).size.width,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  InkWell(
-                    onTap: () {
-                      ConstantFunctions.OpenNewScreenClean(
-                          context, ScreenDashboard());
-                      ConstantFunctions.saveSharePrefModebool(
-                          "is_show_board", true);
+                  currentPage < 2 ? InkWell(
+                    onTap: (){
+                      ConstantFunctions.OpenNewScreenClean(context, ScreenTermCondition());
                     },
-                    child: Container(
-                      child: Text(
-                        currentPage == 2 ? "finish" : "Skip",
-                        style: TextStyle(
-                            fontSize: 18,
-                            color: Colors.black38,
-                            fontFamily: ThemeTexts.Medium),
-                      ),
+                    child: Text(
+                      "onbaording.skip".tr(),
+                      style: ThemeTexts.textStyleTitle2.copyWith(
+                          letterSpacing: 0,
+                          fontSize: 17,
+                          fontWeight: FontWeight.w500,
+                          color: Colors.grey[400]),
                     ),
-                  ),
-                  /*Spacer(),
+                  ) : SizedBox(),
+                  Spacer(),
                   InkWell(
                     onTap: () {
                       if (currentPage < 2) {
@@ -114,22 +91,21 @@ class _ScreenOnboardingState extends State<ScreenOnboarding> {
                         ConstantFunctions.saveSharePrefModebool(
                             "is_show_board", true);
 
-                        ConstantFunctions.OpenNewScreenClean(
-                            context, ScreenDashboard());
+                        ConstantFunctions.OpenNewScreenClean(context, ScreenTermCondition());
+                        // openLgoinPage();
                       }
                     },
                     child: Row(
                       children: [
                         CircleAvatar(
-                          backgroundColor: ThemeColors.primaryColor,
-                          child: Icon(
-                            Icons.arrow_forward,
-                            color: Colors.white,
-                          ),
+                          radius: 30,
+                          backgroundColor: ThemeColors.primary_dark_lt,
+                          child: Icon(Icons.arrow_forward,
+                              color: Colors.white, size: 30),
                         ),
                       ],
                     ),
-                  ),*/
+                  ),
                 ],
               ),
             )
@@ -141,7 +117,7 @@ class _ScreenOnboardingState extends State<ScreenOnboarding> {
 
   Column onBoardPage(String assetName, String title, String description) {
     Widget svgIcon = Padding(
-      padding: EdgeInsets.all(30),
+      padding: EdgeInsets.all(5),
       child: SvgPicture.asset(assetName),
     );
 
@@ -149,44 +125,39 @@ class _ScreenOnboardingState extends State<ScreenOnboarding> {
       mainAxisAlignment: MainAxisAlignment.start,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        SizedBox(height: MediaQuery.of(context).size.height / 4.5),
+        SizedBox(height: 100),
         Container(
-          height: MediaQuery.of(context).size.height * .30,
+          height: MediaQuery.of(context).size.height * .27,
           width: MediaQuery.of(context).size.width,
-          padding: EdgeInsets.all(10),
           // padding: EdgeInsets.all(50),
           decoration: BoxDecoration(
-              // color: ThemeColors.primary_dark_lt,
+              //   color: ThemeColors.primary_dark_lt,
               // image: svgIcon,
               ),
           child: svgIcon,
         ),
-        Text(
-          title,
-          textAlign: TextAlign.center,
-          style: const TextStyle(
-              fontSize: 19,
-              fontFamily: ThemeTexts.SemiBold,
-              fontWeight: FontWeight.w600,
-              color: Colors.black87),
-        ),
-        // SizedBox(height: 10),
-        // Expanded(
-        //   child: Text(
-        //     description,
-        //     textAlign: TextAlign.center,
-        //     style: TextStyle(fontSize: 14, color: Colors.black87),
-        //   ),
-        // )
+        SizedBox(height: 20),
+        Text(title,
+            textAlign: TextAlign.center, style: ThemeTexts.textStyleTitle),
+        SizedBox(height: 10),
+        SizedBox(
+          child: Text(
+            description,
+            // textAlign: currentPage == 0 ? TextAlign.left : TextAlign.center,
+            textAlign: TextAlign.center,
+            style: ThemeTexts.textStyleTitle.copyWith(
+                letterSpacing: 0,
+                fontSize: 14,
+                fontWeight: FontWeight.w500,
+                color: Color(0xff9E9DA2)),
+          ),
+        )
       ],
     );
   }
 
   setCurrentPage(int value) {
     setState(() {
-      if (currentPage == 2) {
-        ConstantFunctions.saveSharePrefModebool("is_show_board", true);
-      }
       currentPage = value;
     });
   }
@@ -195,15 +166,26 @@ class _ScreenOnboardingState extends State<ScreenOnboarding> {
     return AnimatedContainer(
       duration: Duration(milliseconds: 100),
       height: 10,
-      width: (currentPage == pageNo) ? 10 : 10,
-      margin: const EdgeInsets.symmetric(horizontal: 5),
+      width: (currentPage == pageNo) ? 15 : 15,
+      margin: EdgeInsets.symmetric(horizontal: 2),
       decoration: BoxDecoration(
         shape: BoxShape.circle,
-
         // borderRadius: BorderRadius.all(Radius.circular(5)),
-        color:
-            (currentPage == pageNo) ? ThemeColors.primaryColor : Colors.black12,
+        color: (currentPage == pageNo)
+            ? ThemeColors.primary_dark_lt
+            : Colors.grey[300],
       ),
     );
+  }
+
+  void openLgoinPage() {
+    ConstantFunctions.getSharePrefModebool("is_user_verified")
+        .then((is_user_verified) {
+      if (is_user_verified) {
+         ConstantFunctions.OpenNewScreenClean(context, ScreenDashboard());
+      } else {
+        ConstantFunctions.OpenNewScreenClean(context, ScreenVerifyNumber());
+      }
+    });
   }
 }

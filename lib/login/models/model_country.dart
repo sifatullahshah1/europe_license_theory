@@ -1,5 +1,7 @@
 import 'dart:convert';
 
+import 'package:europe_license_theory/utilities/constant_functions.dart';
+
 
 class ModelCountry {
   String name;
@@ -56,15 +58,15 @@ class ModelCountry {
         "longitude": longitude,
       };
 
-  // static SaveCountry(ModelCountry modelCountry) {
-  //   String dddd = jsonEncode(modelCountry.toJson().toString());
-  //   ConstantFunctions.saveSharePrefModeString("country", dddd);
-  // }
-  //
-  // static Future<ModelCountry> GetCountry() async {
-  //   String ssss = await ConstantFunctions.getSharePrefModeString("country");
-  //   return jsonDecode(ssss);
-  // }
+  static SaveCountry(ModelCountry modelCountry) {
+    String dddd = jsonEncode(modelCountry.toJson().toString());
+    ConstantFunctions.saveSharePrefModeString("country", dddd);
+  }
+
+  static Future<ModelCountry> GetCountry() async {
+    String ssss = await ConstantFunctions.getSharePrefModeString("country");
+    return jsonDecode(ssss);
+  }
 
   static List<ModelCountry> countries = [
     ModelCountry(

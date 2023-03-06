@@ -42,8 +42,10 @@ dependencies:
 
   flutter_svg: ^1.0.3
 
-  firebase_core: ^2.1.0
-  firebase_crashlytics: ^3.0.4
+  firebase_core: ^1.20.0
+  firebase_auth: ^3.3.19
+  firebase_messaging: ^11.4.1
+#  firebase_crashlytics: ^3.0.4
   #  firebase_analytics: ^10.0.6
 
 

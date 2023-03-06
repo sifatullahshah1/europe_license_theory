@@ -1,8 +1,10 @@
 import 'package:easy_localization/easy_localization.dart';
-import 'package:europe_license_theory/app_theme_work/theme_textformfields.dart';
-import 'package:europe_license_theory/app_theme_work/theme_texts.dart';
-import 'package:europe_license_theory/utilities/constant_functions.dart';
 import 'package:flutter/material.dart';
+import 'package:ride_sharing_app/app_theme_work/theme_colors.dart';
+import 'package:ride_sharing_app/app_theme_work/theme_textformfields.dart';
+import 'package:ride_sharing_app/app_theme_work/theme_texts.dart';
+import 'package:ride_sharing_app/app_theme_work/widgets_reusing.dart';
+import 'package:ride_sharing_app/utilities/constant_functions.dart';
 
 import '../models/model_country.dart';
 
@@ -29,52 +31,52 @@ class _PageCountryListState extends State<PageCountryList> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomInset: false,
+      backgroundColor: ThemeColors.background,
       appBar: AppBar(
-        leading: InkWell(
-          onTap: () {
-            ConstantFunctions.saveSharePrefModeString("country_index", "0");
-            Navigator.pop(context, ModelCountry.countries[0]);
-          },
-          child: Icon(Icons.arrow_back),
-        ),
+        centerTitle: true,
+        leading: WidgetsReusing.GetAppbarLeading(() {
+          ConstantFunctions.saveSharePrefModeString("country_index", "0");
+          Navigator.pop(context, ModelCountry.countries[0]);
+        }),
         title: isSearching
-            ? TextFormField(
-                autofocus: true,
-                style: ThemeTexts.appbar_text_style,
-                decoration:
-                    ThemeTextFormFields.GetTextFormFieldDecorationOnlyBorder(
-                        "country_select.enter_country_name".tr()),
-                textCapitalization: TextCapitalization.sentences,
-                onChanged: (value) {
-                  if (value.length > 0) {
-                    countries_filterd = [];
-                    ModelCountry.countries.forEach((country) {
-                      if (country.name
-                          .toLowerCase()
-                          .contains(value.toLowerCase())) {
-                        countries_filterd.add(country);
-                      }
-                    });
-                    setState(() {});
-                  } else {
-                    setState(() {
-                      countries_filterd = ModelCountry.countries;
-                    });
-                  }
-                },
+            ? Padding(
+                padding: EdgeInsets.only(left: 15, top: 15, right: 10),
+                child: TextFormField(
+                  autofocus: true,
+                  style: ThemeTexts.appbar_text_style,
+                  decoration:
+                      ThemeTextFormFields.GetTextFormFieldDecorationOnlyBorder(
+                          "verify_number.enter_country_name".tr()),
+                  textCapitalization: TextCapitalization.sentences,
+                  onChanged: (value) {
+                    if (value.length > 0) {
+                      countries_filterd = [];
+                      ModelCountry.countries.forEach((country) {
+                        if (country.name
+                            .toLowerCase()
+                            .contains(value.toLowerCase())) {
+                          countries_filterd.add(country);
+                        }
+                      });
+                      setState(() {});
+                    } else {
+                      setState(() {
+                        countries_filterd = ModelCountry.countries;
+                      });
+                    }
+                  },
+                ),
               )
-            : Text("country_select.select_country".tr()),
+            : WidgetsReusing.GetAppBarTitle(
+                "country_select.select_country".tr()),
         actions: [
-          IconButton(
-            onPressed: () {
-              setState(() {
-                isSearching = !isSearching;
-                countries_filterd = ModelCountry.countries;
-              });
-            },
-            icon: Icon(isSearching ? Icons.close : Icons.search),
-          )
+          WidgetsReusing.GetAppBarActionIcon(
+              isSearching ? Icons.close : Icons.search, () {
+            setState(() {
+              isSearching = !isSearching;
+              countries_filterd = ModelCountry.countries;
+            });
+          })
         ],
       ),
       body: ListView.builder(
@@ -97,7 +99,7 @@ class _PageCountryListState extends State<PageCountryList> {
       children: [
         Container(
           padding: EdgeInsets.symmetric(horizontal: 15, vertical: 2),
-          height: 70,
+          height: 60,
           child: Row(
             children: [
               Text(
@@ -110,14 +112,12 @@ class _PageCountryListState extends State<PageCountryList> {
               Expanded(
                 child: Text(
                   modelCountry.name,
-                  style: Theme.of(context).textTheme.headline6,
+                  style: ThemeTexts.textStyleTitle2,
                 ),
               ),
               Container(
-                child: Text(
-                  modelCountry.currency_symbol,
-                  style: TextStyle(fontSize: 18),
-                ),
+                child:
+                    Text(modelCountry.code, style: ThemeTexts.textStyleValue),
               ),
             ],
           ),

@@ -1,11 +1,11 @@
 import 'package:easy_localization/easy_localization.dart';
+import 'package:europe_license_theory/app_theme_work/theme_colors.dart';
+import 'package:europe_license_theory/app_theme_work/theme_texts.dart';
+import 'package:europe_license_theory/app_theme_work/widgets_reusing.dart';
+import 'package:europe_license_theory/onboarding/screen_onboarding.dart';
+import 'package:europe_license_theory/utilities/constant_functions.dart';
+import 'package:europe_license_theory/utilities/language_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:invoice/app_theme_work/theme_colors.dart';
-import 'package:invoice/app_theme_work/theme_texts.dart';
-import 'package:invoice/app_theme_work/widgets_reusing.dart';
-import 'package:invoice/onboarding/screen_onboarding.dart';
-import 'package:invoice/utilities/constant_functions.dart';
-import 'package:invoice/utilities/language_controller.dart';
 
 class ScreenLanguageSelection extends StatefulWidget {
   final bool is_from_splash;
@@ -26,29 +26,31 @@ class _ScreenLanguageSelectionState extends State<ScreenLanguageSelection> {
   @override
   void initState() {
     super.initState();
-
     setState(() {
       countries_filterd = ModelLanguage.languages;
     });
+
+
+
   }
 
   bool isFirstTime = true;
 
-
   @override
   Widget build(BuildContext context) {
+
     if(isFirstTime) {
-      countries_filterd.forEach((element) {
+    countries_filterd.forEach((element) {
 
-        print("objectobjectobject ${element.code_a}");
-        print("objectobjectobject ${context.locale.languageCode}");
+    print("objectobjectobject ${element.code_a}");
+    print("objectobjectobject ${context.locale.languageCode}");
 
-        if(element.code_a == context.locale.languageCode) {
-          code_a = element.code_a;
-          code_b = element.code_b;
-        }
-      });
-      isFirstTime = false;
+    if(element.code_a == context.locale.languageCode) {
+      code_a = element.code_a;
+      code_b = element.code_b;
+      }
+    });
+    isFirstTime = false;
     }
 
     return Scaffold(
@@ -56,11 +58,58 @@ class _ScreenLanguageSelectionState extends State<ScreenLanguageSelection> {
       backgroundColor: ThemeColors.background,
       appBar: AppBar(
         centerTitle: false,
-        title: WidgetsReusing.GetAppBarTitle("languages.select_language".tr()),
+        leading: widget.is_from_splash
+            ? SizedBox()
+            : WidgetsReusing.GetAppbarLeading(() {
+                Navigator.pop(context, true);
+              }),
+        title: WidgetsReusing.GetAppBarTitle("language.select_language".tr()),
+        actions: [
+          /* WidgetsReusing.GetAppBarActionIcon(
+              isSearching ? Icons.close : Icons.search, () {
+            setState(() {
+              isSearching = !isSearching;
+              countries_filterd = ModelLanguage.languages;
+            });
+          })*/
+        ],
       ),
       body: Column(
         children: [
           SizedBox(height: 10),
+          // isSearching
+          //     ? AnimatedContainer(
+          //         duration: Duration(seconds: 1),
+          //         child: Padding(
+          //           padding: EdgeInsets.only(left: 15, top: 15, right: 10),
+          //           child: TextFormField(
+          //             autofocus: true,
+          //             style: ThemeTexts.appbar_text_style,
+          //             decoration: ThemeTextFormFields
+          //                 .GetTextFormFieldDecorationOnlyBorder(
+          //                     "verify_number.enter_country_name".tr()),
+          //             textCapitalization: TextCapitalization.sentences,
+          //             onChanged: (value) {
+          //               if (value.length > 0) {
+          //                 countries_filterd = [];
+          //                 ModelLanguage.languages.forEach((country) {
+          //                   if (country.name
+          //                       .toLowerCase()
+          //                       .contains(value.toLowerCase())) {
+          //                     countries_filterd.add(country);
+          //                   }
+          //                 });
+          //                 setState(() {});
+          //               } else {
+          //                 setState(() {
+          //                   countries_filterd = ModelLanguage.languages;
+          //                 });
+          //               }
+          //             },
+          //           ),
+          //         ),
+          //       )
+          //     : SizedBox(),
           Expanded(
             child: ListView.builder(
               keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag,
@@ -77,7 +126,7 @@ class _ScreenLanguageSelectionState extends State<ScreenLanguageSelection> {
               },
             ),
           ),
-          WidgetsReusing.GetTextButton(context, "languages.set_language".tr(),
+          WidgetsReusing.GetTextButton(context, "language.set_language".tr(),
               () {
             setState(() {
               context.setLocale(Locale('${code_a}', '${code_b}'));
@@ -103,13 +152,13 @@ class _ScreenLanguageSelectionState extends State<ScreenLanguageSelection> {
           height: 60,
           child: Row(
             children: [
-              // Text(
-              //   modelCountry.flag,
-              //   style: TextStyle(fontSize: 30),
-              // ),
-              // SizedBox(
-              //   width: 15,
-              // ),
+              Text(
+                modelCountry.flag,
+                style: TextStyle(fontSize: 30),
+              ),
+              SizedBox(
+                width: 15,
+              ),
               Expanded(
                 child: Text(
                   modelCountry.name,
@@ -155,112 +204,9 @@ class ModelLanguage {
       required this.code_b});
 
   static List<ModelLanguage> languages = [
-    ModelLanguage(
-        name: "languages.arabic".tr(),
-        flag: "🇦🇪",
-        code_a: "ar",
-        code_b: "AE"),
-    ModelLanguage(
-        name: "languages.danish".tr(),
-        flag: "🇷🇺",
-        code_a: "da",
-        code_b: "DA"),
-    ModelLanguage(
-        name: "languages.german".tr(),
-        flag: "🇷🇺",
-        code_a: "de",
-        code_b: "DE"),
-    ModelLanguage(
-        name: "languages.english".tr(),
-        flag: "🇺🇸",
-        code_a: "en",
-        code_b: "US"),
-    ModelLanguage(
-        name: "languages.spanish".tr(),
-        flag: "🇷🇺",
-        code_a: "es",
-        code_b: "ES"),
-    ModelLanguage(
-        name: "languages.estonian".tr(),
-        flag: "🇪🇪",
-        code_a: "et",
-        code_b: "ET"),
-    ModelLanguage(
-        name: "languages.finnish".tr(),
-        flag: "🇷🇺",
-        code_a: "fi",
-        code_b: "FI"),
-    ModelLanguage(
-        name: "languages.filipino".tr(),
-        flag: "🇷🇺",
-        code_a: "fil",
-        code_b: "FIL"),
-    ModelLanguage(
-        name: "languages.french".tr(),
-        flag: "🇷🇺",
-        code_a: "fr",
-        code_b: "FR"),
-    ModelLanguage(
-        name: "languages.french_canadian".tr(),
-        flag: "🇷🇺",
-        code_a: "frca",
-        code_b: "CA"),
-    ModelLanguage(
-        name: "languages.indonesian".tr(),
-        flag: "🇷🇺",
-        code_a: "id",
-        code_b: "ID"),
-    ModelLanguage(
-        name: "languages.italian".tr(),
-        flag: "🇷🇺",
-        code_a: "it",
-        code_b: "IT"),
-    ModelLanguage(
-        name: "languages.korean".tr(),
-        flag: "🇷🇺",
-        code_a: "ko",
-        code_b: "KO"),
-    ModelLanguage(
-        name: "languages.malayalam".tr(),
-        flag: "🇷🇺",
-        code_a: "ms",
-        code_b: "MS"),
-    ModelLanguage(
-      name: "languages.dutch".tr(),
-      flag: "🇷🇺",
-      code_a: "nl",
-      code_b: "NL",
-    ),
-    ModelLanguage(
-      name: "languages.portuguese_br".tr(),
-      flag: "🇷🇺",
-      code_a: "pt",
-      code_b: "BR",
-    ),
-
-    ModelLanguage(
-      name: "languages.portuguese_pt".tr(),
-      flag: "🇷🇺",
-      code_a: "pt",
-      code_b: "PT",
-    ),
-
-    ModelLanguage(
-        name: "languages.russian".tr(),
-        flag: "🇷🇺",
-        code_a: "ru",
-        code_b: "RU"), //
-    ModelLanguage(
-        name: "languages.swedish".tr(),
-        flag: "🇷🇺",
-        code_a: "sv",
-        code_b: "SV"),
-    ModelLanguage(
-        name: "languages.thai".tr(), flag: "🇷🇺", code_a: "th", code_b: "TH",),
-    ModelLanguage(
-        name: "languages.turkish".tr(),
-        flag: "🇷🇺",
-        code_a: "tr",
-        code_b: "TR"),
+    ModelLanguage(name: "English", flag: "🇺🇸", code_a: "en", code_b: "US"),
+    ModelLanguage(name: "Eesti", flag: "🇪🇪", code_a: "et", code_b: "ET"),
+    ModelLanguage(name: "Россия", flag: "🇷🇺", code_a: "ru", code_b: "RU"),
+    //   ModelLanguage(name: "Россия", flag: "🇷🇺", code_a: "ru", code_b: "RU"),
   ];
 }

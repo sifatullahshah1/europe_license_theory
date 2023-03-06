@@ -26,6 +26,7 @@ class AppAssets {
   static const board_01 = 'assets/icons/board_01.svg';
   static const board_02 = 'assets/icons/board_02.svg';
   static const board_03 = 'assets/icons/board_03.svg';
+
   static const business_profile = 'assets/icons/business_profile.png';
   static const premium_template = 'assets/icons/premium_template.svg';
   static const ads_template = 'assets/icons/ads_template.svg';
