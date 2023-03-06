@@ -108,8 +108,8 @@ class _ScreenSignupState extends State<ScreenSignup> {
                 ),
               ),
               SizedBox(height: 30),
-              ThemeTextFormFields.GetSimpleTextForm(
-                  context, "", _nameController,
+              ThemeTextFormFields.GetTextFormField(
+                  "", _nameController,
                   hint: "verify_number.full_name".tr(),
                   focusNode: name_focus_node,
                   keyboardType: TextInputType.text,
