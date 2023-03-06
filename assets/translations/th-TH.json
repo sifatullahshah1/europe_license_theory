@@ -1,0 +1,301 @@
+{
+  "language_name" : "Thai",
+  "app_name" : "สร้างใบแจ้งหนี้ได้ง่าย",
+
+
+  "languages":{
+    "arabic" : "عربى",
+    "danish" : "Danish",
+    "german" : "German",
+    "english" : "English",
+    "spanish" : "Spanish",
+    "estonian" : "Estonian",
+    "finnish" : "Finnish",
+    "filipino" : "Filipino",
+    "french" : "French(FR)" ,
+    "french_canadian" : "French (CA)",
+    "indonesian" : "Indonesian",
+    "italian" : "Italian",
+    "korean" : "Korean",
+    "malayalam" : "Malayalam",
+    "dutch" : "Dutch",
+    "portuguese_br" : "Português (BR)",
+    "portuguese_pt" : "Português (PT)",
+    "russian" : "Russian",
+    "swedish" : "Swedish",
+    "thai" : "Thai",
+    "turkish" : "Turkish",
+    "select_language": "เลือกภาษา",
+    "set_language": "เสร็จ"
+  },
+
+  "splash_text" : "สร้างใบแจ้งหนี้ได้ง่าย",
+  "loading_data" : "กรุณารอสักครู่",
+  "reload" : "โหลด",
+  "continue" : "ต่อเนื่อง",
+  
+
+  "record_added_successfully" : "เพิ่มระเบียนเรียบร้อยแล้ว",
+  "record_failed_to_add" : "ระเบียนขออภัยไม่สามารถเพิ่มได้",
+  "file_not_generated" : "ไม่ได้สร้างไฟล์ให้แตะอีกครั้งหลังจากผ่านไปไม่กี่วินาที",
+  "please_enter_valid_name" : "กรุณาใส่ชื่อที่ถูกต้อง",
+  "please_enter_valid_item_name" : "กรุณาใส่ชื่อรายการที่ถูกต้อง",
+  "please_enter_valid_item_price" : "โปรดป้อนราคาสินค้าที่ถูกต้อง",
+  "please_enter_valid_item_quantity" : "โปรดป้อนปริมาณสินค้าที่ถูกต้อง",
+
+
+  "please_enter_valid_values" : "โปรดเพิ่มค่าที่ถูกต้องก่อน",
+  "please_enter_valid_email" : "กรุณากรอกอีเมลที่ถูกต้อง",
+  "please_enter_valid_title" : "กรุณาใส่ชื่อที่ถูกต้อง",
+  "setting_updated_successfully" : "อัปเดตการตั้งค่าเรียบร้อยแล้ว",
+  "invalid_values_check_value_or_quantity" :  "ค่าไม่ถูกต้องตรวจสอบราคาหรือมูลค่าปริมาณ",
+  "sorry_message_short" : "ข้อความขออภัยคือการสั้น (ขั้นต่ํา 15 ตัวอักษร)",
+  "please_enter_valid_business_name" : "กรุณาใส่ชื่อธุรกิจที่ถูกต้องv",
+  "first_complete_invoice_details" : "รายละเอียดใบแจ้งหนี้ที่สมบูรณ์ก่อน",
+  "feedback_thank_message" : "ขอบคุณมาก! เราขอขอบคุณอย่างจริงใจในความเข้าใจของคุณเพราะช่วยให้เราสร้างประสบการณ์ของลูกค้าที่ดีขึ้น",
+  "paid_amount_should_be_equal_less" : "จํานวนเงินที่ชําระควรเท่ากับหรือน้อยกว่าจํานวนเงินทั้งหมด",
+  "please_provide_all_values" : "โปรดระบุค่าทั้งหมด",
+
+
+  "please_enter_amount_less":"กรุณากรอก {amount} จํานวนหรือน้อยกว่า",
+
+
+  "country_select" : {
+    "select_country": "เลือกประเทศ",
+    "enter_country_name": "ป้อนชื่อประเทศ"
+  },
+
+
+
+  "bottomsheet": {
+    "close_app": "ปิดแอพ",
+    "cancel": "ยกเลิก",
+    "edit": "แก้ไข",
+    "confirm_delete": "ยืนยันการลบ",
+    "delete": "ลบ",
+    "view": "ทิวทัศน์",
+    "update": "อัพเดต"
+  },
+
+  "dashboard": {
+     "business": "ธุรกิจ",
+    "home": "บ้าน",
+    "customers": "ลูกค้า",
+    "product": "ผลิตภัณฑ์"
+  },
+
+
+
+  "feedback": {
+    "feedback": "การตอบสนอง",
+    "no_feedback_found": "เขียนคําติชมของคุณโดยการคลิกปุ่ม เขียนคําติชม",
+    "write_feedback": "เขียนคําติชม",
+    "title": "ชื่อเรื่อง",
+    "email": "อีเมล",
+    "message": "ข้อความ",
+    "send": "ส่ง",
+    "response": "การตอบสนอง"
+  },
+
+  "setting": {
+    "invoice_setting": "การตั้งค่าใบแจ้งหนี้",
+    "default_currency": "สกุลเงินเริ่มต้น",
+    "number_formate": "จํานวนฟอร์เมท",
+    "date_formate": "เดทฟอร์เมท",
+    "payment_method": "วิธีการชําระเงิน",
+    "privacy_policy": "นโยบายความเป็นส่วนตัว",
+    "rate_us": "ให้คะแนนเรา",
+    "share_app": "แชร์แอป",
+    "save": "ประหยัด",
+    "due_term": "ครบกําหนดระยะเวลา"
+  },
+
+  "items": {
+    "select_product": "เลือกผลิตภัณฑ์",
+    "item": "รายการ",
+    "from_list": "  จากรายการ  ",
+    "update_item": "อัปเดตรายการ",
+    "add_item": "เพิ่มรายการ",
+    "item_name": "ชื่อรายการ",
+    "price_per_item": "ราคาต่อรายการ",
+    "enter_description": "ป้อนคําอธิบาย",
+    "quantity": "ปริมาณ",
+    "discount": "ส่วนลด",
+    "type": "ประเภท",
+    "taxable": "ต้อง เสียภาษี %",
+    "tax_rate": "อัตราภาษี",
+    "add_item_to_list": "เพิ่มรายการในรายการของคุณ?",
+    "description": "การบรรยาย",
+    "add": "เพิ่ม",
+    "update": "อัพเดต",
+    "edit": "   Edit   ",
+    "show_item_details": "แสดงรายละเอียดสินค้า",
+    "no_item" : "ยังไม่มีการเพิ่มรายการ\nเพิ่มรายการโดยคลิกปุ่ม +",
+
+
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} items?"
+  },
+
+
+  "business": {
+    "select_business": "เลือกธุรกิจ",
+    "business": "ธุรกิจ",
+    "logo": "โลโก้",
+    "stamp_opt": "แสตมป์ (อุปกรณ์เสริม)",
+    "signature_opt": "ลายเซ็น (ไม่บังคับ)",
+    "name": "ชื่อ",
+    "business_name": "ชื่อธุรกิจ",
+    "designation_opt": "การกําหนด (ไม่บังคับ)",
+    "email_opt": "อีเมล์ (ไม่บังคับ)",
+    "phone_opt": "โทรศัพท์ (อุปกรณ์เสริม)",
+    "enter_address": "ป้อนที่อยู่ (ไม่บังคับ)",
+    "enter_city": "ป้อนเมือง (ไม่บังคับ)",
+    "zip_code_opt": "รหัสไปรษณีย์ ( ไม่บังคับ )",
+    "enter_country": "ป้อนประเทศ (ไม่บังคับ)",
+    "business_website_opt": "เว็บไซต์ธุรกิจ ( ไม่บังคับ )",
+    "stamp": "แสตมป์",
+    "signature": "ลายเซ็น",
+    "designation": "นาม",
+    "email": "อีเมล",
+    "phone": "โทรศัพท์",
+    "address": "นาม",
+    "city": "เมือง",
+    "zip_code": "รหัสไปรษณีย์",
+    "country": "ประเทศ",
+    "business_website": "เว็บไซต์ธุรกิจ",
+    "update_business": "อัปเดตธุรกิจ",
+    "add_business": "เพิ่มธุรกิจ",
+    "no_business" : "ยังไม่มีการเพิ่มธุรกิจ\nเพิ่มธุรกิจโดยคลิกปุ่ม +",
+    "show_business_details" : "แสดงรายละเอียดธุรกิจ",
+    "edit" :  "  แก้ไข  "
+  },
+
+
+  "customer": {
+    "select_customer": "เลือกลูกค้า",
+    "customer": "ลูกค้า",
+    "update_customer": "อัปเดตลูกค้า",
+    "add_customer": "เพิ่มลูกค้า",
+    "customer_name": "ชื่อลูกค้า",
+    "enter_name" : "ใส่ชื่อ",
+    "enter_phone_number" : "ใส่หมายเลขโทรศัพท์",
+    "enter_address" : "ป้อนที่อยู่",
+    "enter_billing_address" : "ป้อนที่อยู่สําหรับการเรียกเก็บเงิน",
+    "show_customer_details" : "แสดงรายละเอียดลูกค้า",
+    "name" : "Name",
+    "phone_number" : "หมายเลขโทรศัพท์",
+    "address" : "ที่อยู่",
+    "billing_address" : "ที่อยู่สําหรับการเรียกเก็บเงิน",
+    "edit" :  "  แก้ไข  ",
+    "no_customer" : "ยังไม่มีลูกค้าเพิ่ม\nเพิ่มลูกค้าโดยคลิกปุ่ม +",
+
+    "update": "Update",
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} Customer?"
+  },
+
+
+  "payment": {
+    "select_payment": "เลือกวิธีการชําระเงิน",
+    "payment": "การจ่ายเงิน",
+    "update_payment": "อัปเดตวิธีการชําระเงิน",
+    "add_payment": "เพิ่มวิธีการชําระเงิน",
+    "payment_method": "วิธีการชําระเงิน",
+    "details": "ราย ละเอียด",
+    "no_payment" : "ยังไม่มีการเพิ่มวิธีการชําระเงิน\nเพิ่มวิธีการชําระเงินโดยคลิกปุ่ม +"
+  },
+
+
+
+  "show_invoices":{
+    "select_category" : "เลือกหมวดหมู่",
+    "create_invoice" : "สร้างใบแจ้งหนี้",
+    "dashboard_title" : "สร้างใบแจ้งหนี้แบบมืออาชีพสําหรับธุรกิจของคุณ!",
+    "no_invoice_found" : "ยังไม่มีการเพิ่มใบแจ้งหนี้",
+    "no_paid_invoice_found" : "ยังไม่มีการเพิ่มใบแจ้งหนี้ที่ชําระเงินแล้ว",
+    "no_partially_paid_invoice_found" : "ยังไม่มีการเพิ่มใบแจ้งหนี้ที่ชําระเงินบางส่วน",
+    "no_unpaid_invoice_found" : "ยังไม่มีการเพิ่มใบแจ้งหนี้ที่ชําระเงินแล้ว",
+    "all_invoice" : "ใบแจ้งหนี้ทั้งหมด",
+    "paid_invoice" : "ใบแจ้งหนี้ที่ชําระแล้ว",
+    "partially_paid_invoice" : "ใบแจ้งหนี้ที่ชําระแล้วบางส่วน",
+    "unpaid_invoices" : "ใบแจ้งหนี้ที่ยังไม่ได้ชําระ",
+    "cancel" : "ยกเลิก",
+    "no_specific_invoice_found":"ไม่ใช่ {tab_Selected} สถาปนา",
+    "tab_Selected":"{tab_Selected}"
+  },
+
+  "create_invoice":{
+    "change_template" : "เปลี่ยนเทมเพลต",
+    "choose_template" : "เลือกเทมเพลต",
+    "create_invoice" : "สร้างใบแจ้งหนี้",
+    "update_invoice" : "อัปเดตใบแจ้งหนี้",
+    "business_information" : "ข้อมูลธุรกิจ",
+    "info" : "ข้อมูล",
+    "invoice" : "ใบส่งของ",
+    "invoice_number":"ใบส่งของ# {number}",
+    "due_date":"วันครบกําหนด",
+    "add_customer":"เพิ่มลูกค้า",
+    "add_item":"เพิ่มรายการ",
+    "sub_total":"ยอดรวมย่อย",
+    "delivery_charges":"ค่าจัดส่ง",
+    "grand_total":"ผลรวมทั้งหมด",
+    "paid_amount":"จํานวนเงินที่ชําระแล้ว",
+    "total_amount_due":"จํานวนเงินทั้งหมดที่ต้องชําระ",
+    "add_payment_methods":"เพิ่มวิธีการชําระเงิน",
+    "terms":"เงื่อนไข",
+    "other_notes":"หมายเหตุอื่น ๆ",
+    "discount":"ส่วนลด",
+    "discount_percent":"เปอร์เซ็นต์ส่วนลด",
+    "bill_to":"เรียกเก็บเงินเพื่อ",
+    "save":"ประหยัด",
+    "preview":"ดูตัวอย่าง",
+    "sub_title":"{quantity} {hello} {price}"
+  },
+
+  "info_sheet":{
+    "invoice_info" : "ข้อมูลใบแจ้งหนี้",
+    "edit_info" : " แก้ไขข้อมูล ",
+    "due_date":"วันครบกําหนด",
+    "current_date" : "วันที่ปัจจุบัน"
+  },
+
+  "discount_sheet":{
+    "discount" : "ส่วนลด",
+    "discount_type" : "ประเภทส่วนลด",
+    "discount_percent" : "เปอร์เซ็นต์ส่วนลด",
+    "discount_amount" : "จํานวนส่วนลด",
+    "add_discount" : "เพิ่มส่วนลด",
+    "select_discount_type" : "เลือกประเภทส่วนลด"
+  },
+
+  "tax_sheet":{
+    "tax" : "ภาษี",
+    "TAX" : "ภาษี",
+    "label" : "ฉลาก",
+    "rate" : "อัตรา",
+    "add_tax" : "เพิ่มภาษี"
+  },
+
+
+  "delivery_sheet":{
+    "delivery_charges" : "ค่าจัดส่ง",
+    "amount" : "ปริมาณ",
+    "add_charges" : "เพิ่มค่าบริการ"
+  },
+
+
+  "amount_sheet":{
+    "paid_amount" : "จํานวนเงินที่ชําระ",
+    "amount" : "ปริมาณ",
+    "fill" : "เติม",
+    "note_amount_to_be_paid":"โน้ต:  {amount} คือต้องจ่าย",
+    "add_payment" : "เพิ่มการชําระเงิน"
+  }
+}
+
+

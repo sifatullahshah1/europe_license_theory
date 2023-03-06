@@ -1,0 +1,299 @@
+{
+  "language_name" : "Swedish",
+  "app_name" : "Enkel fakturagenerator",
+
+  "languages":{
+    "arabic" : "عربى",
+    "danish" : "Danish",
+    "german" : "German",
+    "english" : "English",
+    "spanish" : "Spanish",
+    "estonian" : "Estonian",
+    "finnish" : "Finnish",
+    "filipino" : "Filipino",
+    "french" : "French(FR)" ,
+    "french_canadian" : "French (CA)",
+    "indonesian" : "Indonesian",
+    "italian" : "Italian",
+    "korean" : "Korean",
+    "malayalam" : "Malayalam",
+    "dutch" : "Dutch",
+    "portuguese_br" : "Português (BR)",
+    "portuguese_pt" : "Português (PT)",
+    "russian" : "Russian",
+    "swedish" : "Swedish",
+    "thai" : "Thai",
+    "turkish" : "Turkish",
+    "select_language": "Select language",
+    "set_language": "Done"
+  },
+
+  "splash_text" : "Enkel fakturagenerator",
+  "loading_data" : "Snälla vänta",
+  "reload" : "Reload",
+  "continue" : "Fortsätta",
+  
+
+  "record_added_successfully" : "Posten har lagts till",
+  "record_failed_to_add" : "Ledsen att posten inte kunde läggas till",
+  "file_not_generated" : "Filen har inte genererats trycker du på igen efter några sekunder",
+  "please_enter_valid_name" : "Ange giltigt namn",
+  "please_enter_valid_item_name" : "Ange giltigt artikelnamn",
+  "please_enter_valid_item_price" : "Ange giltigt artikelpris",
+  "please_enter_valid_item_quantity" : "Ange giltigt artikelantal",
+
+
+  "please_enter_valid_values" : "Lägg först till giltiga värden",
+  "please_enter_valid_email" : "Ange giltig e-postadress",
+  "please_enter_valid_title" : "Ange giltig titel",
+  "setting_updated_successfully" : "Inställningen har uppdaterats",
+  "invalid_values_check_value_or_quantity" :  "Värdena är ogiltiga, kontrollera pris eller kvantitetsvärde",
+  "sorry_message_short" : "Ledsen meddelande är för kort (min 15 tecken)",
+  "please_enter_valid_business_name" : "Ange giltigt företagsnamn",
+  "first_complete_invoice_details" : "Första fullständiga fakturainformationen",
+  "feedback_thank_message" : "Ett stort tack!, Vi uppskattar verkligen din insikt eftersom det hjälper oss att bygga en bättre kundupplevelse.",
+  "paid_amount_should_be_equal_less" : "Betalt belopp ska vara lika med eller mindre än det totala beloppet",
+  "please_provide_all_values" : "Ange alla värden",
+
+
+  "please_enter_amount_less":"Vänligen ange {amount} belopp eller mindre",
+
+
+  "country_select" : {
+    "select_country": "Välj land",
+    "enter_country_name": "Ange landsnamn"
+  },
+
+
+
+  "bottomsheet": {
+    "close_app": "Stäng app",
+    "cancel": "Annullera",
+    "edit": "Redigera",
+    "confirm_delete": "Bekräfta borttagning",
+    "delete": "Ta bort",
+    "view": "Utsikt",
+    "update": "Uppdatera"
+  },
+
+  "dashboard": {
+     "business": "Affär",
+    "home": "Hem",
+    "customers": "Kunder",
+    "product": "Produkt"
+  },
+
+
+
+  "feedback": {
+    "feedback": "Feedback",
+    "no_feedback_found": "Skriv din feedback genom att klicka på knappen skriv feedback",
+    "write_feedback": "Skriv feedback",
+    "title": "Titel",
+    "email": "E-post",
+    "message": "Meddelande",
+    "send": "Sända",
+    "response": "Svar"
+  },
+
+  "setting": {
+    "invoice_setting": "Inställning av faktura",
+    "default_currency": "Standardvaluta",
+    "number_formate": "Nummer Formate",
+    "date_formate": "Datum Formate",
+    "payment_method": "Betalningsmetod",
+    "privacy_policy": "Integritetspolicy",
+    "rate_us": "Betygsätt oss",
+    "share_app": "Dela app",
+    "save": "Spara",
+    "due_term": "Förfallotid"
+  },
+
+  "items": {
+    "select_product": "Välj produkt",
+    "item": "Sak",
+    "from_list": "  Från lista  ",
+    "update_item": "Uppdatera objekt",
+    "add_item": "Lägg till objekt",
+    "item_name": "Objektets namn",
+    "price_per_item": "Pris per artikel",
+    "enter_description": "Ange beskrivning",
+    "quantity": "Kvantitet",
+    "discount": "Rabatt",
+    "type": "Typ",
+    "taxable": "Skattepliktig %",
+    "tax_rate": "Skattesats",
+    "add_item_to_list": "Lägg till objekt i din lista?",
+    "description": "Beskrivning",
+    "add": "Addera",
+    "update": "Uppdatera",
+    "edit": "   Redigera   ",
+    "show_item_details": "Visa objektavvisningar",
+    "no_item" : "Inga objekt har lagts till ännu\nLägg till objekt genom att klicka på + knappen",
+
+
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} items?"
+  },
+
+  "business": {
+    "select_business": "Välj företag",
+    "business": "Affär",
+    "logo": "Logotyp",
+    "stamp_opt": "Stämpel (valfritt)",
+    "signature_opt": "Underskrift (valfritt)",
+    "name": "Namn",
+    "business_name": "Företagsnamn",
+    "designation_opt": "Beteckning (valfritt)",
+    "email_opt": "E-post (valfritt)",
+    "phone_opt": "Telefon (tillval)",
+    "enter_address": "Ange adress (valfritt)",
+    "enter_city": "Ange stad (valfritt)",
+    "zip_code_opt": "Postnummer (valfritt)",
+    "enter_country": "Ange land (valfritt)",
+    "business_website_opt": "Företagswebbplats (valfritt)",
+    "stamp": "Frimärke",
+    "signature": "Underskrift",
+    "designation": "Beteckning",
+    "email": "E-post",
+    "phone": "Telefon",
+    "address": "Beteckning",
+    "city": "Stad",
+    "zip_code": "Postnummer",
+    "country": "Land",
+    "business_website": "Företagets webbplats",
+    "update_business": "Uppdatera företag",
+    "add_business": "Lägg till företag",
+    "no_business" : "Inget företag har lagts till ännu\nLägg till företag genom att klicka på + knappen",
+    "show_business_details" : "Visa företagsinformation",
+    "edit" :  "  Redigera  "
+  },
+
+
+  "customer": {
+    "select_customer": "Välj kund",
+    "customer": "Kund",
+    "update_customer": "Uppdatera kund",
+    "add_customer": "Lägg till kund",
+    "customer_name": "Kundens namn",
+    "enter_name" : "Ange namn",
+    "enter_phone_number" : "Ange telefonnummer",
+    "enter_address" : "Ange adress",
+    "enter_billing_address" : "Ange faktureringsadress",
+    "show_customer_details" : "Visa kundinformation",
+    "name" : "Namn",
+    "phone_number" : "Telefonnummer",
+    "address" : "Adress",
+    "billing_address" : "Faktureringsadress",
+    "edit" :  "  Redigera  ",
+    "no_customer" : "Inga kunder har lagts till ännu\nLägg till kunder genom att klicka på + knappen",
+
+    "update": "Update",
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} Customer?"
+  },
+
+
+  "payment": {
+    "select_payment": "Välj betalningsmetod",
+    "payment": "Betalning",
+    "update_payment": "Uppdatera betalningsmetod",
+    "add_payment": "Lägg till betalningsmetod",
+    "payment_method": "Betalningsmetod",
+    "details": "Detaljer",
+    "no_payment" : "Inga betalningsmetoder har lagts till ännu\nLägg till betalningsmetoder genom att klicka på + knappen"
+  },
+
+
+
+  "show_invoices":{
+    "select_category" : "Välj kategori",
+    "create_invoice" : "Skapa faktura",
+    "dashboard_title": "Skapa en professionell faktura för ditt företag!",
+    "no_invoice_found" : "Ingen faktura har lagts till ännu",
+    "no_paid_invoice_found" : "Ingen betald faktura har lagts till ännu",
+    "no_partially_paid_invoice_found" : "Ingen delvis betald faktura har lagts till ännu",
+    "no_unpaid_invoice_found": "Ingen betald faktura har lagts till ännu",
+    "all_invoice" : "Alla fakturor",
+    "paid_invoice" : "Betalda fakturor",
+    "partially_paid_invoice" : "Delvis betalda fakturor",
+    "unpaid_invoices": "Obetalda fakturor",
+    "cancel" : " Annullera",
+    "no_specific_invoice_found":"Nej {tab_Selected} grunda",
+    "tab_Selected":"{tab_Selected}"
+  },
+
+  "create_invoice":{
+    "change_template" : "Ändra mall",
+    "choose_template": "Välj mall",
+    "create_invoice" : "Skapa faktura",
+    "update_invoice" : "Uppdatera faktura",
+    "business_information" : "Företagsinformation",
+    "info" : "INFORMATION",
+    "invoice" : "Faktura",
+    "invoice_number":"Faktura# {number}",
+    "due_date":"FÖRFALLODAG",
+    "add_customer":"LÄGG TILL KUND",
+    "add_item":"LÄGG TILL OBJEKT",
+    "sub_total":"Delsumma",
+    "delivery_charges":"Leveranskostnader",
+    "grand_total":"Totalt totalt",
+    "paid_amount":"Betalt belopp",
+    "total_amount_due":"Totalt belopp som skall betalas",
+    "add_payment_methods":"Lägg till betalningsmetoder",
+    "terms":"Villkor",
+    "other_notes":"Övriga noteringar",
+    "discount":"Rabatt",
+    "discount_percent":"Rabatt procent",
+    "bill_to":"Fakturera till",
+    "save":"Spara",
+    "preview":"Förhandsvisning",
+    "sub_title":"{quantity} {hello} {price}"
+  },
+
+  "info_sheet":{
+    "invoice_info" : "Fakturainformation",
+    "edit_info": " Redigera info ",
+    "due_date":"FÖRFALLODAG",
+    "current_date" : "Aktuellt datum"
+  },
+
+  "discount_sheet":{
+    "discount" : "Rabatt",
+    "discount_type" : "Typ av rabatt",
+    "discount_percent" : "Rabatt procent",
+    "discount_amount" : "Rabattbelopp",
+    "add_discount" : "Lägg till rabatt",
+    "select_discount_type" : "Välj rabatttyp"
+  },
+
+  "tax_sheet":{
+    "tax" : "Skatt",
+    "TAX" : "SKATT",
+    "label" : "Etikett",
+    "rate" : "Taxera",
+    "add_tax" : "Lägg till skatt"
+  },
+
+
+  "delivery_sheet":{
+    "delivery_charges" : "Leveransavgifter",
+    "amount" : "Belopp",
+    "add_charges" : "Lägg till avgifter"
+  },
+
+
+  "amount_sheet":{
+    "paid_amount" : "Betalt belopp",
+    "amount" : "Belopp",
+    "fill" : "Fylla",
+    "note_amount_to_be_paid":"Not:  {amount} ska betalas",
+    "add_payment" : "Lägg till betalning"
+  }
+}
+
+

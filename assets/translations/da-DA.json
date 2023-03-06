@@ -1,0 +1,302 @@
+{
+  "language_name" : "Danish",
+  "app_name" : "Nem fakturagenerator",
+
+
+  "languages":{
+    "arabic" : "عربى",
+    "danish" : "Danish",
+    "german" : "German",
+    "english" : "English",
+    "spanish" : "Spanish",
+    "estonian" : "Estonian",
+    "finnish" : "Finnish",
+    "filipino" : "Filipino",
+    "french" : "French(FR)" ,
+    "french_canadian" : "French (CA)",
+    "indonesian" : "Indonesian",
+    "italian" : "Italian",
+    "korean" : "Korean",
+    "malayalam" : "Malayalam",
+    "dutch" : "Dutch",
+    "portuguese_br" : "Português (BR)",
+    "portuguese_pt" : "Português (PT)",
+    "russian" : "Russian",
+    "swedish" : "Swedish",
+    "thai" : "Thai",
+    "turkish" : "Turkish",
+    "select_language": "Select language",
+    "set_language": "Done"
+  },
+
+
+  "splash_text" : "Nem fakturagenerator",
+  "loading_data" : "Vent venligst",
+  "reload" : "Genindlæse",
+  "continue" : "Fortsætte",
+  
+
+  "record_added_successfully" : "Optag tilføjet med succes",
+  "record_failed_to_add" : "Beklager, at posten ikke blev tilføjet",
+  "file_not_generated" : "Filen er ikke genereret, tryk igen efter nogle sekunder",
+  "please_enter_valid_name" : "Indtast gyldigt navn",
+  "please_enter_valid_item_name" : "Indtast gyldigt varenavn",
+  "please_enter_valid_item_price" : "Indtast venligst gyldig varepris",
+  "please_enter_valid_item_quantity" : "Indtast gyldigt vareantal",
+
+  "please_enter_valid_values" : "Tilføj først gyldige værdier",
+  "please_enter_valid_email" : "Indtast gyldig e-mail",
+  "please_enter_valid_title" : "Indtast gyldig titel",
+  "setting_updated_successfully" : "Indstilling opdateret",
+  "invalid_values_check_value_or_quantity" :  "Værdier er ugyldige, tjek pris eller mængdeværdi",
+  "sorry_message_short" : "Beklager besked er for kort (min. 15 tegn)",
+  "please_enter_valid_business_name" : "Indtast gyldigt virksomhedsnavn",
+  "first_complete_invoice_details" : "Første fuldstændige fakturaoplysninger",
+  "feedback_thank_message" : "En stor tak!, Vi sætter stor pris på din indsigt, fordi det hjælper os med at opbygge en bedre kundeoplevelse.",
+  "paid_amount_should_be_equal_less" : "Betalt beløb skal være lig med eller mindre end det samlede beløb",
+  "please_provide_all_values" : "Angiv alle værdier",
+
+
+  "please_enter_amount_less":"Indtast venligst {amount} beløb eller mindre",
+
+
+  "country_select" : {
+    "select_country": "Vælg land",
+    "enter_country_name": "Indtast landenavn"
+  },
+
+
+  "bottomsheet": {
+    "close_app": "Luk app",
+    "cancel": "Aflyse",
+    "edit": "Redigere",
+    "confirm_delete": "Bekræft Slet",
+    "delete": "Slette",
+    "view": "Udsigt",
+    "update": "Opdatering"
+  },
+
+  "dashboard": {
+     "business": "Forretning",
+    "home": "Hjem",
+    "customers": "Kunder",
+    "product": "Produkt"
+  },
+
+
+
+  "feedback": {
+    "feedback": "Feedback",
+    "no_feedback_found": "Skriv din feedback ved at klikke på knappen Skriv feedback",
+    "write_feedback": "Skriv feedback",
+    "title": "Titel",
+    "email": "E-mail",
+    "message": "Budskab",
+    "send": "Sende",
+    "response": "Svar"
+  },
+
+  "setting": {
+    "invoice_setting": "Indstilling af faktura",
+    "default_currency": "Standard valuta",
+    "number_formate": "Talformater",
+    "date_formate": "Dato Formate",
+    "payment_method": "Betalingsmetode",
+    "privacy_policy": "Politik om beskyttelse af personlige oplysninger",
+    "rate_us": "Bedøm os",
+    "share_app": "Del app",
+    "save": "Spare",
+    "due_term": "Forfalden løbetid"
+  },
+
+  "items": {
+    "select_product": "Vælg produkt",
+    "item": "Vare",
+    "from_list": "  Fra listen  ",
+    "update_item": "Opdater element",
+    "add_item": "Tilføj element",
+    "item_name": "Varenavn",
+    "price_per_item": "Pris pr. vare",
+    "enter_description": "Indtast beskrivelse",
+    "quantity": "Kvantitet",
+    "discount": "Rabat",
+    "type": "Slags",
+    "taxable": "Skattepligtig %",
+    "tax_rate": "Skattesats",
+    "add_item_to_list": "Føj element til din liste?",
+    "description": "Beskrivelse",
+    "add": "Tilføje",
+    "update": "Opdatering",
+    "edit": "   Redigere   ",
+    "show_item_details": "Vis detials for varer",
+    "no_item" : "Ingen varer tilføjet endnu\nTilføj elementer ved at klikke på + knappen",
+
+
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} items?"
+  },
+
+  "business": {
+    "select_business": "Vælg Virksomhed",
+    "business": "Forretning",
+    "logo": "Logo",
+    "stamp_opt": "Stempel ( Valgfrit )",
+    "signature_opt": "Underskrift ( Valgfrit )",
+    "name": "Navn",
+    "business_name": "Virksomhedens navn",
+    "designation_opt": "Betegnelse ( Valgfrit )",
+    "email_opt": "E-mail (valgfrit)",
+    "phone_opt": "Telefon (valgfrit)",
+    "enter_address": "Indtast adresse (valgfrit)",
+    "enter_city": "Indtast by (valgfrit)",
+    "zip_code_opt": "Postnummer (valgfrit)",
+    "enter_country": "Indtast land (valgfrit)",
+    "business_website_opt": "Business Hjemmeside (valgfrit)",
+
+    "stamp": "Frimærke",
+    "signature": "Underskrift",
+    "designation": "Betegnelse",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "address": "Betegnelse",
+    "city": "By",
+    "zip_code": "Postnummer",
+    "country": "Land",
+    "business_website": "Virksomhedens hjemmeside",
+
+    "update_business": "Opdater forretning",
+    "add_business": "Tilføj virksomhed",
+    "no_business" : "Ingen virksomhed tilføjet endnu\nTilføj forretning ved at klikke på + knappen",
+    "show_business_details" : "Vis forretningsoplysninger",
+
+    "edit" :  "  Redigere  "
+  },
+
+
+  "customer": {
+    "select_customer": "Vælg kunde",
+    "customer": "Kunde",
+    "update_customer": "Opdater kunden",
+    "add_customer": "Tilføj kunde",
+    "customer_name": "Kundens navn",
+    "enter_name" : "Indtast navn",
+    "enter_phone_number" : "Indtast telefonnummer",
+    "enter_address" : "Indtast adresse",
+    "enter_billing_address" : "Indtast faktureringsadresse",
+    "show_customer_details" : "Vis kundeoplysninger",
+    "name" : "Navn",
+    "phone_number" : "Telefonnummer",
+    "address" : "Adresse",
+    "billing_address" : "Faktureringsadresse",
+    "edit" :  "  Redigere  ",
+    "no_customer" : "Ingen kunder tilføjet endnu\nTilføj kunder ved at klikke på + knappen",
+
+
+    "update": "Update",
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} Customer?"
+  },
+
+  "payment": {
+    "select_payment": "Vælg betalingsmetode",
+    "payment": "Betaling",
+    "update_payment": "Opdater betalingsmetode",
+    "add_payment": "Tilføj betalingsmetode",
+    "payment_method": "Betalingsmetode",
+    "details": "Detaljer",
+    "no_payment" : "Ingen betalingsmetoder tilføjet endnu\nTilføj betalingsmetoder ved at klikke på + knappen"
+  },
+
+
+
+  "show_invoices":{
+    "select_category" : "Vælg kategori",
+    "create_invoice" : "Opret faktura",
+    "dashboard_title" : "Opret en professionel faktura til din virksomhed!",
+    "no_invoice_found" : "Ingen faktura tilføjet endnu",
+    "no_paid_invoice_found" : "Ingen betalt faktura tilføjet endnu",
+    "no_partially_paid_invoice_found" : "Ingen delvist betalt faktura tilføjet endnu",
+    "no_unpaid_invoice_found" : "Ingen betalt faktura tilføjet endnu",
+    "all_invoice" : "Alle fakturaer",
+    "paid_invoice" : "Betalte fakturaer",
+    "partially_paid_invoice" : "Delvist betalte fakturaer",
+    "unpaid_invoices" : "Ubetalte fakturaer",
+    "cancel" : "Aflyse",
+    "no_specific_invoice_found":"Nej {tab_Selected} grundlægge",
+    "tab_Selected":"{tab_Selected}"
+  },
+
+  "create_invoice":{
+    "change_template" : "Skift skabelon",
+    "choose_template" : "Vælg skabelon",
+    "create_invoice" : "Opret faktura",
+    "update_invoice" : "Opdater faktura",
+    "business_information" : "Oplysninger om virksomheder",
+    "info" : "INFO",
+    "invoice" : "Faktura",
+    "invoice_number":"Faktura# {number}",
+    "due_date":"FORFALDSDATO",
+    "add_customer":"TILFØJ KUNDE",
+    "add_item":"TILFØJ ELEMENT",
+    "sub_total":"Sub Total",
+    "delivery_charges":"Leveringsomkostninger",
+    "grand_total":"Beløb i alt",
+    "paid_amount":"Betalt beløb",
+    "total_amount_due":"Samlet skyldigt beløb",
+    "add_payment_methods":"Tilføj betalingsmetoder",
+    "terms":"Vilkår",
+    "other_notes":"Andre bemærkninger",
+    "discount":"Rabat",
+    "discount_percent":"Rabat procent",
+    "bill_to":"Regning til",
+    "save":"Spare",
+    "preview":"Preview",
+    "sub_title":"{quantity} {hello} {price}"
+  },
+
+  "info_sheet":{
+    "invoice_info" : "Oplysninger om faktura",
+    "edit_info" : "   Rediger oplysninger   ",
+    "due_date":"FORFALDSDATO",
+    "current_date" : "Nuværende dato"
+  },
+
+  "discount_sheet":{
+    "discount" : "Rabat",
+    "discount_type" : "Rabat Type",
+    "discount_percent" : "Rabat procent",
+    "discount_amount" : "Rabat beløb",
+    "add_discount" : "Tilføj rabat",
+    "select_discount_type" : "Vælg rabattype"
+  },
+
+  "tax_sheet":{
+    "tax" : "Skat",
+    "TAX" : "SKAT",
+    "label" : "Etiket",
+    "rate" : "Tempo",
+    "add_tax" : "Tilføj skat"
+  },
+
+
+  "delivery_sheet":{
+    "delivery_charges" : "Leveringsomkostninger",
+    "amount" : "Beløb",
+    "add_charges" : "Tilføj gebyrer"
+  },
+
+
+  "amount_sheet":{
+    "paid_amount" : "Betalt beløb",
+    "amount" : "Beløb",
+    "fill" : "Fylde",
+    "note_amount_to_be_paid":"Seddel:  {amount} skal betales ",
+    "add_payment" : "Tilføj betaling "
+  }
+}
+
+

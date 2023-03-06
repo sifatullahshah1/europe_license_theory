@@ -1,0 +1,298 @@
+{
+  "language_name" : "Finnish",
+  "app_name" : "Helppo laskugeneraattori",
+
+  "languages":{
+    "arabic" : "عربى",
+    "danish" : "Danish",
+    "german" : "German",
+    "english" : "English",
+    "spanish" : "Spanish",
+    "estonian" : "Estonian",
+    "finnish" : "Finnish",
+    "filipino" : "Filipino",
+    "french" : "French(FR)" ,
+    "french_canadian" : "French (CA)",
+    "indonesian" : "Indonesian",
+    "italian" : "Italian",
+    "korean" : "Korean",
+    "malayalam" : "Malayalam",
+    "dutch" : "Dutch",
+    "portuguese_br" : "Português (BR)",
+    "portuguese_pt" : "Português (PT)",
+    "russian" : "Russian",
+    "swedish" : "Swedish",
+    "thai" : "Thai",
+    "turkish" : "Turkish",
+    "select_language": "Select language",
+    "set_language": "Done"
+  },
+
+  "splash_text" : "Helppo laskugeneraattori",
+  "loading_data" : "Ole hyvä ja odota",
+  "reload" : "Ladata uudelleen",
+  "continue" : "Jatkaa",
+  
+
+  "record_added_successfully" : "Tietue lisätty onnistuneesti",
+  "record_failed_to_add" : "Valitettavasti tietueen lisääminen epäonnistui",
+  "file_not_generated" : "Tiedostoa ei luotu, napauta uudelleen muutaman sekunnin kuluttua",
+  "please_enter_valid_name" : "Anna kelvollinen nimi",
+  "please_enter_valid_item_name" : "Anna kelvollinen tuotteen nimi",
+  "please_enter_valid_item_price" : "Anna kelvollinen tuotehinta",
+  "please_enter_valid_item_quantity" : "Syötä kelvollinen tuotemäärä",
+
+
+  "please_enter_valid_values" : "Lisää ensin kelvolliset arvot",
+  "please_enter_valid_email" : "Anna kelvollinen sähköpostiosoite",
+  "please_enter_valid_title" : "Anna kelvollinen otsikko",
+  "setting_updated_successfully" : "Asetus päivitetty onnistuneesti",
+  "invalid_values_check_value_or_quantity" :  "Arvot ovat virheellisiä, tarkista hinnan tai määrän arvo",
+  "sorry_message_short" : "Valitettavasti viesti on lyhyt (vähintään 15 merkkiä)",
+  "please_enter_valid_business_name" : "Anna kelvollinen yrityksen nimi",
+  "first_complete_invoice_details" : "Ensimmäiset täydelliset laskun tiedot",
+  "feedback_thank_message" : "Suuri kiitos!, Arvostamme vilpittömästi näkemystäsi, koska se auttaa meitä rakentamaan paremman asiakaskokemuksen.",
+  "paid_amount_should_be_equal_less" : "Maksetun määrän tulee olla yhtä suuri tai pienempi kuin kokonaissumma",
+  "please_provide_all_values" : "Anna kaikki arvot",
+
+
+  "please_enter_amount_less":"Ole hyvä ja kirjoita {amount} määrä tai vähemmän",
+
+
+  "country_select" : {
+    "select_country": "Valitse maa",
+    "enter_country_name": "Anna maan nimi"
+  },
+
+
+
+  "bottomsheet": {
+    "close_app": "Sulje sovellus",
+    "cancel": "Perua",
+    "edit": "Muokata",
+    "confirm_delete": "Vahvista poisto",
+    "delete": "Poistaa",
+    "view": "Näkymä",
+    "update": "Päivittää"
+  },
+
+  "dashboard": {
+     "business": "Liiketoiminta",
+    "home": "Koti",
+    "customers": "Asiakkaat",
+    "product": "Tuote"
+  },
+
+
+
+  "feedback": {
+    "feedback": "Palaute",
+    "no_feedback_found": "Kirjoita palautteesi klikkaamalla Kirjoita palaute -painiketta",
+    "write_feedback": "Kirjoita palautetta",
+    "title": "Nimike",
+    "email": "Sähköposti",
+    "message": "Viesti",
+    "send": "Lähettää",
+    "response": "Vastaus"
+  },
+
+  "setting": {
+    "invoice_setting": "Laskun asetus",
+    "default_currency": "Oletusvaluutta",
+    "number_formate": "Lukumuotoilu",
+    "date_formate": "Päivämäärän muoto",
+    "payment_method": "Päivämäärän muoto",
+    "privacy_policy": "Tietosuojakäytäntö",
+    "rate_us": "Arvioi meidät",
+    "share_app": "Jaa sovellus",
+    "save": "Säästää",
+    "due_term": "Määräaika"
+  },
+
+  "items": {
+    "select_product": "Valitse tuote",
+    "item": "Kohta",
+    "from_list": "  Luettelosta  ",
+    "update_item": "Päivitä kohde",
+    "add_item": "Lisää kohde",
+    "item_name": "Kohteen nimi",
+    "price_per_item": "Hinta per tuote",
+    "enter_description": "Kirjoita kuvaus",
+    "quantity": "Määrä",
+    "discount": "Alennus",
+    "type": "Tyyppi",
+    "taxable": "Verotettava %",
+    "tax_rate": "Veroprosentti",
+    "add_item_to_list": "Lisää kohde luetteloosi?",
+    "description": "Kuvaus",
+    "add": "Lisätä",
+    "update": "Päivittää",
+    "edit": "   Muokata   ",
+    "show_item_details": "Näytä kohteen määritykset",
+    "no_item" : "Ei vielä lisättyjä kohteita\nLisää kohteita napsauttamalla +-painiketta",
+
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} items?"
+  },
+
+  "business": {
+    "select_business": "Valitse Yritys",
+    "business": "Liiketoiminta",
+    "logo": "Logo",
+    "stamp_opt": "Leima ( Valinnainen )",
+    "signature_opt": "Allekirjoitus ( Valinnainen )",
+    "name": "Nimi",
+    "business_name": "Toiminimi",
+    "designation_opt": "Nimitys ( Valinnainen )",
+    "email_opt": "Sähköposti ( Valinnainen )",
+    "phone_opt": "Puhelin (valinnainen)",
+    "enter_address": "Kirjoita osoite (valinnainen)",
+    "enter_city": "Anna kaupunki (valinnainen)",
+    "zip_code_opt": "Postinumero (valinnainen)",
+    "enter_country": "Anna maa (valinnainen)",
+    "business_website_opt": "Yrityksen verkkosivusto (valinnainen)",
+    "stamp": "Postimerkki",
+    "signature": "Allekirjoitus",
+    "designation": "Nimitys",
+    "email": "Sähköposti",
+    "phone": "Puhelin",
+    "address": "Nimitys",
+    "city": "Kaupunki",
+    "zip_code": "Postinumero",
+    "country": "Maa",
+    "business_website": "Yrityksen verkkosivusto",
+    "update_business": "Päivitä liiketoiminta",
+    "add_business": "Lisää yritys",
+    "no_business" : "Yritystä ei ole vielä lisätty\nLisää yritys klikkaamalla +-painiketta",
+    "show_business_details" : "Näytä yrityksen tiedot",
+    "edit" :  "  Muokata  "
+  },
+
+
+  "customer": {
+    "select_customer": "Valitse asiakas",
+    "customer": "Asiakas",
+    "update_customer": "Päivitä asiakas",
+    "add_customer": "Lisää asiakas",
+    "customer_name": "Asiakkaan nimi",
+    "enter_name" : "Kirjoita nimi",
+    "enter_phone_number" : "Anna puhelinnumero",
+    "enter_address" : "Anna osoite",
+    "enter_billing_address" : "Anna laskutusosoite",
+    "show_customer_details" : "Näytä asiakkaan tiedot",
+    "name" : "Nimi",
+    "phone_number" : "Puhelinnumero",
+    "address" : "Osoite",
+    "billing_address" : "Laskutusosoite",
+    "edit" :  "  Muokata  ",
+    "no_customer" : "Asiakkaita ei ole vielä lisätty\nLisää asiakkaita klikkaamalla +-painiketta",
+
+    "update": "Update",
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} Customer?"
+  },
+
+
+  "payment": {
+    "select_payment": "Valitse maksutapa",
+    "payment": "Maksu",
+    "update_payment": "Päivitä maksutapa",
+    "add_payment": "Lisää maksutapa",
+    "payment_method": "Maksutapa",
+    "details": "Tiedot",
+    "no_payment" : "Maksutapoja ei ole vielä lisätty\nLisää maksutapoja klikkaamalla +-painiketta"
+  },
+
+
+
+  "show_invoices":{
+    "select_category" : "Valitse luokka",
+    "create_invoice" : "Luo lasku",
+    "dashboard_title" : "Luo ammattimainen lasku yrityksellesi!",
+    "no_invoice_found" : "Laskua ei ole vielä lisätty",
+    "no_paid_invoice_found" : "Maksettua laskua ei ole vielä lisätty",
+    "no_partially_paid_invoice_found" : "Osittain maksettua laskua ei ole vielä lisätty",
+    "no_unpaid_invoice_found" : "Maksettua laskua ei ole vielä lisätty",
+    "all_invoice" : "Kaikki laskut",
+    "paid_invoice" : "Maksetut laskut",
+    "partially_paid_invoice" : "Osittain maksetut laskut",
+    "unpaid_invoices" : "Maksamattomat laskut",
+    "cancel" : "Perua",
+    "no_specific_invoice_found":"Ei {tab_Selected} perustaa",
+    "tab_Selected":"{tab_Selected}"
+  },
+
+  "create_invoice":{
+    "change_template" : "Vaihda malli",
+    "choose_template" : "Valitse malli",
+    "create_invoice" : "Luo lasku",
+    "update_invoice" : "Päivitä lasku",
+    "business_information" : "Yritystiedot",
+    "info" : "INFO",
+    "invoice" : "Lasku",
+    "invoice_number":"Lasku# {number}",
+    "due_date":"ERÄPÄIVÄ",
+    "add_customer":"LISÄÄ ASIAKAS",
+    "add_item":"LISÄÄ KOHDE",
+    "sub_total":"Yhteensä",
+    "delivery_charges":"Toimituskulut",
+    "grand_total":"Loppusumma",
+    "paid_amount":"Maksettu summa",
+    "total_amount_due":"Maksettava kokonaismäärä",
+    "add_payment_methods":"Lisää maksutapoja",
+    "terms":"Hinta",
+    "other_notes":"Muuta huomioitavaa",
+    "discount":"Alennus",
+    "discount_percent":"Alennusprosentti",
+    "bill_to":"Laskuta",
+    "save":"Säästää",
+    "preview":"Ennakkoesitys",
+    "sub_title":"{quantity} {hello} {price}"
+  },
+
+  "info_sheet":{
+    "invoice_info" : "Laskun tiedot",
+    "edit_info" : "   Muokkaa tietoja   ",
+    "due_date":"ERÄPÄIVÄ",
+    "current_date" : "Nykyinen päivämäärä"
+  },
+
+  "discount_sheet":{
+    "discount" : "Alennus",
+    "discount_type" : "Alennuksen tyyppi",
+    "discount_percent" : "Alennusprosentti",
+    "discount_amount" : "Alennuksen määrä",
+    "add_discount" : "Lisää alennus",
+    "select_discount_type" : "Valitse alennustyyppi"
+  },
+
+  "tax_sheet":{
+    "tax" : "Vero",
+    "TAX" : "VERO",
+    "label" : "Etiketti",
+    "rate" : "Tahti",
+    "add_tax" : "Lisää vero"
+  },
+
+
+  "delivery_sheet":{
+    "delivery_charges" : "Toimituskulut",
+    "amount" : "Määrä",
+    "add_charges" : "Lisää veloituksiav"
+  },
+
+
+  "amount_sheet":{
+    "paid_amount" : "Maksettu summa",
+    "amount" : "Määrä",
+    "fill" : "Täyttää",
+    "note_amount_to_be_paid":"Muistiinpano:  {amount} on maksettava",
+    "add_payment" : "Lisää maksu"
+  }
+}
+
+

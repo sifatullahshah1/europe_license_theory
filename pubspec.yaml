@@ -1,0 +1,195 @@
+name: europe_license_theory
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.2+2
+
+environment:
+  sdk: ">=2.19.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  http: ^0.13.4
+  lottie: ^1.2.2
+  shared_preferences: ^2.0.13
+  intl: ^0.17.0
+  url_launcher: ^6.0.20
+  in_app_review: ^2.0.4
+
+
+  #Image Functionality
+  image_picker: 0.8.5+3
+  image_cropper: ^1.5.1
+  flutter_native_image: ^0.0.6+1
+
+
+  hive: ^2.2.1
+  hive_flutter: ^1.1.0
+
+  # save file
+  path_provider: ^2.0.10
+
+
+  # to share pdf file
+  share_plus: ^4.0.10
+  uuid: 3.0.6
+  device_info_plus: ^4.0.0
+
+
+  flutter_svg: ^1.0.3
+
+  firebase_core: ^2.1.0
+  firebase_crashlytics: ^3.0.4
+  #  firebase_analytics: ^10.0.6
+
+
+  in_app_purchase: ^3.1.1
+
+
+  easy_localization: ^3.0.1
+  provider: ^6.0.4
+
+
+  open_file_safe: ^3.2.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/svg_icon/
+    - assets/translations/
+    - assets/icons/
+    - assets/icons/upload_image.png
+    - assets/images/subscription_banner.svg
+    - assets/images/contributorgoal.png
+    - assets/icons/arrow_back2.svg
+    - assets/icons/premium.svg
+    - assets/images/goalowner.png
+    - assets/images/bottom_home.png
+    - assets/icons/checkbox_unchecked.svg
+    - assets/icons/checkbox_checked.svg
+    - assets/jsons/
+    - assets/images/
+    - assets/icons/onboarding_01.svg
+    - assets/icons/onboarding_02.svg
+    - assets/icons/onboarding_03.svg
+    - assets/icons/onboarding_04.svg
+    - assets/icons/notification_01.svg
+    - assets/icons/notification_02.svg
+    - assets/icons/notification_03.svg
+    - assets/icons/notification_missing.svg
+    - assets/icons/history_missing.svg
+    - assets/icons/invoice_not_found.svg
+    - assets/bottom_icon/business_icon.svg
+    - assets/bottom_icon/invoices_icon.svg
+    - assets/bottom_icon/client_icon.svg
+    - assets/bottom_icon/product_icon.svg
+    - assets/bottom_icon/home_icon.svg
+    - assets/images/subscription_star.svg
+    - assets/icons/premium.png
+    - assets/icons/ad_icon.png
+
+
+
+  fonts:
+    - family: LatoBold
+      fonts:
+        - asset: assets/fonts/Lato-Bold.ttf
+    - family: LatoLight
+      fonts:
+        - asset: assets/fonts/Lato-Light.ttf
+    - family: LatoRegular
+      fonts:
+        - asset: assets/fonts/Lato-Regular.ttf
+    - family: IBMPlexMono-Bold
+      fonts:
+        - asset: assets/fonts/IBMPlexMono-Bold.ttf
+
+    - family: IBMPlexMono-BoldItalic
+      fonts:
+        - asset: assets/fonts/IBMPlexMono-BoldItalic.ttf
+
+    - family: IBMPlexMono-ExtraLight
+      fonts:
+        - asset: assets/fonts/IBMPlexMono-ExtraLight.ttf
+
+    - family: IBMPlexMono-ExtraLightItalic
+      fonts:
+        - asset: assets/fonts/IBMPlexMono-ExtraLightItalic.ttf
+
+    - family: IBMPlexMono-Italic
+      fonts:
+        - asset: assets/fonts/IBMPlexMono-Italic.ttf
+
+    - family: IBMPlexMono-Light
+      fonts:
+        - asset: assets/fonts/IBMPlexMono-Light.ttf
+
+    - family: IBMPlexMono-LightItalic
+      fonts:
+        - asset: assets/fonts/IBMPlexMono-LightItalic.ttf
+
+    - family: IBMPlexMono-Medium
+      fonts:
+        - asset: assets/fonts/IBMPlexMono-Medium.ttf
+
+    - family: IBMPlexMono-MediumItalic
+      fonts:
+        - asset: assets/fonts/IBMPlexMono-MediumItalic.ttf
+
+    - family: IBMPlexMono-Regular
+      fonts:
+        - asset: assets/fonts/IBMPlexMono-Regular.ttf
+
+    - family: IBMPlexMono-SemiBold
+      fonts:
+        - asset: assets/fonts/IBMPlexMono-SemiBold.ttf
+
+    - family: IBMPlexMono-SemiBoldItalic
+      fonts:
+        - asset: assets/fonts/IBMPlexMono-SemiBoldItalic.ttf
+
+    - family: IBMPlexMono-Thin
+      fonts:
+        - asset: assets/fonts/IBMPlexMono-Thin.ttf
+
+    - family: IBMPlexMono-ThinItalic
+      fonts:
+        - asset: assets/fonts/IBMPlexMono-ThinItalic.ttf
+
+
+    - family: Amiri
+      fonts:
+        - asset: assets/fonts/Amiri.ttf
+
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato.ttf
+
+
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat.ttf
+
+
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto.ttf
+
+
+    - family: RobotoSlab
+      fonts:
+        - asset: assets/fonts/RobotoSlab.ttf
+

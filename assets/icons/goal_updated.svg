@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+  <g id="goal_updated" transform="translate(-12542 1517)">
+    <rect id="Rectangle_924" data-name="Rectangle 924" width="38" height="38" rx="16" transform="translate(12542 -1517)" opacity="0.1"/>
+    <g id="goal_updated-2" data-name="goal_updated" transform="translate(12550 -1509)">
+      <g id="vuesax_linear_cd" data-name="vuesax/linear/cd" transform="translate(1.833 1.833)">
+        <g id="cd" transform="translate(0 0)">
+          <path id="Vector" d="M18.333,9.167A9.167,9.167,0,1,1,9.167,0,9.167,9.167,0,0,1,18.333,9.167Z" fill="none"/>
+          <path id="Vector-2" data-name="Vector" d="M3.667,1.833A1.833,1.833,0,1,1,1.833,0,1.833,1.833,0,0,1,3.667,1.833Z" transform="translate(7.333 7.333)" fill="#464655" stroke="#464655" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+        </g>
+      </g>
+      <g id="vuesax_linear_refresh-2" data-name="vuesax/linear/refresh-2" transform="translate(0 0)">
+        <g id="refresh-2" transform="translate(0 0)">
+          <path id="Vector-3" data-name="Vector" d="M1.11,14.44v4.583" transform="translate(1.741 0.63)" fill="none" stroke="#1ab975" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <path id="Vector-4" data-name="Vector" d="M18.333,9.167a9.17,9.17,0,0,1-9.167,9.167c-5.06,0-8.149-5.1-8.149-5.1H5.161M0,9.167A9.147,9.147,0,0,1,9.167,0a11.276,11.276,0,0,1,9.167,5.1m0,0V.513m0,4.583h-4.07" transform="translate(1.833 1.833)" fill="none" stroke="#1ab975" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <path id="Vector-5" data-name="Vector" d="M0,0H22V22H0Z" transform="translate(22 22) rotate(180)" fill="none" opacity="0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,300 @@
+{
+  "language_name" : "Estonian",
+  "app_name" : "Lihtne arvete generaator",
+
+
+  "languages":{
+    "arabic" : "عربى",
+    "danish" : "Danish",
+    "german" : "German",
+    "english" : "English",
+    "spanish" : "Spanish",
+    "estonian" : "Estonian",
+    "finnish" : "Finnish",
+    "filipino" : "Filipino",
+    "french" : "French(FR)" ,
+    "french_canadian" : "French (CA)",
+    "indonesian" : "Indonesian",
+    "italian" : "Italian",
+    "korean" : "Korean",
+    "malayalam" : "Malayalam",
+    "dutch" : "Dutch",
+    "portuguese_br" : "Português (BR)",
+    "portuguese_pt" : "Português (PT)",
+    "russian" : "Russian",
+    "swedish" : "Swedish",
+    "thai" : "Thai",
+    "turkish" : "Turkish",
+    "select_language": "Select language",
+    "set_language": "Done"
+  },
+
+
+  "splash_text" : "Lihtne arvete generaator",
+  "loading_data" : "Oota",
+  "reload" : "Reload",
+  "continue" : "Jätkama",
+  
+
+  "record_added_successfully" : "Kirje on edukalt lisatud",
+  "record_failed_to_add" : "Vabandust, et kirjet ei õnnestunud lisada",
+  "file_not_generated" : "Faili pole loodud, puudutage mõne sekundi pärast uuesti",
+  "please_enter_valid_name" : "Palun sisestage kehtiv nimi",
+  "please_enter_valid_item_name" : "Palun sisestage kehtiv üksuse nimi",
+  "please_enter_valid_item_price" : "Palun sisestage kehtiv kauba hind",
+  "please_enter_valid_item_quantity" : "Palun sisestage kehtiv kauba kogus",
+
+
+  "please_enter_valid_values" : "Palun lisage kõigepealt kehtivad väärtused",
+  "please_enter_valid_email" : "Palun sisestage kehtiv e-posti aadress",
+  "please_enter_valid_title" : "Palun sisestage kehtiv pealkiri",
+  "setting_updated_successfully" : "Seadistust värskendati edukalt",
+  "invalid_values_check_value_or_quantity" :  "Väärtused on sobimatud, kontrollige hinda või koguse väärtust",
+  "sorry_message_short" : "Vabandussõnum on lühike (min 15 tähemärki)",
+  "please_enter_valid_business_name" : "Palun sisestage kehtiv ärinimi",
+  "first_complete_invoice_details" : "Esimesed täielikud arve üksikasjad",
+  "feedback_thank_message" : "Suur aitäh!, Hindame siiralt teie teadmisi, sest see aitab meil luua paremat kliendikogemust.",
+  "paid_amount_should_be_equal_less" : "Makstud summa peaks olema võrdne või väiksem kui kogusumma",
+  "please_provide_all_values" : "Palun esitage kõik väärtused",
+
+
+  "please_enter_amount_less":"Sisestage {amount} summa või vähem",
+
+
+  "country_select" : {
+    "select_country": "Valige riik",
+    "enter_country_name": "Sisestage riigi nimi"
+  },
+
+
+
+  "bottomsheet": {
+    "close_app": "Sule rakendus",
+    "cancel": "Tühistama",
+    "edit": "Toimetama",
+    "confirm_delete": "Kinnita kustutamine",
+    "delete": "Kustutama",
+    "view": "Vaade",
+    "update": "Uuendama"
+  },
+
+  "dashboard": {
+     "business": "Äri",
+    "home": "Kodu",
+    "customers": "Külalised",
+    "product": "Toode"
+  },
+
+
+
+  "feedback": {
+    "feedback": "Tagasiside",
+    "no_feedback_found": "Kirjutage oma tagasiside, klõpsates nuppu Kirjuta tagasiside",
+    "write_feedback": "Kirjutage tagasisidet",
+    "title": "Pealkiri",
+    "email": "Meil",
+    "message": "Sõnum",
+    "send": "Saatma",
+    "response": "Vastus"
+  },
+
+  "setting": {
+    "invoice_setting": "Arve seadistamine",
+    "default_currency": "Vaikimisi valuuta",
+    "number_formate": "Numbri formaat",
+    "date_formate": "Kuupäeva formaat",
+    "payment_method": "Makseviis",
+    "privacy_policy": "Privaatsuspoliitika",
+    "rate_us": "Hinda meid",
+    "share_app": "Jaga rakendust",
+    "save": "Salvestama",
+    "due_term": "Tähtaeg"
+  },
+
+  "items": {
+    "select_product": "Vali toode",
+    "item": "Üksuse",
+    "from_list": "  Loendist  ",
+    "update_item": "Üksuse värskendamine",
+    "add_item": "Üksuse lisamine",
+    "item_name": "Üksuse nimi",
+    "price_per_item": "Hind toote kohta",
+    "enter_description": "Sisestage kirjeldus",
+    "quantity": "Kogus",
+    "discount": "Allahindluse",
+    "type": "Liik",
+    "taxable": "Maksustatav %",
+    "tax_rate": "Maksumäär",
+    "add_item_to_list": "Kas lisada üksus oma loendisse?",
+    "description": "Kirjeldus",
+    "add": "Lisama",
+    "update": "Uuendama",
+    "edit": "   Toimetama   ",
+    "show_item_details": "Kuva üksuse detials",
+    "no_item" : "Üksusi pole veel lisatud\nÜksuste lisamine vajutades + nupule",
+
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} items?"
+  },
+
+
+  "business": {
+    "select_business": "Valige Ettevõte",
+    "business": "Äri",
+    "logo": "Logo",
+    "stamp_opt": "Tempel ( valikuline )",
+    "signature_opt": "Allkiri ( valikuline )",
+    "name": "Nimi",
+    "business_name": "Ettevõtte nimi",
+    "designation_opt": "Nimetus ( Valikuline )",
+    "email_opt": "E-post (valikuline)",
+    "phone_opt": "Telefon ( valikuline )",
+    "enter_address": "Sisestage aadress ( valikuline )",
+    "enter_city": "Sisestage linn ( valikuline )",
+    "zip_code_opt": "Postiindeks (valikuline)",
+    "enter_country": "Sisestage riik ( valikuline )",
+    "business_website_opt": "Ettevõtte veebisait (valikuline)",
+    "stamp": "Tempel",
+    "signature": "Allkiri",
+    "designation": "Määramine",
+    "email": "Meil",
+    "phone": "Telefon",
+    "address": "Määramine",
+    "city": "Linn",
+    "zip_code": "Sihtkood",
+    "country": "Riik",
+    "business_website": "Ettevõtte veebisait",
+    "update_business": "Ettevõtte värskendamine",
+    "add_business": "Lisa äri",
+    "no_business" : "Ettevõtet pole veel lisatud\nLisage ettevõte, klõpsates nuppu +",
+    "show_business_details" : "Kuva ettevõtte üksikasjad",
+    "edit" :  "  Toimetama  "
+  },
+
+
+  "customer": {
+    "select_customer": "Valige Klient",
+    "customer": "Kliendi",
+    "update_customer": "Värskenda klienti",
+    "add_customer": "Lisa klient",
+    "customer_name": "Kliendi nimi",
+    "enter_name" : "Sisestage nimi",
+    "enter_phone_number" : "Sisestage telefoninumber",
+    "enter_address" : "Sisestage aadress",
+    "enter_billing_address" : "Arveldusaadressi sisestamine",
+    "show_customer_details" : "Kuva kliendi andmed",
+    "name" : "Nimi",
+    "phone_number" : "Telefoninumber",
+    "address" : "Aadress",
+    "billing_address" : "Arveldusaadress",
+    "edit" :  "  Toimetama  ",
+    "no_customer" : "Kliente pole veel lisatud\nLisage kliente, klõpsates nuppu +",
+
+    "update": "Update",
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} Customer?"
+  },
+
+  "payment": {
+    "select_payment": "Klientide lisamine makseviisi valimise alusel",
+    "payment": "Makse",
+    "update_payment": "Makseviisi värskendamine",
+    "add_payment": "Lisa makseviis",
+    "payment_method": "Makseviis",
+    "details": "Üksikasjad",
+    "no_payment" : "Makseviise pole veel lisatud\nLisa makseviisid, vajutades + nupule"
+  },
+
+
+
+  "show_invoices":{
+    "select_category" : "Vali kategooria",
+    "create_invoice" : "Koosta arve",
+    "dashboard_title" : "Looge oma ettevõttele professionaalne arve!",
+    "no_invoice_found" : "Arvet pole veel lisatud!",
+    "no_paid_invoice_found" : "Tasutud arvet pole veel lisatud",
+    "no_partially_paid_invoice_found" : "Osaliselt tasutud arvet pole veel lisatud",
+    "no_unpaid_invoice_found" : "Tasutud arvet pole veel lisatud",
+    "all_invoice" : "Kõik arved",
+    "paid_invoice" : "Tasutud arved",
+    "partially_paid_invoice" : "Osaliselt tasutud arved",
+    "unpaid_invoices" : "Maksmata arved",
+    "cancel" : "Tühistama",
+    "no_specific_invoice_found":"Ei {tab_Selected} Leitud",
+    "tab_Selected":"{tab_Selected}"
+  },
+
+  "create_invoice":{
+    "change_template" : "Malli muutmine",
+    "choose_template" : "Malli valimine",
+    "create_invoice" : "Koosta arve",
+    "update_invoice" : "Arve uuendamine",
+    "business_information" : "Äriteave",
+    "info" : "INFO",
+    "invoice" : "Arve",
+    "invoice_number":"Arve# {number}",
+    "due_date":"TÄHTAEG",
+    "add_customer":"LISA KLIENT",
+    "add_item":"ÜKSUSE LISAMINE",
+    "sub_total":"Vahesumma kokku",
+    "delivery_charges":"Kohaletoimetamise tasud",
+    "grand_total":"Kõik kokku",
+    "paid_amount":"Makstud summa",
+    "total_amount_due":"Tasumisele kuuluv kogusumma",
+    "add_payment_methods":"Makseviiside lisamine",
+    "terms":"Tingimused",
+    "other_notes":"Muud märkused",
+    "discount":"Allahindluse",
+    "discount_percent":"Allahindluse protsent",
+    "bill_to":"Arve",
+    "save":"Salvestama",
+    "preview":"Eelvaade",
+    "sub_title":"{quantity} {hello} {price}"
+  },
+
+  "info_sheet":{
+    "invoice_info" : "Arve info",
+    "edit_info" : "   Muuda teavet   ",
+    "due_date":"TÄHTAEG",
+    "current_date" : "Praegune kuupäev"
+  },
+
+  "discount_sheet":{
+    "discount" : "Allahindluse",
+    "discount_type" : "Allahindluse tüüp",
+    "discount_percent" : "Allahindluse protsent",
+    "discount_amount" : "Allahindluse summa",
+    "add_discount" : "Lisa allahindlus",
+    "select_discount_type" : "Valige Allahindluse tüüp"
+  },
+
+  "tax_sheet":{
+    "tax" : "Maks",
+    "TAX" : "MAKS",
+    "label" : "Etikett",
+    "rate" : "Määr",
+    "add_tax" : "Lisa maks"
+  },
+
+
+  "delivery_sheet":{
+    "delivery_charges" : "Kohaletoimetamise tasud",
+    "amount" : "Summa",
+    "add_charges" : "Tasude lisamine"
+  },
+
+
+  "amount_sheet":{
+    "paid_amount" : "Makstud summa",
+    "amount" : "Summa",
+    "fill" : "Täita",
+    "note_amount_to_be_paid":"Märkus:  {amount} tuleb maksta",
+    "add_payment" : "Lisa makse"
+  }
+}
+
+

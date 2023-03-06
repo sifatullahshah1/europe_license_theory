@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+  <g id="transection_updated" transform="translate(-12541 1001)">
+    <rect id="Rectangle_926" data-name="Rectangle 926" width="38" height="38" rx="16" transform="translate(12541 -1001)" opacity="0.1"/>
+    <g id="vuesax_bulk_money-tick" data-name="vuesax/bulk/money-tick" transform="translate(12248 -1310)">
+      <g id="money-tick">
+        <path id="Vector" d="M0,0H24V24H0Z" transform="translate(300 316)" fill="none" opacity="0"/>
+        <path id="Vector-2" data-name="Vector" d="M20,5v6c0,3.5-2,5-5,5H6.45A3.9,3.9,0,0,0,7,14a4,4,0,0,0-7-2.64V5C0,1.5,2,0,5,0H15C18,0,20,1.5,20,5Z" transform="translate(302 320)" fill="#3acc6c"/>
+        <path id="Vector-3" data-name="Vector" d="M5,2.5A2.5,2.5,0,1,1,2.5,0,2.5,2.5,0,0,1,5,2.5Z" transform="translate(309.5 325.5)" fill="#292d32"/>
+        <g id="Group">
+          <path id="Vector-4" data-name="Vector" d="M.75,5.5A.755.755,0,0,1,0,4.75v-4A.755.755,0,0,1,.75,0,.755.755,0,0,1,1.5.75v4A.755.755,0,0,1,.75,5.5Z" transform="translate(317.75 325.25)" fill="#292d32"/>
+        </g>
+        <path id="Vector-5" data-name="Vector" d="M4,0A4,4,0,0,0,0,4,3.921,3.921,0,0,0,.58,6.06a3.985,3.985,0,0,0,6.84,0A3.921,3.921,0,0,0,8,4,4,4,0,0,0,4,0ZM5.97,3.67,3.84,5.64a.763.763,0,0,1-.51.2.742.742,0,0,1-.53-.22l-.99-.99A.75.75,0,0,1,2.87,3.57l.48.48,1.6-1.48a.75.75,0,1,1,1.02,1.1Z" transform="translate(301 330)" fill="#292d32"/>
+      </g>
+    </g>
+  </g>
+</svg>

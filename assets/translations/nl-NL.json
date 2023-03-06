@@ -1,0 +1,300 @@
+{
+  "language_name" : "Dutch",
+  "app_name" : "Eenvoudige factuurgenerator",
+
+
+  "languages":{
+    "arabic" : "عربى",
+    "danish" : "Danish",
+    "german" : "German",
+    "english" : "English",
+    "spanish" : "Spanish",
+    "estonian" : "Estonian",
+    "finnish" : "Finnish",
+    "filipino" : "Filipino",
+    "french" : "French(FR)" ,
+    "french_canadian" : "French (CA)",
+    "indonesian" : "Indonesian",
+    "italian" : "Italian",
+    "korean" : "Korean",
+    "malayalam" : "Malayalam",
+    "dutch" : "Dutch",
+    "portuguese_br" : "Português (BR)",
+    "portuguese_pt" : "Português (PT)",
+    "russian" : "Russian",
+    "swedish" : "Swedish",
+    "thai" : "Thai",
+    "turkish" : "Turkish",
+    "select_language": "Select language",
+    "set_language": "Done"
+  },
+
+  "splash_text" : "Eenvoudige factuurgenerator",
+  "loading_data" : "Een ogenblik geduld",
+  "reload" : "Herladen",
+  "continue" : "Voortzetten",
+  
+
+  "record_added_successfully" : "Record succesvol toegevoegd",
+  "record_failed_to_add" : "Sorry record kan niet worden toegevoegd",
+  "file_not_generated" : "Bestand niet gegenereerd, tik na enkele seconden opnieuw",
+  "please_enter_valid_name" : "Voer een geldige naam in",
+  "please_enter_valid_item_name" : "Voer een geldige objectnaam in",
+  "please_enter_valid_item_price" : "Voer een geldige objectprijs in",
+  "please_enter_valid_item_quantity" : "Voer een geldig objectbedrag in",
+
+
+  "please_enter_valid_values" : "Voeg eerst geldige waarden toe",
+  "please_enter_valid_email" : "Voer een geldig e-mailadres in",
+  "please_enter_valid_title" : "Voer een geldige titel in",
+  "setting_updated_successfully" : "Instelling is bijgewerkt",
+  "invalid_values_check_value_or_quantity" :  "Waarden zijn ongeldig, controleer prijs of hoeveelheidswaarde",
+  "sorry_message_short" : "Sorry bericht is te kort (min 15 tekens)",
+  "please_enter_valid_business_name" : "Voer een geldige bedrijfsnaam in",
+  "first_complete_invoice_details" : "Eerst factuurgegevens invullen",
+  "feedback_thank_message" : "Hartelijk dank!, We waarderen uw inzicht oprecht omdat het ons helpt een betere klantervaring op te bouwen.",
+  "paid_amount_should_be_equal_less" : "Het betaalde bedrag moet gelijk zijn aan of lager zijn dan het totale bedrag",
+  "please_provide_all_values" : "Geef alle waarden op",
+
+
+  "please_enter_amount_less":"Voer {amount} bedrag of minder",
+
+
+  "country_select" : {
+    "select_country": "Selecteer land",
+    "enter_country_name": "Voer de naam van het land in"
+  },
+
+
+
+  "bottomsheet": {
+    "close_app": "App sluiten",
+    "cancel": "Annuleren",
+    "edit": "Bewerken",
+    "confirm_delete": "Verwijder bevestigen",
+    "delete": "Verwijderen",
+    "view": "Bekijken",
+    "update": "Update"
+  },
+
+  "dashboard": {
+     "business": "Zaak",
+    "home": "Thuis",
+    "customers": "Klanten",
+    "product": "Product"
+  },
+
+
+
+  "feedback": {
+    "feedback": "Terugkoppeling",
+    "no_feedback_found": "Schrijf uw feedback door op de knop Feedback schrijven te klikken",
+    "write_feedback": "Feedback schrijven",
+    "title": "Titel",
+    "email": "E-mail",
+    "message": "Bericht",
+    "send": "Verzenden",
+    "response": "Antwoord"
+  },
+
+  "setting": {
+    "invoice_setting": "Factuur instellen",
+    "default_currency": "Standaard valuta",
+    "number_formate": "Getal notatie",
+    "date_formate": "Datumnotatie",
+    "payment_method": "Betalingsmethode",
+    "privacy_policy": "Privacybeleid",
+    "rate_us": "Beoordeel ons",
+    "share_app": "App delen",
+    "save": "Redden",
+    "due_term": "Vervaldatum"
+  },
+
+  "items": {
+    "select_product": "Selecteer product",
+    "item": "Item",
+    "from_list": "  Uit lijst  ",
+    "update_item": "Item bijwerken",
+    "add_item": "Item toevoegen",
+    "item_name": "Itemnaam",
+    "price_per_item": "Prijs per stuk",
+    "enter_description": "Voer beschrijving in",
+    "quantity": "Hoeveelheid",
+    "discount": "Korting",
+    "type": "Type",
+    "taxable": "Belastbaar %",
+    "tax_rate": "Belastingtarief",
+    "add_item_to_list": "Item toevoegen aan uw lijst ?",
+    "description": "Beschrijving",
+    "add": "Toevoegen",
+    "update": "Update",
+    "edit": "   Bewerken   ",
+    "show_item_details": "Item detials weergeven",
+    "no_item" : "Nog geen items toegevoegd\nItems toevoegen door op de knop + te klikken",
+
+
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} items?"
+  },
+
+  "business": {
+    "select_business": "Selecteer Business",
+    "business": "Zaak",
+    "logo": "Logo",
+    "stamp_opt": "Stempel (optioneel)",
+    "signature_opt": "Handtekening ( optioneel )",
+    "name": "Naam",
+    "business_name": "Bedrijfsnaam",
+    "designation_opt": "Aanduiding ( optioneel )",
+    "email_opt": "E-mail ( optioneel )",
+    "phone_opt": "Telefoon (optioneel)",
+    "enter_address": "Voer adres in ( optioneel )",
+    "enter_city": "Voer plaats in ( optioneel )",
+    "zip_code_opt": "Postcode ( optioneel )",
+    "enter_country": "Voer land in ( optioneel )",
+    "business_website_opt": "Zakelijke website ( optioneel )",
+    "stamp": "Postzegel",
+    "signature": "Handtekening",
+    "designation": "Benaming",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "address": "Benaming",
+    "city": "Stad",
+    "zip_code": "Postcode",
+    "country": "Land",
+    "business_website": "Zakelijke website",
+    "update_business": "Business bijwerken",
+    "add_business": "Bedrijf toevoegen",
+    "no_business" : "Nog geen bedrijf toegevoegd\nBedrijf toevoegen door op de knop + te klikken",
+    "show_business_details" : "Bedrijfsgegevens weergeven",
+    "edit" :  "  Bewerken  "
+  },
+
+
+  "customer": {
+    "select_customer": "Selecteer Klant",
+    "customer": "Klant",
+    "update_customer": "Klant bijwerken",
+    "add_customer": "Klant toevoegen",
+    "customer_name": "Naam klantv",
+    "enter_name" : "Naam invoeren",
+    "enter_phone_number" : "Voer telefoonnummer in",
+    "enter_address" : "Voer adres in",
+    "enter_billing_address" : "Factuuradres invoeren",
+    "show_customer_details" : "Klantgegevens weergeven",
+    "name" : "Naam",
+    "phone_number" : "Telefoonnummer",
+    "address" : "Adres",
+    "billing_address" : "Factuuradres",
+    "edit" :  "  Bewerken  ",
+    "no_customer" : "Nog geen klanten toegevoegd\nKlanten toevoegen door op de knop + te klikken",
+
+    "update": "Update",
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} Customer?"
+  },
+
+
+  "payment": {
+    "select_payment": "Selecteer Betaalmethode",
+    "payment": "Betaling",
+    "update_payment": "Betalingsmethode bijwerken",
+    "add_payment": "Betaalmethode toevoegen",
+    "payment_method": "Betalingsmethode",
+    "details": "Bijzonderheden",
+    "no_payment" : "Nog geen betaalmethoden toegevoegd\nBetaalmethoden toevoegen door op de knop + te klikken"
+  },
+
+
+
+  "show_invoices":{
+    "select_category" : "Selecteer categorie",
+    "create_invoice" : "Factuur maken",
+    "dashboard_title" : "Maak een professionele factuur voor uw bedrijf!",
+    "no_invoice_found" : "Nog geen factuur toegevoegd",
+    "no_paid_invoice_found" : "Nog geen betaalde factuur toegevoegd",
+    "no_partially_paid_invoice_found" : "Nog geen gedeeltelijk betaalde factuur toegevoegd",
+    "no_unpaid_invoice_found" : "Nog geen betaalde factuur toegevoegd",
+    "all_invoice" : "Alle facturen",
+    "paid_invoice" : "Betaalde facturen",
+    "partially_paid_invoice" : "Gedeeltelijk betaalde facturen",
+    "unpaid_invoices" : "Onbetaalde facturen",
+    "cancel" : "Annuleren",
+    "no_specific_invoice_found":"Nee {tab_Selected} stichten",
+    "tab_Selected":"{tab_Selected}"
+  },
+
+  "create_invoice":{
+    "change_template" : "Sjabloon wijzigen",
+    "choose_template" : "Kies Sjabloon",
+    "create_invoice" : "Factuur maken",
+    "update_invoice" : "Factuur bijwerken",
+    "business_information" : "Bedrijfsinformatie",
+    "info" : "INFO",
+    "invoice" : "Factuur",
+    "invoice_number":"Factuur# {number}",
+    "due_date":"VERVALDAG",
+    "add_customer":"KLANT TOEVOEGEN",
+    "add_item":"ITEM TOEVOEGEN",
+    "sub_total":"Subtotaal",
+    "delivery_charges":"Verzendkosten",
+    "grand_total":"Totaal-generaal",
+    "paid_amount":"Betaald bedrag",
+    "total_amount_due":"Totaal verschuldigd bedrag",
+    "add_payment_methods":"Betaalmethoden toevoegen",
+    "terms":"Voorwaarde",
+    "other_notes":"Overige opmerkingen",
+    "discount":"Korting",
+    "discount_percent":"Kortingspercentage",
+    "bill_to":"Factuur aan",
+    "save":"Redden",
+    "preview":"Voorbeeld",
+    "sub_title":"{quantity} {hello} {price}"
+  },
+
+  "info_sheet":{
+    "invoice_info" : "Factuur info",
+    "edit_info" : "   Info bewerken   ",
+    "due_date":"VERVALDAG",
+    "current_date" : "Huidige datum"
+  },
+
+  "discount_sheet":{
+    "discount" : "Korting",
+    "discount_type" : "Kortingstype",
+    "discount_percent" : "Kortingspercentage",
+    "discount_amount" : "Korting",
+    "add_discount" : "Korting toevoegen",
+    "select_discount_type" : "Selecteer kortingstype"
+  },
+
+  "tax_sheet":{
+    "tax" : "Belasting",
+    "TAX" : "BELASTING",
+    "label" : "Etiket",
+    "rate" : "Verhouding",
+    "add_tax" : "Belasting toevoegen"
+  },
+
+
+  "delivery_sheet":{
+    "delivery_charges" : "Verzendkosten",
+    "amount" : "Aantal",
+    "add_charges" : "Kosten toevoegen"
+  },
+
+
+  "amount_sheet":{
+    "paid_amount" : "Betaald bedrag",
+    "amount" : "Aantal",
+    "fill" : "Vullen",
+    "note_amount_to_be_paid":"Notitie:  {amount} is te betalen",
+    "add_payment" : "Betaling toevoegen"
+  }
+}
+
+

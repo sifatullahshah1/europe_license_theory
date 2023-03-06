@@ -1,0 +1,300 @@
+{
+  "language_name" : "Filipino",
+  "app_name" : "Madaling Invoice Generator",
+
+
+  "languages":{
+    "arabic" : "عربى",
+    "danish" : "Danish",
+    "german" : "German",
+    "english" : "English",
+    "spanish" : "Spanish",
+    "estonian" : "Estonian",
+    "finnish" : "Finnish",
+    "filipino" : "Filipino",
+    "french" : "French(FR)" ,
+    "french_canadian" : "French (CA)",
+    "indonesian" : "Indonesian",
+    "italian" : "Italian",
+    "korean" : "Korean",
+    "malayalam" : "Malayalam",
+    "dutch" : "Dutch",
+    "portuguese_br" : "Português (BR)",
+    "portuguese_pt" : "Português (PT)",
+    "russian" : "Russian",
+    "swedish" : "Swedish",
+    "thai" : "Thai",
+    "turkish" : "Turkish",
+    "select_language": "Select language",
+    "set_language": "Done"
+  },
+
+  "splash_text" : "Madaling Invoice Generator",
+  "loading_data" : "Teka lang po",
+  "reload" : "Mag-load muli",
+  "continue" : "Magpatuloy",
+  
+
+  "record_added_successfully" : "Matagumpay na idinagdag ang talaan",
+  "record_failed_to_add" : "Sorry record failed sa add",
+  "file_not_generated" : "Hindi nabuo ang file, i tap muli pagkatapos ng ilang segundo",
+  "please_enter_valid_name" : "Ipasok lamang ang valid name",
+  "please_enter_valid_item_name" : "Magpasok ng valid item name",
+  "please_enter_valid_item_price" : "Mangyaring magpasok ng wastong presyo ng item",
+  "please_enter_valid_item_quantity" : "Ipasok lamang ang wastong dami ng item",
+
+
+  "please_enter_valid_values" : "Mangyaring magdagdag muna ng mga wastong halaga",
+  "please_enter_valid_email" : "Ipasok lamang ang valid email",
+  "please_enter_valid_title" : "Ipasok lamang ang balidong pamagat",
+  "setting_updated_successfully" : "Matagumpay na na-update ang setting",
+  "invalid_values_check_value_or_quantity" :  "Values are invalid, check price or quantity value",
+  "sorry_message_short" : "Sorry message ay sa short (min 15 characters)",
+  "please_enter_valid_business_name" : "Mangyaring magpasok ng valid na pangalan ng negosyo",
+  "first_complete_invoice_details" : "Unang kumpletong detalye ng invoice",
+  "feedback_thank_message" : "Isang Malaking Salamat!, Taos-puso naming pinahahalagahan ang iyong kaalaman dahil tumutulong ito sa amin na magkaroon ng mas magandang karanasan sa customer.",
+  "paid_amount_should_be_equal_less" : "Ang bayad na halaga ay dapat na pantay o mas mababa pagkatapos ay kabuuang halaga",
+  "please_provide_all_values" : "Mangyaring ibigay ang lahat ng mga halaga",
+
+
+  "please_enter_amount_less":"Ipasok lamang ang {amount} halaga o mas mababa ",
+
+
+  "country_select" : {
+    "select_country": "Pumili ng bansa",
+    "enter_country_name": "Ipasok ang pangalan ng bansa"
+  },
+
+
+
+  "bottomsheet": {
+    "close_app": "Isara ang App",
+    "cancel": "Kanselahin",
+    "edit": "I-edit",
+    "confirm_delete": "Kumpirmahin ang Tanggalin",
+    "delete": "Tanggalin ang",
+    "view": "Tingnan ang",
+    "update": "Update"
+  },
+
+  "dashboard": {
+     "business": "Negosyo",
+    "home": "Home",
+    "customers": "Mga Customer",
+    "product": "Produkto"
+  },
+
+
+
+  "feedback": {
+    "feedback": "Feedback",
+    "no_feedback_found": "Isulat ang iyong feedback sa pamamagitan ng pag click sa pindutan ng write feedback",
+    "write_feedback": "Sumulat ng Feedback",
+    "title": "Pamagat",
+    "email": "Mag-email",
+    "message": "Mensahe",
+    "send": "Ipadala ang",
+    "response": "Tugon"
+  },
+
+  "setting": {
+    "invoice_setting": "Invoice Setting",
+    "default_currency": "Default na Pera",
+    "number_formate": "Format ng Numero",
+    "date_formate": "Format ng Petsa",
+    "payment_method": "Paraan ng Pagbabayad",
+    "privacy_policy": "Patakaran sa Pagkapribado",
+    "rate_us": "Rate sa Amin",
+    "share_app": "Ibahagi ang App",
+    "save": "Mag-ipon",
+    "due_term": "Takdang Panahon"
+  },
+
+  "items": {
+    "select_product": "Piliin ang Produkto",
+    "item": "Item",
+    "from_list": "  Mula sa Listahan  ",
+    "update_item": "I-update ang Item",
+    "add_item": "Magdagdag ng Item",
+    "item_name": "Pangalan ng Item",
+    "price_per_item": "Presyo sa bawat item",
+    "enter_description": "Ipasok ang Paglalarawan",
+    "quantity": "Dami",
+    "discount": "Diskwento",
+    "type": "Uri ng",
+    "taxable": "Buwisan na ba %",
+    "tax_rate": "Rate ng Buwis",
+    "add_item_to_list": "Magdagdag ng item sa iyong listahan?",
+    "description": "Paglalarawan",
+    "add": "Magdagdag ng",
+    "update": "Update",
+    "edit": "   I-edit   ",
+    "show_item_details": "Ipakita ang mga detial ng Item",
+    "no_item" : "Wala pang idinagdag na mga item\nMagdagdag ng mga item sa pamamagitan ng pag click + button",
+
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} items?"
+  },
+
+  "business": {
+    "select_business": "Pumili ng Negosyo",
+    "business": "Negosyo",
+    "logo": "Logo",
+    "stamp_opt": "Stamp ( Opsyonal )",
+    "signature_opt": "Lagda ( Opsyonal )",
+    "name": "Pangalan",
+    "business_name": "Pangalan ng Negosyo",
+    "designation_opt": "Pagtatalaga ( Opsyonal )",
+    "email_opt": "Email ( Opsyonal )",
+    "phone_opt": "Telepono ( Opsyonal )",
+    "enter_address": "Ipasok ang Address ( Opsyonal )",
+    "enter_city": "Ipasok ang Lungsod ( Opsyonal )",
+    "zip_code_opt": "Zip Code ( Opsyonal )",
+    "enter_country": "Ipasok ang Bansa ( Opsyonal )",
+    "business_website_opt": "Business Website ( Optional )",
+    "stamp": "Stamp",
+    "signature": "Lagda",
+    "designation": "Pagtatalaga",
+    "email": "Mag-email",
+    "phone": "Telepono",
+    "address": "Pagtatalaga",
+    "city": "Lungsod",
+    "zip_code": "Zip Code",
+    "country": "Bansa",
+    "business_website": "Website ng Negosyo",
+    "update_business": "Update ng Negosyo",
+    "add_business": "Magdagdag ng Negosyo",
+    "no_business" : "Wala pang idinagdag na negosyo\nMagdagdag ng negosyo sa pamamagitan ng pag click + button",
+    "show_business_details" : "Ipakita ang Mga Detalye ng Negosyo",
+
+    "edit" :  "  I-edit  "
+  },
+
+
+  "customer": {
+    "select_customer": "Piliin ang Customer",
+    "customer": "Customer",
+    "update_customer": "Update Customer",
+    "add_customer": "Magdagdag ng Customer",
+    "customer_name": "Pangalan ng Customer",
+    "enter_name" : "Ipasok ang Pangalan",
+    "enter_phone_number" : "Ipasok ang Numero ng Telepono",
+    "enter_address" : "Ipasok ang Address",
+    "enter_billing_address" : "Ipasok ang Address ng Pagsingil",
+    "show_customer_details" : "Ipakita ang Mga Detalye ng Customer",
+    "name" : "Pangalan",
+    "phone_number" : "Numero ng Telepono",
+    "address" : "Address",
+    "billing_address" : "Address ng Pagsingil",
+    "edit" :  "  I-edit  ",
+    "no_customer" : "Wala pang idinagdag na mga customer\nMagdagdag ng mga Customer sa pamamagitan ng pag click + button",
+
+    "update": "Update",
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} Customer?"
+  },
+
+
+  "payment": {
+    "select_payment": "Piliin ang Paraan ng Pagbabayad",
+    "payment": "Pagbabayad",
+    "update_payment": "Na update ang Paraan ng Pagbabayad",
+    "add_payment": "Magdagdag ng Paraan ng Pagbabayad",
+    "payment_method": "Paraan ng Pagbabayad",
+    "details": "Mga Detalye",
+    "no_payment" : "Walang idinagdag na Mga Paraan ng Pagbabayad pa\nMagdagdag ng Mga Paraan ng Pagbabayad sa pamamagitan ng pag click + button"
+  },
+
+
+
+  "show_invoices":{
+    "select_category" : "Pumili ng Kategorya",
+    "create_invoice" : "Lumikha ng Invoice",
+    "dashboard_title" : "Lumikha ng isang propesyonal na invoice para sa iyong negosyo!",
+    "no_invoice_found" : "Wala pang idinagdag na invoice",
+    "no_paid_invoice_found" : "Wala pang idinagdag na bayad na invoice",
+    "no_partially_paid_invoice_found" : "Walang bahagyang bayad na invoice na idinagdag pa",
+    "no_unpaid_invoice_found" : "Wala pang idinagdag na bayad na invoice",
+    "all_invoice" : "Lahat ng mga invoice",
+    "paid_invoice" : "Mga bayad na invoice",
+    "partially_paid_invoice" : "Bahagyang Bayad na mga invoice",
+    "unpaid_invoices" : "Mga Hindi Bayad na Invoice",
+    "cancel" : "Kanselahin",
+    "no_specific_invoice_found":"Hindi {tab_Selected} natagpuan ang",
+    "tab_Selected":"{tab_Selected}"
+  },
+
+  "create_invoice":{
+    "change_template" : "Baguhin ang Template",
+    "choose_template" : "Pumili ng Template",
+    "create_invoice" : "Lumikha ng Invoice",
+    "update_invoice" : "I-update ang Invoice",
+    "business_information" : "Impormasyon sa Negosyo",
+    "info" : "INFO",
+    "invoice" : "Invoice",
+    "invoice_number":"Invoice# {number}",
+    "due_date":"DUE DATE",
+    "add_customer":"MAGDAGDAG NG CUSTOMER",
+    "add_item":"MAGDAGDAG NG ITEM",
+    "sub_total":"Sub Kabuuan",
+    "delivery_charges":"Mga Singil sa Paghahatid",
+    "grand_total":"Grand Kabuuang",
+    "paid_amount":"Bayad na Halaga",
+    "total_amount_due":"Kabuuang Halaga na Dapat Bayaran",
+    "add_payment_methods":"Magdagdag ng Mga Paraan ng Pagbabayad",
+    "terms":"Mga Tuntunin",
+    "other_notes":"Iba pang mga Tala",
+    "discount":"Diskwento",
+    "discount_percent":"Diskwento Porsyento",
+    "bill_to":"Bill na sa",
+    "save":"Mag-ipon",
+    "preview":"Preview",
+    "sub_title":"{quantity} {hello} {price}"
+  },
+
+  "info_sheet":{
+    "invoice_info" : "Impormasyon sa Invoice",
+    "edit_info" : "   I-edit ang Impormasyon   ",
+    "due_date":"DUE DATE",
+    "current_date" : "Kasalukuyang Petsa"
+  },
+
+  "discount_sheet":{
+    "discount" : "Diskwento",
+    "discount_type" : "Uri ng Diskwento",
+    "discount_percent" : "Diskwento Porsyento",
+    "discount_amount" : "Halaga ng Diskwento",
+    "add_discount" : "Magdagdag ng Diskwento",
+    "select_discount_type" : "Pumili ng Uri ng Diskwento"
+  },
+
+  "tax_sheet":{
+    "tax" : "Buwis",
+    "TAX" : "BUWIS",
+    "label" : "Label",
+    "rate" : "Rate",
+    "add_tax" : "Magdagdag ng Buwis"
+  },
+
+
+  "delivery_sheet":{
+    "delivery_charges" : "Mga Singil sa Paghahatid",
+    "amount" : "Halaga",
+    "add_charges" : "Magdagdag ng mga singil"
+  },
+
+
+  "amount_sheet":{
+    "paid_amount" : "Bayad na Halaga",
+    "amount" : "Halaga",
+    "fill" : "Punan ang",
+    "note_amount_to_be_paid":"Tandaan:  {amount} ay dapat bayaran",
+    "add_payment" : "Magdagdag ng Pagbabayad"
+  }
+}
+
+

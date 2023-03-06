@@ -1,0 +1,301 @@
+{
+  "language_name" : "Malay",
+  "app_name" : "Penjana Invois Mudah",
+
+
+  "languages":{
+    "arabic" : "عربى",
+    "danish" : "Danish",
+    "german" : "German",
+    "english" : "English",
+    "spanish" : "Spanish",
+    "estonian" : "Estonian",
+    "finnish" : "Finnish",
+    "filipino" : "Filipino",
+    "french" : "French(FR)" ,
+    "french_canadian" : "French (CA)",
+    "indonesian" : "Indonesian",
+    "italian" : "Italian",
+    "korean" : "Korean",
+    "malayalam" : "Malayalam",
+    "dutch" : "Dutch",
+    "portuguese_br" : "Português (BR)",
+    "portuguese_pt" : "Português (PT)",
+    "russian" : "Russian",
+    "swedish" : "Swedish",
+    "thai" : "Thai",
+    "turkish" : "Turkish",
+    "select_language": "Select language",
+    "set_language": "Done"
+  },
+
+
+  "splash_text" : "Penjana Invois Mudah",
+  "loading_data" : "Sila tunggu",
+  "reload" : "Muat semula",
+  "continue" : "Teruskan",
+  
+
+  "record_added_successfully" : "Rekod ditambah dengan jayanya",
+  "record_failed_to_add" : "Rekod maaf gagal ditambah",
+  "file_not_generated" : "Fail tidak dijana, ketik sekali lagi selepas beberapa saat",
+  "please_enter_valid_name" : "Sila masukkan nama yang sah",
+  "please_enter_valid_item_name" : "Sila masukkan nama item yang sah",
+  "please_enter_valid_item_price" : "Sila masukkan harga item yang sah",
+  "please_enter_valid_item_quantity" : "Sila masukkan kuantiti barang yang sah",
+
+
+  "please_enter_valid_values" : "Sila tambah nilai yang sah terlebih dahulu",
+  "please_enter_valid_email" : "Sila masukkan e-mel yang sah",
+  "please_enter_valid_title" : "Sila masukkan tajuk yang sah",
+  "setting_updated_successfully" : "Tetapan berjaya dikemas kini",
+  "invalid_values_check_value_or_quantity" :  "Nilai tidak sah, semak harga atau nilai kuantiti",
+  "sorry_message_short" : "Mesej maaf adalah pendek (min 15 aksara)",
+  "please_enter_valid_business_name" : "Sila masukkan nama perniagaan yang sah",
+  "first_complete_invoice_details" : "Butiran invois lengkap pertama",
+  "feedback_thank_message" : "Terima kasih yang besar!, Kami sangat menghargai pandangan anda kerana ia membantu kami membina pengalaman pelanggan yang lebih baik.",
+  "paid_amount_should_be_equal_less" : "Amaun yang dibayar hendaklah sama atau kurang daripada jumlah keseluruhan",
+  "please_provide_all_values" : "Sila berikan semua nilai",
+
+
+  "please_enter_amount_less":"Sila masukkan {amount} amaun atau kurang",
+
+
+  "country_select" : {
+    "select_country": "Pilih negara",
+    "enter_country_name": "Masukkan nama negara"
+  },
+
+
+
+  "bottomsheet": {
+    "close_app": "Tutup Aplikasi",
+    "cancel": "Membatalkan",
+    "edit": "Edit",
+    "confirm_delete": "Sahkan Padam",
+    "delete": "Menghapuskan",
+    "view": "Lihat",
+    "update": "Kemaskini terakhir"
+  },
+
+  "dashboard": {
+     "business": "Perniagaan",
+    "home": "Rumah",
+    "customers": "Pelanggan",
+    "product": "Produk"
+  },
+
+
+
+  "feedback": {
+    "feedback": "Maklum balas",
+    "no_feedback_found": "Tulis maklum balas anda dengan mengklik butang tulis maklum balas",
+    "write_feedback": "Tulis maklum balas",
+    "title": "Tajuk",
+    "email": "E-mel",
+    "message": "Mesej",
+    "send": "Menghantar",
+    "response": "Respons"
+  },
+
+  "setting": {
+    "invoice_setting": "Tetapan invois",
+    "default_currency": "Mata Wang Lalai",
+    "number_formate": "Format Nombor",
+    "date_formate": "Format Tarikh",
+    "payment_method": "Kaedah Pembayaran",
+    "privacy_policy": "Dasar Privasi",
+    "rate_us": "Nilaikan Kami",
+    "share_app": "Kongsi Aplikasi",
+    "save": "Simpan",
+    "due_term": "Tempoh Akhir"
+  },
+
+  "items": {
+    "select_product": "Pilih Produk",
+    "item": "Perkara",
+    "from_list": "  Daripada Senarai  ",
+    "update_item": "Kemas Kini Item",
+    "add_item": "Tambah Item",
+    "item_name": "Nama Item",
+    "price_per_item": "Harga setiap item",
+    "enter_description": "Masukkan Perihalan",
+    "quantity": "Kuantiti",
+    "discount": "Diskaun",
+    "type": "Jenis",
+    "taxable": "Bercukai %",
+    "tax_rate": "Kadar Cukai",
+    "add_item_to_list": "Menambah item ke senarai anda?",
+    "description": "Keterangan",
+    "add": "Menambah",
+    "update": "Kemaskini terakhir",
+    "edit": "   Edit   ",
+    "show_item_details": "Tunjukkan detial Item",
+    "no_item" : "Tiada item ditambah lagi\nTambah item dengan mengklik butang +",
+
+
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} items?"
+  },
+
+  "business": {
+    "select_business": "Pilih Perniagaan",
+    "business": "Perniagaan",
+    "logo": "Logo",
+    "stamp_opt": "Setem ( Pilihan )",
+    "signature_opt": "Tandatangan ( Pilihan )",
+    "name": "Nama",
+    "business_name": "Nama Perniagaan",
+    "designation_opt": "Jawatan ( Pilihan )",
+    "email_opt": "Emel ( Pilihan )",
+    "phone_opt": "Telefon ( Pilihan )",
+    "enter_address": "Masukkan Alamat ( Pilihan )",
+    "enter_city": "Masukkan Bandar ( Pilihan )",
+    "zip_code_opt": "Poskod ( Pilihan )",
+    "enter_country": "Masuk Negara ( Pilihan )",
+    "business_website_opt": "Laman Web Perniagaan ( Pilihan )",
+    "stamp": "Setem",
+    "signature": "Tandatangan",
+    "designation": "Jawatan",
+    "email": "E-mel",
+    "phone": "Telefon",
+    "address": "Jawatan",
+    "city": "Bandar",
+    "zip_code": "Poskod",
+    "country": "Negara",
+    "business_website": "Laman Web Perniagaan",
+    "update_business": "Kemas Kini Perniagaan",
+    "add_business": "Tambah Perniagaan",
+    "no_business" : "Tiada perniagaan ditambah lagi\nTambah perniagaan dengan mengklik butang +",
+    "show_business_details" : "Tunjukkan Butiran Perniagaan",
+    "edit" :  "  Edit  "
+  },
+
+
+  "customer": {
+    "select_customer": "Pilih Pelanggan",
+    "customer": "Pelanggan",
+    "update_customer": "Kemas kini Pelanggan",
+    "add_customer": "Tambah Pelanggan",
+    "customer_name": "Nama Pelanggan",
+    "enter_name" : "Masukkan Nama",
+    "enter_phone_number" : "Masukkan Nombor Telefon",
+    "enter_address" : "Masukkan Alamat",
+    "enter_billing_address" : "Masukkan alamat pengebilan",
+    "show_customer_details" : "Tunjukkan Maklumat Pelanggan",
+    "name" : "Nama",
+    "phone_number" : "Nombor Telefon",
+    "address" : "Alamat",
+    "billing_address" : "Alamat Pengebilan",
+    "edit" :  "  Edit  ",
+    "no_customer" : "Tiada pelanggan ditambah lagi\nTambah Pelanggan dengan mengklik butang +",
+
+    "update": "Update",
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} Customer?"
+  },
+
+
+  "payment": {
+    "select_payment": "Pilih Kaedah Pembayaran",
+    "payment": "Pembayaran",
+    "update_payment": "Kemas Kini Kaedah Pembayaran",
+    "add_payment": "Tambah Kaedah Pembayaran",
+    "payment_method": "Kaedah Pembayaran",
+    "details": "Butiran",
+    "no_payment" : "Tiada Kaedah Pembayaran ditambah lagi\nTambah Kaedah Pembayaran dengan mengklik butang +"
+  },
+
+
+
+  "show_invoices":{
+    "select_category" : "Pilih Kategori",
+    "create_invoice" : "Buat Invois",
+    "dashboard_title" : "Buat invois profesional untuk perniagaan anda!",
+    "no_invoice_found" : "Tiada invois ditambahkan lagi",
+    "no_paid_invoice_found" : "Tiada invois berbayar ditambahkan lagi",
+    "no_partially_paid_invoice_found" : "Tiada invois separa bayar ditambahkan lagi",
+    "no_unpaid_invoice_found" : "Tiada invois berbayar ditambahkan lagi",
+    "all_invoice" : "Semua invois",
+    "paid_invoice" : "Invois berbayar",
+    "partially_paid_invoice" : "Invois Separa Dibayar",
+    "unpaid_invoices" : "Invois Belum Dibayar",
+    "cancel" : "Membatalkan",
+    "no_specific_invoice_found":"Tidak {tab_Selected} Mendapati",
+    "tab_Selected":"{tab_Selected}"
+  },
+
+  "create_invoice":{
+    "change_template" : "Mengubah Templat",
+    "choose_template" : "Pilih Templat",
+    "create_invoice" : "Buat Invois",
+    "update_invoice" : "Kemas Kini Invois",
+    "business_information" : "Maklumat Perniagaan",
+    "info" : "MAKLUMAT",
+    "invoice" : "Invois",
+    "invoice_number":"Invois# {number}",
+    "due_date":"TARIKH SIAP",
+    "add_customer":"TAMBAH PELANGGAN",
+    "add_item":"MENAMBAH ITEM",
+    "sub_total":"Sub Jumlah",
+    "delivery_charges":"Caj Penghantaran",
+    "grand_total":"Jumlah Besar",
+    "paid_amount":"Amaun Dibayar",
+    "total_amount_due":"Jumlah Amaun Kena Dibayar",
+    "add_payment_methods":"Tambah Kaedah Pembayaran",
+    "terms":"Terma",
+    "other_notes":"Nota Lain",
+    "discount":"Diskaun",
+    "discount_percent":"Peratus Diskaun",
+    "bill_to":"Bil kepada",
+    "save":"Simpan",
+    "preview":"Pratonton",
+    "sub_title":"{quantity} {hello} {price}"
+  },
+
+  "info_sheet":{
+    "invoice_info" : "Maklumat Invois",
+    "edit_info" : "   Edit Maklumat   ",
+    "due_date":"TARIKH SIAP",
+    "current_date" : "Tarikh Semasa"
+  },
+
+  "discount_sheet":{
+    "discount" : "Diskaun",
+    "discount_type" : "Jenis Diskaun",
+    "discount_percent" : "Peratus Diskaun",
+    "discount_amount" : "Jumlah Diskaun",
+    "add_discount" : "Tambah Diskaun",
+    "select_discount_type" : "Pilih Jenis Diskaun"
+  },
+
+  "tax_sheet":{
+    "tax" : "Cukai",
+    "TAX" : "CUKAI",
+    "label" : "Label",
+    "rate" : "Kadar",
+    "add_tax" : "Tambah Cukai"
+  },
+
+
+  "delivery_sheet":{
+    "delivery_charges" : "Caj Penghantaran",
+    "amount" : "Jumlah",
+    "add_charges" : "Tambah Caj"
+  },
+
+
+  "amount_sheet":{
+    "paid_amount" : "Amaun Dibayar",
+    "amount" : "Jumlah",
+    "fill" : "Mengisi",
+    "note_amount_to_be_paid":"Ambil perhatian:  {amount} perlu dibayar",
+    "add_payment" : "Tambah Bayaran"
+  }
+}
+
+
