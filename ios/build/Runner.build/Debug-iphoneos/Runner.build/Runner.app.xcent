@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>Z77J6LJMHV.com.example.europeLicenseTheory</string>
+	<string>Z77J6LJMHV.com.europe.license.theory</string>
 	<key>com.apple.developer.team-identifier</key>
 	<string>Z77J6LJMHV</string>
 	<key>get-task-allow</key>

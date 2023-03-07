@@ -5,7 +5,7 @@ import 'package:europe_license_theory/app_theme_work/theme_colors.dart';
 import 'package:europe_license_theory/app_theme_work/theme_textformfields.dart';
 import 'package:europe_license_theory/app_theme_work/theme_texts.dart';
 import 'package:europe_license_theory/app_theme_work/widgets_reusing.dart';
-import 'package:europe_license_theory/login/services/service_login.dart';
+import 'package:europe_license_theory/login/services/service_auth.dart';
 import 'package:europe_license_theory/screen_dashboard.dart';
 import 'package:europe_license_theory/utilities/app_assets.dart';
 import 'package:europe_license_theory/utilities/constant_functions.dart';
@@ -132,7 +132,7 @@ class _ScreenSignupState extends State<ScreenSignup> {
   void SingupFunction() {
     String name = _nameController.text.toString();
     RestApiUtils.ShowLoadingDialog(context);
-    ServiceLogin.SignUpFunction(
+    ServiceAuth.SignUpFunction(
             widget.phone_number, "${widget.fcm_token}", "", name, profile_image)
         .then(
       (modelLogin) {

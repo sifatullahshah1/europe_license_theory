@@ -10,7 +10,7 @@ import 'package:europe_license_theory/login/screens/page_country_list.dart';
 import 'package:europe_license_theory/login/screens/screen_signup.dart';
 import 'package:europe_license_theory/login/services/SharedPrefrenceUser.dart';
 import 'package:europe_license_theory/login/services/auth_exception_handler.dart';
-import 'package:europe_license_theory/login/services/service_login.dart';
+import 'package:europe_license_theory/login/services/service_auth.dart';
 import 'package:europe_license_theory/screen_dashboard.dart';
 import 'package:europe_license_theory/utilities/constant_functions.dart';
 import 'package:europe_license_theory/utilities/rest_api_utils.dart';
@@ -33,14 +33,12 @@ class _ScreenVerifyNumberState extends State<ScreenVerifyNumber> {
   final _phoneController = TextEditingController();
   final _codeController = TextEditingController();
 
-  var phoneFocusNode = FocusNode();
-  var codeFocusNode = FocusNode();
+  var text_title01 = "${"Hello"}";
+  var text_title02 = "${"Enter number to start"}";
 
-  var text_title01 = "${"verify_number.hello".tr()}";
-  var text_title02 = "${"verify_number.enter_num_to_start".tr()}";
+  FocusNode phone_number_node = FocusNode();
+  FocusNode code_node = FocusNode();
 
-
-  // Please enter your number to get started
 
   bool isCodeSend = false;
   late ModelCountry modelCountry;
@@ -56,9 +54,6 @@ class _ScreenVerifyNumberState extends State<ScreenVerifyNumber> {
   String? auth_token_id = "";
   late FirebaseMessaging firebaseMessaging;
 
-  FocusNode phone_number_node = FocusNode();
-  FocusNode code_node = FocusNode();
-
   bool isVerificationCompleted = false;
 
   @override
@@ -69,36 +64,22 @@ class _ScreenVerifyNumberState extends State<ScreenVerifyNumber> {
     ConstantFunctions.saveSharePrefModeString("country_index", "0");
     InitionalizeFirebase();
 
-    // phoneFocusNode.addListener(() {
-    //   if(!isCodeSend && !phoneFocusNode.hasFocus) {
-    //       FocusScope.of(context).unfocus();
-    //   }
-    // });
-    //
-    // codeFocusNode.addListener(() {
-    //   if(isCodeSend && !codeFocusNode.hasFocus) {
-    //     ;
-    //   }
-    // });
-
-
   }
 
 
   InitionalizeFirebase() async {
     try {
-      phone_number_node.requestFocus();
-      firebaseMessaging = await FirebaseMessaging.instance;
-      auth = await FirebaseAuth.instance;
-      // auth!.setSettings(
-      //     smsCode: "112233",
-      //     forceRecaptchaFlow: false,
-      //     phoneNumber: "+923334455666"
-      // );
 
-      fcm_token = await firebaseMessaging.getToken(
-        vapidKey: "BGpdLRs......"
-      );
+       phone_number_node.requestFocus();
+       firebaseMessaging = await FirebaseMessaging.instance;
+       auth = await FirebaseAuth.instance;
+
+       fcm_token = await firebaseMessaging.getToken(
+           vapidKey: "BGpdLRs......"
+       );
+       setState(() {
+
+       });
 
       // print('FirebaseUser fcm_token ${fcm_token}');
     } catch (e) {
@@ -126,17 +107,16 @@ class _ScreenVerifyNumberState extends State<ScreenVerifyNumber> {
           Navigator.pop(context);
 
           WidgetsReusing.getSnakeBar(context,
-              "${AuthExceptionHandler.generateExceptionMessage(e.code.toString())}");
+              "${AuthExceptionHandler.generateExceptionMessage(e.message.toString())}");
         },
         codeSent: (String? verificationId, int? resendToken) {
-          String message =
-              "${"verify_number.enter_OTP_we_have_sent".tr()} ${modelCountry.code}${_phoneController.text.toString()}";
+
           Navigator.pop(context);
           setState(() {
             this.verificationId = verificationId!;
 
-            String message = "${"verify_number.enter_OTP_we_have_sent".tr()} ${modelCountry.code}${_phoneController.text.toString()}";
-            text_title01 = "verify_number.enter_verification_code".tr();
+            String message = "${"Enter OTP we have sent"} ${modelCountry.code}${_phoneController.text.toString()}";
+            text_title01 = "Enter verification code";
             text_title02 = message;
 
             isCodeSend = true;
@@ -149,7 +129,8 @@ class _ScreenVerifyNumberState extends State<ScreenVerifyNumber> {
           this.verificationId = verificationId;
         },
       );
-    } on FirebaseException catch (e) {
+    }
+    on FirebaseException catch (e) {
       print('FirebaseUser Error-- ${e.code}');
       print('FirebaseUser Error-- ${e.message}');
       print(
@@ -157,9 +138,10 @@ class _ScreenVerifyNumberState extends State<ScreenVerifyNumber> {
 
       WidgetsReusing.getSnakeBar(context,
           "${AuthExceptionHandler.generateExceptionMessage(e.code.toString())}");
-    } catch (e) {
+    }
+  catch (e) {
       Navigator.of(context).pop();
-      print('FirebaseUser error-- ${e.toString()}');
+      print('FirebaseUser error-e- ${e.toString()}');
       WidgetsReusing.getSnakeBar(context, "error ${e.toString()}}");
     }
   }
@@ -236,7 +218,7 @@ class _ScreenVerifyNumberState extends State<ScreenVerifyNumber> {
                 isCodeSend
                     ? ThemeTextFormFields.GetTextFormField(
                          "", _codeController,
-                        hint: "verify_number.enter_code_here".tr(),
+                        hint: "Enter code here".tr(),
                         focusNode: code_node,
                         keyboardType: TextInputType.number,
                         textCapitalization: TextCapitalization.none,
@@ -250,7 +232,7 @@ class _ScreenVerifyNumberState extends State<ScreenVerifyNumber> {
                       child: InkWell(
                         onTap: onTapBack,
                         child: Text(
-                          "verify_number.change_phone_number".tr(),
+                          "Change phone number".tr(),
                           style: ThemeTexts.textStyleTitle2.copyWith(
                               fontWeight: FontWeight.w400,
                               color: ThemeColors.primary_dark_lt),
@@ -385,7 +367,7 @@ class _ScreenVerifyNumberState extends State<ScreenVerifyNumber> {
   void LoginFunction(String phone_number) {
     SharedPrefrenceUser.SaveUserCountry(modelCountry);
 
-    ServiceLogin.LoginFunction(phone_number, "$fcm_token", this.auth_token_id!)
+    ServiceAuth.LoginFunction(phone_number, "$fcm_token", this.auth_token_id!)
         .then(
       (modelLogin) {
         Navigator.of(context).pop();

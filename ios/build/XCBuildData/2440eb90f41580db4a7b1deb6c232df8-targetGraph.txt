@@ -1,0 +1,126 @@
+Target dependency graph (30 targets)
+PromisesObjC in Pods, no dependencies
+GoogleUtilities in Pods, depends on:
+PromisesObjC in Pods (explicit)
+FirebaseCoreInternal in Pods, depends on:
+GoogleUtilities in Pods (explicit)
+FirebaseCore in Pods, depends on:
+FirebaseCoreInternal in Pods (explicit)
+GoogleUtilities in Pods (explicit)
+GTMSessionFetcher in Pods, no dependencies
+FirebaseAuth in Pods, depends on:
+FirebaseCore in Pods (explicit)
+GTMSessionFetcher in Pods (explicit)
+GoogleUtilities in Pods (explicit)
+FirebaseInstallations in Pods, depends on:
+FirebaseCore in Pods (explicit)
+GoogleUtilities in Pods (explicit)
+PromisesObjC in Pods (explicit)
+nanopb in Pods, no dependencies
+GoogleDataTransport in Pods, depends on:
+GoogleUtilities in Pods (explicit)
+PromisesObjC in Pods (explicit)
+nanopb in Pods (explicit)
+FirebaseMessaging in Pods, depends on:
+FirebaseCore in Pods (explicit)
+FirebaseInstallations in Pods (explicit)
+GoogleDataTransport in Pods (explicit)
+GoogleUtilities in Pods (explicit)
+nanopb in Pods (explicit)
+Firebase in Pods, depends on:
+FirebaseAuth in Pods (explicit)
+FirebaseCore in Pods (explicit)
+FirebaseMessaging in Pods (explicit)
+Flutter in Pods, no dependencies
+TOCropViewController-TOCropViewControllerBundle in Pods, no dependencies
+TOCropViewController in Pods, depends on:
+TOCropViewController-TOCropViewControllerBundle in Pods (explicit)
+device_info_plus in Pods, depends on:
+Flutter in Pods (explicit)
+firebase_core in Pods, depends on:
+Firebase in Pods (explicit)
+Flutter in Pods (explicit)
+firebase_auth in Pods, depends on:
+Firebase in Pods (explicit)
+Flutter in Pods (explicit)
+firebase_core in Pods (explicit)
+firebase_messaging in Pods, depends on:
+Firebase in Pods (explicit)
+Flutter in Pods (explicit)
+firebase_core in Pods (explicit)
+flutter_native_image in Pods, depends on:
+Flutter in Pods (explicit)
+image_cropper in Pods, depends on:
+Flutter in Pods (explicit)
+TOCropViewController in Pods (explicit)
+image_picker_ios in Pods, depends on:
+Flutter in Pods (explicit)
+in_app_purchase_storekit in Pods, depends on:
+Flutter in Pods (explicit)
+in_app_review in Pods, depends on:
+Flutter in Pods (explicit)
+open_file_safe in Pods, depends on:
+Flutter in Pods (explicit)
+path_provider_foundation in Pods, depends on:
+Flutter in Pods (explicit)
+share_plus in Pods, depends on:
+Flutter in Pods (explicit)
+shared_preferences_foundation in Pods, depends on:
+Flutter in Pods (explicit)
+url_launcher_ios in Pods, depends on:
+Flutter in Pods (explicit)
+Pods-Runner in Pods, depends on:
+Firebase in Pods (explicit)
+FirebaseAuth in Pods (explicit)
+FirebaseCore in Pods (explicit)
+FirebaseCoreInternal in Pods (explicit)
+FirebaseInstallations in Pods (explicit)
+FirebaseMessaging in Pods (explicit)
+Flutter in Pods (explicit)
+GTMSessionFetcher in Pods (explicit)
+GoogleDataTransport in Pods (explicit)
+GoogleUtilities in Pods (explicit)
+PromisesObjC in Pods (explicit)
+TOCropViewController in Pods (explicit)
+device_info_plus in Pods (explicit)
+firebase_auth in Pods (explicit)
+firebase_core in Pods (explicit)
+firebase_messaging in Pods (explicit)
+flutter_native_image in Pods (explicit)
+image_cropper in Pods (explicit)
+image_picker_ios in Pods (explicit)
+in_app_purchase_storekit in Pods (explicit)
+in_app_review in Pods (explicit)
+nanopb in Pods (explicit)
+open_file_safe in Pods (explicit)
+path_provider_foundation in Pods (explicit)
+share_plus in Pods (explicit)
+shared_preferences_foundation in Pods (explicit)
+url_launcher_ios in Pods (explicit)
+Runner in Runner, depends on:
+Pods-Runner in Pods (implicit dependency via file 'libPods-Runner.a' in build phase 'Link Binary')
+FirebaseAuth in Pods (implicit dependency via options '-lFirebaseAuth' in build setting 'OTHER_LDFLAGS')
+FirebaseCore in Pods (implicit dependency via options '-lFirebaseCore' in build setting 'OTHER_LDFLAGS')
+FirebaseCoreInternal in Pods (implicit dependency via options '-lFirebaseCoreInternal' in build setting 'OTHER_LDFLAGS')
+FirebaseInstallations in Pods (implicit dependency via options '-lFirebaseInstallations' in build setting 'OTHER_LDFLAGS')
+FirebaseMessaging in Pods (implicit dependency via options '-lFirebaseMessaging' in build setting 'OTHER_LDFLAGS')
+GTMSessionFetcher in Pods (implicit dependency via options '-lGTMSessionFetcher' in build setting 'OTHER_LDFLAGS')
+GoogleDataTransport in Pods (implicit dependency via options '-lGoogleDataTransport' in build setting 'OTHER_LDFLAGS')
+GoogleUtilities in Pods (implicit dependency via options '-lGoogleUtilities' in build setting 'OTHER_LDFLAGS')
+PromisesObjC in Pods (implicit dependency via options '-lPromisesObjC' in build setting 'OTHER_LDFLAGS')
+TOCropViewController in Pods (implicit dependency via options '-lTOCropViewController' in build setting 'OTHER_LDFLAGS')
+device_info_plus in Pods (implicit dependency via options '-ldevice_info_plus' in build setting 'OTHER_LDFLAGS')
+firebase_auth in Pods (implicit dependency via options '-lfirebase_auth' in build setting 'OTHER_LDFLAGS')
+firebase_core in Pods (implicit dependency via options '-lfirebase_core' in build setting 'OTHER_LDFLAGS')
+firebase_messaging in Pods (implicit dependency via options '-lfirebase_messaging' in build setting 'OTHER_LDFLAGS')
+flutter_native_image in Pods (implicit dependency via options '-lflutter_native_image' in build setting 'OTHER_LDFLAGS')
+image_cropper in Pods (implicit dependency via options '-limage_cropper' in build setting 'OTHER_LDFLAGS')
+image_picker_ios in Pods (implicit dependency via options '-limage_picker_ios' in build setting 'OTHER_LDFLAGS')
+in_app_purchase_storekit in Pods (implicit dependency via options '-lin_app_purchase_storekit' in build setting 'OTHER_LDFLAGS')
+in_app_review in Pods (implicit dependency via options '-lin_app_review' in build setting 'OTHER_LDFLAGS')
+nanopb in Pods (implicit dependency via options '-lnanopb' in build setting 'OTHER_LDFLAGS')
+open_file_safe in Pods (implicit dependency via options '-lopen_file_safe' in build setting 'OTHER_LDFLAGS')
+path_provider_foundation in Pods (implicit dependency via options '-lpath_provider_foundation' in build setting 'OTHER_LDFLAGS')
+share_plus in Pods (implicit dependency via options '-lshare_plus' in build setting 'OTHER_LDFLAGS')
+shared_preferences_foundation in Pods (implicit dependency via options '-lshared_preferences_foundation' in build setting 'OTHER_LDFLAGS')
+url_launcher_ios in Pods (implicit dependency via options '-lurl_launcher_ios' in build setting 'OTHER_LDFLAGS')

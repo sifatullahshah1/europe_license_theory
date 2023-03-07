@@ -1,49 +1,34 @@
 {
   "project_info": {
-    "project_number": "1017235185745",
-    "project_id": "fir-urraan-2f471",
-    "storage_bucket": "fir-urraan-2f471.appspot.com"
+    "project_number": "258288290831",
+    "project_id": "europe-license-theory",
+    "storage_bucket": "europe-license-theory.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1017235185745:android:7bd613e38e825651c29870",
+        "mobilesdk_app_id": "1:258288290831:android:986da425c74686e64de77a",
         "android_client_info": {
           "package_name": "com.europe.license.theory"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1017235185745-6p75pegst17j3f2morae3th8ksufmq4v.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.europe.license.theory",
-            "certificate_hash": "9d3164c1061a971b08f359bb4794af9e0f205ca4"
-          }
-        },
-        {
-          "client_id": "1017235185745-ccpkd9q719jr6snrecntjepj2l2ociri.apps.googleusercontent.com",
+          "client_id": "258288290831-fgshkhqouartg01knmcibiftle5c4lpl.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCqHxmPrl_JraENb-zYOYOHa84jpM50yO8"
+          "current_key": "AIzaSyD11oTRJHqX9dO5UvVS_7YGYwFNLyP736M"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1017235185745-ccpkd9q719jr6snrecntjepj2l2ociri.apps.googleusercontent.com",
+              "client_id": "258288290831-fgshkhqouartg01knmcibiftle5c4lpl.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "1017235185745-skrbqlr5vmcc2kd46bg1iq0qk1jsfbr5.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.firebase.urraan"
-              }
             }
           ]
         }
@@ -51,43 +36,36 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1017235185745:android:ed97530db58a4fc2c29870",
+        "mobilesdk_app_id": "1:258288290831:android:a8b4df7c846c6bca4de77a",
         "android_client_info": {
-          "package_name": "com.firebase.urraan"
+          "package_name": "europe.license.theory"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1017235185745-k4fjsq59hn80nkkvmn6silftqu5vg3f7.apps.googleusercontent.com",
+          "client_id": "258288290831-gc1ds5iahe2tna89rk26mls7rrappnv3.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.firebase.urraan",
+            "package_name": "europe.license.theory",
             "certificate_hash": "9d3164c1061a971b08f359bb4794af9e0f205ca4"
           }
         },
         {
-          "client_id": "1017235185745-ccpkd9q719jr6snrecntjepj2l2ociri.apps.googleusercontent.com",
+          "client_id": "258288290831-fgshkhqouartg01knmcibiftle5c4lpl.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCqHxmPrl_JraENb-zYOYOHa84jpM50yO8"
+          "current_key": "AIzaSyD11oTRJHqX9dO5UvVS_7YGYwFNLyP736M"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1017235185745-ccpkd9q719jr6snrecntjepj2l2ociri.apps.googleusercontent.com",
+              "client_id": "258288290831-fgshkhqouartg01knmcibiftle5c4lpl.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "1017235185745-skrbqlr5vmcc2kd46bg1iq0qk1jsfbr5.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.firebase.urraan"
-              }
             }
           ]
         }

@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:europe_license_theory/app_theme_work/theme_texts.dart';
 import 'package:europe_license_theory/login/screens/screen_language_selection.dart';
+import 'package:europe_license_theory/login/screens/screen_verify_number.dart';
 import 'package:europe_license_theory/screen_dashboard.dart';
 import 'package:europe_license_theory/utilities/app_assets.dart';
 import 'package:europe_license_theory/utilities/constant_functions.dart';
@@ -37,11 +38,11 @@ class _ScreenSplashState extends State<ScreenSplash> {
     ConstantFunctions.getSharePrefModebool("is_show_board")
         .then((is_show_board) {
       if (is_show_board) {
-        ConstantFunctions.OpenNewScreenClean(
-            context, ScreenLanguageSelection(is_from_splash: true));
-        // ConstantFunctions.OpenNewScreenClean(context, ScreenDashboard());
+        // ConstantFunctions.OpenNewScreenClean(
+        //     context, ScreenLanguageSelection(is_from_splash: true));
+        ConstantFunctions.OpenNewScreenClean(context, ScreenVerifyNumber());
       } else {
-        ConstantFunctions.OpenNewScreenClean(context, ScreenDashboard());
+        ConstantFunctions.OpenNewScreenClean(context, ScreenVerifyNumber());
         // ConstantFunctions.OpenNewScreenClean(context, ScreenDummyImage());
       }
     });
@@ -61,12 +62,12 @@ class _ScreenSplashState extends State<ScreenSplash> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             // Load a Lottie file from your assets
-            Container(
-              width: 200,
-              height: 200,
-              // child: Lottie.asset(AppAssets.invoice_lottie, width: 120),
-              child: Image.asset(AppAssets.app_icon, width: 120),
-            ),
+            // Container(
+            //   width: 200,
+            //   height: 200,
+            //   // child: Lottie.asset(AppAssets.invoice_lottie, width: 120),
+            //   child: Image.asset(AppAssets.app_icon, width: 120),
+            // ),
             SizedBox(height: 25),
 
             Text(

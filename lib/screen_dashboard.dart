@@ -196,8 +196,8 @@ class _ScreenDashboardState extends State<ScreenDashboard>
                         tab_index = 1;
                         tabController.index = tab_index;
                       },
-                      // child: GetNavIcon(AppAssets.business_icon, 1,
-                      //     "dashboard.business".tr()),
+                      child: GetNavIcon(AppAssets.business_icon, 1,
+                          "dashboard.business".tr()),
                     ),
                     InkWell(
                       onTap: () {
@@ -212,8 +212,8 @@ class _ScreenDashboardState extends State<ScreenDashboard>
                         tab_index = 3;
                         tabController.index = tab_index;
                       },
-                      // child: GetNavIcon(
-                      //     AppAssets.product_icon, 3, "dashboard.product".tr()),
+                      child: GetNavIcon(
+                          AppAssets.product_icon, 3, "dashboard.product".tr()),
                     ),
                   ],
                 ),

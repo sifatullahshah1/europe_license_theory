@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
 options: "f0754f0985aa45bad6bc012bf81996ef12df7f4917d2336583e9ef5cc906ee32"
-build_start_time: [1678164395, 193933010]
-build_end_time: [1678164398, 269816875]
+build_start_time: [1678188434, 822493076]
+build_end_time: [1678188438, 489697933]
 inputs:
   "/Users/mac/Desktop/Flutters Apps/Binary Apps/europe_license_theory/ios/Runner/AppDelegate.swift": [1677079196, 0]

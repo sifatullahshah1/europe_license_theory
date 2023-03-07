@@ -14,14 +14,17 @@ class RestApiUtils {
   // APIs Production Links
   // static String ip_config = "https://cv.codematics.co/api/";
 
+  static String ip_config = "https://www.europelicensetheory.com/api/";
+
+
   // APIs development Links
-  static String ip_config = "http://cv.sidrafoundation.pk/api/";
+  static final String login = ip_config + "login";
+
+  // static final String ImageUrl = "https://cv.codematics.co/storage/invoice_template_image/";
 
 
-  static final String ImageUrl = "https://cv.codematics.co/storage/invoice_template_image/";
 
   static final String signup = ip_config + "signup";
-  static final String login = ip_config + "login";
 
 
 
