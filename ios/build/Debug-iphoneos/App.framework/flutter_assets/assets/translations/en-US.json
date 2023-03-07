@@ -1,0 +1,299 @@
+{
+  "language_name" : "English",
+  "app_name" : "Easy Invoice Generator",
+
+  "languages":{
+    "arabic" : "عربى",
+    "danish" : "Danish",
+    "german" : "German",
+    "english" : "English",
+    "spanish" : "Spanish",
+    "estonian" : "Estonian",
+    "finnish" : "Finnish",
+    "filipino" : "Filipino",
+    "french" : "French(FR)" ,
+    "french_canadian" : "French (CA)",
+    "indonesian" : "Indonesian",
+    "italian" : "Italian",
+    "korean" : "Korean",
+    "malayalam" : "Malayalam",
+    "dutch" : "Dutch",
+    "portuguese_br" : "Português (BR)",
+    "portuguese_pt" : "Português (PT)",
+    "russian" : "Russian",
+    "swedish" : "Swedish",
+    "thai" : "Thai",
+    "turkish" : "Turkish",
+    "select_language": "Select language",
+    "set_language": "Done"
+  },
+
+  "splash_text" : "Easy Invoice Generator",
+  "loading_data" : "Please Wait",
+  "reload" : "Reload",
+  "continue" : "Continue",
+
+
+  "record_added_successfully" : "Record added successfully",
+  "record_failed_to_add" : "Sorry record failed to add",
+  "file_not_generated" : "File not generated, tap again after some seconds",
+  "please_enter_valid_name" : "Please enter valid name",
+  "please_enter_valid_item_name" : "Please enter valid item name",
+  "please_enter_valid_item_price" : "Please enter valid item price",
+  "please_enter_valid_item_quantity" : "Please enter valid item quantity",
+
+  "please_enter_valid_values" : "Please first add valid values",
+  "please_enter_valid_email" : "Please enter valid email",
+  "please_enter_valid_title" : "Please enter valid title",
+  "setting_updated_successfully" : "Setting updated successfully",
+  "invalid_values_check_value_or_quantity" :  "Values are invalid, check price or quantity value",
+  "sorry_message_short" : "Sorry message is to short (min 15 characters)",
+  "please_enter_valid_business_name" : "Please enter valid business name",
+  "first_complete_invoice_details" : "First complete invoice details",
+  "feedback_thank_message" : "A Big Thank you!, We sincerely appreciate your insight because it helps us build a better customer experience.",
+  "paid_amount_should_be_equal_less" : "Paid amount should be equal or less then total amount",
+  "please_provide_all_values" : "Please provide all values",
+
+
+  "please_enter_amount_less":"Please enter {amount} amount or less",
+
+
+  "country_select" : {
+    "select_country": "Select country",
+    "enter_country_name": "Enter country name"
+  },
+
+
+
+  "bottomsheet": {
+    "close_app": "Close App",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "confirm_delete": "Confirm Delete",
+    "delete": "Delete",
+    "view": "View",
+    "update": "Update"
+  },
+
+  "dashboard": {
+     "business": "Business",
+    "home": "Home",
+    "customers": "Customers",
+    "product": "Product"
+  },
+
+
+
+  "feedback": {
+    "feedback": "Feedback",
+    "no_feedback_found": "Write your feedback by clicking write feedback button",
+    "write_feedback": "Write Feedback",
+    "title": "Title",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "response": "Response"
+  },
+
+  "setting": {
+    "invoice_setting": "Invoice Setting",
+    "default_currency": "Default Currency",
+    "number_formate": "Number Format",
+    "date_formate": "Date Format",
+    "payment_method": "Business Payment Method",
+    "privacy_policy": "Privacy Policy",
+    "rate_us": "Rate Us",
+    "share_app": "Share App",
+    "save": "Save",
+    "due_term": "Due Term"
+  },
+
+  "items": {
+    "select_product": "Select Product",
+    "item": "Item",
+    "from_list": "  From List  ",
+    "update_item": "Update Item",
+    "add_item": "Add Item",
+    "item_name": "Item Name",
+    "price_per_item": "Price per item",
+    "enter_description": "Enter Description",
+    "quantity": "Quantity",
+    "discount": "Discount",
+    "type": "Type",
+    "taxable": "Taxable %",
+    "tax_rate": "Tax Rate",
+    "add_item_to_list": "Add item to your list ?",
+    "description": "Description",
+    "add": "Add",
+    "update": "Update",
+    "edit": "   Edit   ",
+    "show_item_details": "Show Item detials",
+    "no_item" : "No items added yet\nAdd items by clicking + button",
+
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "no_item_found": "No item found",
+    "want_to_update": "Do you want to update {length} items?"
+  },
+
+  "business": {
+    "select_business": "Select Business",
+    "business": "Business",
+    "logo": "Logo",
+    "stamp_opt": "Stamp ( Optional )",
+    "signature_opt": "Signature ( Optional )",
+    "name": "Name",
+    "business_name": "Business Name",
+    "designation_opt": "Designation ( Optional )",
+    "email_opt": "Email ( Optional )",
+    "phone_opt": "Phone ( Optional )",
+    "enter_address": "Enter Address ( Optional )",
+    "enter_city": "Enter City ( Optional )",
+    "zip_code_opt": "Zip Code ( Optional )",
+    "enter_country": "Enter Country ( Optional )",
+    "business_website_opt": "Business Website ( Optional )",
+
+    "stamp": "Stamp",
+    "signature": "Signature",
+    "designation": "Designation",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Designation",
+    "city": "City",
+    "zip_code": "Zip Code",
+    "country": "Country",
+    "business_website": "Business Website",
+    "update_business": "Update Business",
+    "add_business": "Add Business",
+    "no_business" : "No business added yet\nAdd business by clicking + button",
+    "show_business_details" : "Show Business Details",
+    "edit" :  "  Edit  "
+  },
+
+
+  "customer": {
+    "select_customer": "Select Customer",
+    "customer": "Customer",
+    "update_customer": "Update Customer",
+    "add_customer": "Add Customer",
+    "customer_name": "Customer Name",
+    "enter_name" : "Enter Name",
+    "enter_phone_number" : "Enter Phone Number",
+    "enter_address" : "Enter Address",
+    "enter_billing_address" : "Enter Billing Address",
+    "show_customer_details" : "Show Customer Details",
+    "name" : "Name",
+    "phone_number" : "Phone Number",
+    "address" : "Address",
+    "billing_address" : "Billing Address",
+    "edit" :  "  Edit  ",
+    "no_customer" : "No customers added yet\nAdd Customers by clicking + button",
+
+    "update": "Update",
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} Customer?"
+  },
+
+
+  "payment": {
+    "select_payment": "Select Payment Method",
+    "payment": "Payment",
+    "update_payment": "Update Payment Method",
+    "add_payment": "Add Payment Method",
+    "payment_method": "Payment Method",
+    "details": "Details",
+    "no_payment" : "No Payment Methods added yet\nAdd Payment Methods by clicking + button"
+  },
+
+
+
+  "show_invoices":{
+    "select_category" : "Select Category",
+    "create_invoice" : "Create Invoice",
+    "dashboard_title" : "Create a professional invoice for your business!",
+    "no_invoice_found" : "No invoice added yet",
+    "no_paid_invoice_found" : "No paid invoice added yet",
+    "no_partially_paid_invoice_found" : "No partially paid invoice added yet",
+    "no_unpaid_invoice_found" : "No paid invoice added yet",
+    "all_invoice" : "All invoices",
+    "paid_invoice" : "Paid invoices",
+    "partially_paid_invoice" : "Partially Paid invoices",
+    "unpaid_invoices" : "Unpaid Invoices",
+    "cancel" : "Cancel",
+    "no_specific_invoice_found":"No {tab_Selected} found",
+    "tab_Selected":"{tab_Selected}"
+  },
+
+  "create_invoice":{
+    "change_template" : "Change Template",
+    "choose_template" : "Choose Template",
+    "create_invoice" : "Create Invoice",
+    "update_invoice" : "Update Invoice",
+    "business_information" : "Business Information",
+    "info" : "INFO",
+    "invoice" : "Invoice",
+    "invoice_number":"Invoice# {number}",
+    "due_date":"DUE DATE",
+    "add_customer":"ADD CUSTOMER",
+    "add_item":"ADD ITEM",
+    "sub_total":"Sub Total",
+    "delivery_charges":"Delivery Charges",
+    "grand_total":"Grand Total",
+    "paid_amount":"Paid Amount",
+    "total_amount_due":"Total Amount Due",
+    "add_payment_methods":"Add Payment Methods",
+    "terms":"Terms",
+    "other_notes":"Other Notes",
+    "discount":"Discount",
+    "discount_percent":"Discount Percent",
+    "bill_to":"Bill to",
+    "save":"Save",
+    "preview":"Preview",
+    "sub_title":"{quantity} {hello} {price}"
+  },
+
+  "info_sheet":{
+    "invoice_info" : "Invoice Info",
+    "edit_info" : "   Edit Info   ",
+    "due_date":"DUE DATE",
+    "current_date" : "Current Date"
+  },
+
+  "discount_sheet":{
+    "discount" : "Discount",
+    "discount_type" : "Discount Type",
+    "discount_percent" : "Discount Percent",
+    "discount_amount" : "Discount Amount",
+    "add_discount" : "Add Discount",
+    "select_discount_type" : "Select Discount Type"
+  },
+
+  "tax_sheet":{
+    "tax" : "Tax",
+    "TAX" : "TAX",
+    "label" : "Label",
+    "rate" : "Rate",
+    "add_tax" : "Add Tax"
+  },
+
+
+  "delivery_sheet":{
+    "delivery_charges" : "Delivery Charges",
+    "amount" : "Amount",
+    "add_charges" : "Add Charges"
+  },
+
+
+  "amount_sheet":{
+    "paid_amount" : "Paid Amount",
+    "amount" : "Amount",
+    "fill" : "Fill",
+    "note_amount_to_be_paid":"Note:  {amount} is to be paid",
+    "add_payment" : "Add Payment"
+  }
+}
+
+

@@ -1,0 +1,304 @@
+{
+  "language_name" : "عربى",
+  "app_name" : "مولد الفواتير السهل",
+
+
+  "languages":{
+    "arabic" : "عربى",
+    "danish" : "Danish",
+    "german" : "German",
+    "english" : "English",
+    "spanish" : "Spanish",
+    "estonian" : "Estonian",
+    "finnish" : "Finnish",
+    "filipino" : "Filipino",
+    "french" : "French(FR)" ,
+    "french_canadian" : "French (CA)",
+    "indonesian" : "Indonesian",
+    "italian" : "Italian",
+    "korean" : "Korean",
+    "malayalam" : "Malayalam",
+    "dutch" : "Dutch",
+    "portuguese_br" : "Português (BR)",
+    "portuguese_pt" : "Português (PT)",
+    "russian" : "Russian",
+    "swedish" : "Swedish",
+    "thai" : "Thai",
+    "turkish" : "Turkish",
+    "select_language": "اختر اللغة",
+    "set_language": "كامل"
+  },
+
+  "splash_text" : "مولد الفواتير السهل",
+  "loading_data" : "الرجاء الانتظار",
+  "reload" : "إعادة تحميل",
+  "continue" : "استمر",
+
+  "record_added_successfully" : "تمت إضافة السجل بنجاح",
+  "record_failed_to_add" : "فشل سجل آسف في الإضافة",
+  "file_not_generated" : "لم يتم إنشاء الملف ، انقر مرة أخرى بعد بضع ثوان",
+  "please_enter_valid_name" : "الرجاء إدخال اسم صالح",
+  "please_enter_valid_item_name" : "الرجاء إدخال اسم عنصر صالح",
+  "please_enter_valid_item_price" : "الرجاء إدخال سعر عنصر صالح",
+  "please_enter_valid_item_quantity" : "الرجاء إدخال كمية عنصر صالحة",
+
+
+  "please_enter_valid_values" : "يرجى أولا إضافة قيم صالحة",
+  "please_enter_valid_email" : "الرجاء إدخال بريد إلكتروني صحيح",
+  "please_enter_valid_title" : "الرجاء إدخال عنوان صالح",
+  "setting_updated_successfully" : "تم تحديث الإعداد بنجاح",
+  "invalid_values_check_value_or_quantity" :  "القيم غير صالحة ، تحقق من السعر أو قيمة الكمية",
+  "sorry_message_short" : "رسالة آسف قصيرة (15 حرفًا على الأقل)",
+  "please_enter_valid_business_name" : "الرجاء إدخال اسم عمل صالح",
+  "first_complete_invoice_details" : "أول تفاصيل الفاتورة كاملة",
+  "feedback_thank_message" : "شكرا جزيلا لك !، نحن نقدر بصدق رؤيتك لأنها تساعدنا على بناء تجربة عملاء أفضل.",
+  "paid_amount_should_be_equal_less" : "يجب أن يكون المبلغ المدفوع مساوياً أو أقل من المبلغ الإجمالي",
+  "please_provide_all_values" : "يرجى تقديم جميع القيم",
+
+
+  "please_enter_amount_less":"تفضل {amount} كمية أو أقل",
+
+
+
+  "country_select" : {
+    "select_country" : "حدد الدولة",
+    "enter_country_name" : "أدخل اسم الدولة"
+  },
+
+
+
+  "bottomsheet": {
+    "close_app": "أغلق التطبيق",
+    "cancel": "يلغي",
+    "edit": "يحرر",
+    "delete": "حذف",
+    "confirm_delete": "تأكيد الحذف",
+    "view": "رأي",
+    "update": "تحديث"
+  },
+
+  "dashboard": {
+    "business": "التجاريه",
+    "home": "صفحة رئيسية",
+    "customers": "الزبائن",
+    "product": "منتج"
+  },
+
+  "feedback": {
+    "feedback": "استجابة",
+    "no_feedback_found": "اكتب ملاحظاتك عن طريق النقر فوق زر كتابة الملاحظات",
+    "write_feedback": "اكتب ملاحظاتك",
+    "title": "عنوان",
+    "email": "البريد الإلكتروني",
+    "message": "رسالة",
+    "send": "إرسال",
+    "response": "إجابة"
+  },
+
+  "setting": {
+    "invoice_setting": "إعداد الفاتورة",
+    "default_currency": "العملة الافتراضية",
+    "number_formate": "تنسيق الأرقام",
+    "date_formate": "صيغة التاريخ",
+    "payment_method": "طريقة الدفع او السداد",
+    "privacy_policy": "سياسة الخصوصية",
+    "rate_us": "قيمنا",
+    "share_app": "شارك التطبيق",
+    "save": "يحفظ",
+    "due_term": "مدة الاستحقاق"
+  },
+
+  "items": {
+    "select_product": "حدد المنتج",
+    "item": "العنصر",
+    "from_list": "  من القائمة  ",
+    "update_item": "تحديث البند",
+    "add_item": "اضافة عنصر",
+    "item_name": "اسم العنصر",
+    "price_per_item": "السعر للسلعة الواحدة",
+    "enter_description": "أدخل الوصف",
+    "quantity": "كمية",
+    "discount": "تخفيض",
+    "type": "يكتب",
+    "taxable": "خاضع للضريبة %",
+    "tax_rate": "معدل الضريبة",
+    "add_item_to_list": "إضافة عنصر إلى قائمتك ؟",
+    "description": "وصف",
+    "add": "يضيف",
+    "update": "تحديث",
+    "edit": "   يحرر   ",
+    "show_item_details": "إظهار ديتيالس البند",
+    "no_item" : "لا توجد عناصر مضافة بعد \nأضف العناصر بالنقر فوق زر +",
+
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} items?"
+  },
+
+  "business": {
+    "select_business": "حدد التجاريه",
+    "business": "التجاريه",
+    "logo": "شعار",
+    "stamp_opt": "ختم ( اختياري )",
+    "signature_opt": "التوقيع ( اختياري )",
+    "name": "اسم",
+    "business_name": "الاسم التجاري",
+    "designation_opt": "تعيين ( اختياري )",
+    "email_opt": "البريد الإلكتروني ( اختياري )",
+    "phone_opt": "هاتف ( اختياري )",
+    "enter_address": "أدخل العنوان ( اختياري )",
+    "enter_city": "أدخل المدينة ( اختياري )",
+    "zip_code_opt": "الرمز البريدي ( اختياري )",
+    "enter_country": "أدخل الدولة ( اختياري )",
+    "business_website_opt": "موقع الأعمال التجارية ( اختياري )",
+
+    "stamp": "ختم",
+    "signature": "التوقيع",
+    "designation": "تعيين",
+    "email": "البريد الإلكتروني",
+    "phone": "هاتف",
+    "address": "العنوان",
+    "city": "المدينة",
+    "zip_code": "الرمز البريدي",
+    "country": "دولة",
+    "business_website": "موقع الأعمال التجارية",
+
+    "update_business": "تحديث التجاريه",
+    "add_business": "إضافة التجاريه",
+    "no_business" : "لم تتم إضافة أعمال حتى الآن\nإضافة الأعمال عن طريق النقر فوق زر +",
+    "show_business_details" : "إظهار تفاصيل العمل",
+
+    "edit" :  "  يحرر  "
+  },
+
+  "customer": {
+    "select_customer": "حدد العميل",
+    "customer": "عميل",
+    "update_customer": "تحديث العميل",
+    "add_customer": "أضف الزبون",
+    "customer_name": "اسم الزبون",
+
+    "enter_name" : "أدخل الاسم",
+    "enter_phone_number" : "أدخل رقم الهاتف",
+    "enter_address" : "أدخل العنوان",
+    "enter_billing_address" : "أدخل عنوان الفوترة",
+
+    "show_customer_details" : "إظهار تفاصيل العميل",
+    "name" : "اسم",
+    "phone_number" : "رقم الهاتف",
+    "address" : "تبوك",
+    "billing_address" : "عنوان وصول الفواتير",
+    "edit" :  "  يحرر  ",
+    "no_customer" : "لم تتم إضافة أي عملاء حتى الآن\nإضافة العملاء عن طريق النقر فوق زر +",
+
+
+    "update": "Update",
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} Customer?"
+  },
+
+  "payment": {
+    "select_payment": "اختار طريقة الدفع",
+    "payment": "دفع",
+    "update_payment": "تحديث طريقة الدفع",
+    "add_payment": "إضافة طريقة دفع",
+    "payment_method": "طريقة الدفع او السداد",
+    "details": "تفاصيل",
+    "no_payment" : "لم يتم إضافة طرق الدفع حتى الآن\nأضف طرق الدفع بالضغط على زر +"
+  },
+
+  "show_invoices":{
+    "create_invoice" : "إنشاء فاتورة",
+    "select_category" : "اختر الفئة",
+
+    "dashboard_title" : "إنشاء فاتورة مهنية لعملك!",
+    "no_invoice_found" : "لم تتم إضافة فاتورة حتى الآن",
+    "no_paid_invoice_found" : "لم تتم إضافة فاتورة مدفوعة حتى الآن",
+    "no_partially_paid_invoice_found" : "لم تتم إضافة فاتورة مدفوعة جزئيا حتى الآن",
+    "no_unpaid_invoice_found" : "لم تتم إضافة فاتورة مدفوعة حتى الآن",
+    "cancel" : "يلغي",
+
+    "all_invoice" : "جميع الفواتير",
+    "paid_invoice" : "الفواتير المدفوعة",
+    "partially_paid_invoice" : "الفواتير المدفوعة جزئيا",
+    "unpaid_invoices" : "الفواتير غير المدفوعة",
+
+    "no_specific_invoice_found":"لا {tab_Selected} أنشأ"
+  },
+
+  "create_invoice":{
+    "change_template" : "تغيير القالب",
+    "choose_template" : "اختيار القالب",
+    "create_invoice" : "إنشاء فاتورة",
+    "update_invoice" : "تحديث الفاتورة",
+    "business_information" : "معلومات التجاريه",
+    "info" : "معلومات",
+    "invoice" : "فاتورة",
+    "invoice_number":"فاتورة# {number}",
+    "due_date":"تاريخ الاستحقاق",
+    "add_customer":"أضف العميل",
+    "add_item":"اضافة عنصر",
+    "sub_total":"المجموع الفرعي",
+    "delivery_charges":"رسوم التوصيل",
+    "grand_total":"المبلغ الإجمالي",
+    "paid_amount":"المبلغ المدفوع",
+    "total_amount_due":"إجمالي المبلغ المستحق",
+    "add_payment_methods":"أضف طرق الدفع",
+    "terms":"شروط",
+    "other_notes":"الملاحظات الأخرى",
+    "discount":"تخفيض",
+    "discount_percent":"نسبة الخصم",
+    "bill_to" : "مشروع قانون إلى",
+    "save":"يحفظ",
+    "preview":"معاينة",
+    "sub_title":"{quantity} {hello} {price}"
+
+  },
+
+  "info_sheet":{
+    "invoice_info" : "معلومات الفاتورة",
+    "edit_info" : "   تعديل المعلومات   ",
+    "due_date":"تاريخ الاستحقاق",
+    "current_date" : "التاريخ الحالي"
+  },
+
+
+  "discount_sheet":{
+    "discount" : "تخفيض",
+    "discount_type" : "تخفيض يكتب",
+    "discount_percent" : "تخفيض نسبه مئويه",
+    "discount_amount" : "تخفيض مقدار",
+    "add_discount" : "اضافة تخفيض",
+    "select_discount_type" : "حدد نوع الخصم"
+   },
+
+  "tax_sheet":{
+    "tax" : "ضريبة",
+    "TAX" : "ضريبة",
+    "label" : "مُلصَق",
+    "rate" : "معدل",
+    "add_tax" : "اضافة ضريبة"
+  },
+
+  "delivery_sheet":{
+    "delivery_charges" : "رسوم التوصيل",
+    "amount" : "مقدار",
+    "add_charges" : "اضافة الرسوم"
+  },
+
+
+  "amount_sheet":{
+    "paid_amount" : "المبلغ المدفوع",
+    "amount" : "مقدار",
+    "fill" : "يملأ",
+    "note_amount_to_be_paid":"ملحوظة:  {amount} هو أن تدفع",
+    "add_payment" : "إضافة الدفع"
+  }
+
+
+}
+
+

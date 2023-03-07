@@ -1,0 +1,300 @@
+{
+  "language_name" : "Russian",
+  "app_name" : "Простой генератор счетов",
+
+
+  "languages":{
+    "arabic" : "عربى",
+    "danish" : "Danish",
+    "german" : "German",
+    "english" : "English",
+    "spanish" : "Spanish",
+    "estonian" : "Estonian",
+    "finnish" : "Finnish",
+    "filipino" : "Filipino",
+    "french" : "French(FR)" ,
+    "french_canadian" : "French (CA)",
+    "indonesian" : "Indonesian",
+    "italian" : "Italian",
+    "korean" : "Korean",
+    "malayalam" : "Malayalam",
+    "dutch" : "Dutch",
+    "portuguese_br" : "Português (BR)",
+    "portuguese_pt" : "Português (PT)",
+    "russian" : "Russian",
+    "swedish" : "Swedish",
+    "thai" : "Thai",
+    "turkish" : "Turkish",
+    "select_language": "Select language",
+    "set_language": "Done"
+  },
+
+
+  "splash_text" : "Простой генератор счетов",
+  "loading_data" : "Подождите",
+  "reload" : "Перезаряжать",
+  "continue" : "Продолжать",
+  
+
+  "record_added_successfully" : "Запись успешно добавлена",
+  "record_failed_to_add" : "Извините запись не удалось добавить",
+  "file_not_generated" : "Файл не сгенерирован, нажмите еще раз через несколько секунд",
+  "please_enter_valid_name" : "Пожалуйста, введите действительное имя",
+  "please_enter_valid_item_name" : "Пожалуйста, введите допустимое название товара",
+  "please_enter_valid_item_price" : "Пожалуйста, введите действительную цену товара",
+  "please_enter_valid_item_quantity" : "Пожалуйста, введите действительное количество товара",
+
+
+  "please_enter_valid_values" : "Пожалуйста, сначала добавьте допустимые значения",
+  "please_enter_valid_email" : "Пожалуйста, введите действительный адрес электронной почты",
+  "please_enter_valid_title" : "Пожалуйста, введите действительное название",
+  "setting_updated_successfully" : "Настройка успешно обновлена",
+  "invalid_values_check_value_or_quantity" :  "Значения недопустимы, проверьте цену или количество",
+  "sorry_message_short" : "Извините, что сообщение короткое (мин. 15 символов)",
+  "please_enter_valid_business_name" : "Пожалуйста, введите действительное название компании",
+  "first_complete_invoice_details" : "Первые полные реквизиты счета-фактуры",
+  "feedback_thank_message" : "Большое спасибо!, Мы искренне ценим ваше понимание, потому что это помогает нам улучшить качество обслуживания клиентов.",
+  "paid_amount_should_be_equal_less" : "Выплаченная сумма должна быть равна или меньше общей суммы",
+  "please_provide_all_values" : "Пожалуйста, укажите все значения",
+
+
+  "please_enter_amount_less":"Пожалуйста, введите {amount} количество или меньше",
+
+
+  "country_select" : {
+    "select_country": "Выберите страну",
+    "enter_country_name": "Введите название страны"
+  },
+
+
+
+  "bottomsheet": {
+    "close_app": "Закрыть приложение",
+    "cancel": "Отмена",
+    "edit": "Редактировать",
+    "confirm_delete": "Подтвердить удаление",
+    "delete": "Удалить",
+    "view": "Вид",
+    "update": "Обновлять"
+  },
+
+  "dashboard": {
+     "business": "Дело",
+    "home": "Дом",
+    "customers": "Клиентов",
+    "product": "Продукт"
+  },
+
+
+
+  "feedback": {
+    "feedback": "Обратная связь",
+    "no_feedback_found": "Напишите свой отзыв, нажав кнопку «Написать отзыв»",
+    "write_feedback": "Написать отзыв",
+    "title": "Титул",
+    "email": "Отправить по электронной почте",
+    "message": "Сообщение",
+    "send": "Отправить",
+    "response": "Ответ"
+  },
+
+  "setting": {
+    "invoice_setting": "Настройка счета-фактуры",
+    "default_currency": "Валюта по умолчанию",
+    "number_formate": "Номер Формат",
+    "date_formate": "Дата Формат",
+    "payment_method": "Способ оплаты",
+    "privacy_policy": "Политика конфиденциальности",
+    "rate_us": "Оцените нас",
+    "share_app": "Поделиться приложением",
+    "save": "Спасать",
+    "due_term": "Срок действия"
+  },
+
+  "items": {
+    "select_product": "Выберите продукт",
+    "item": "Пункт",
+    "from_list": "  Из списка  ",
+    "update_item": "Обновить элемент",
+    "add_item": "Добавить элемент",
+    "item_name": "Название элемента",
+    "price_per_item": "Цена за единицу товара",
+    "enter_description": "Введите описание",
+    "quantity": "Количество",
+    "discount": "Скидка",
+    "type": "Тип",
+    "taxable": "Облагаемый налогом %",
+    "tax_rate": "Налоговая ставка",
+    "add_item_to_list": "Добавить товар в свой список ?",
+    "description": "Приметы",
+    "add": "Добавлять",
+    "update": "Обновлять",
+    "edit": "   Редактировать   ",
+    "show_item_details": "Показать детали товара",
+    "no_item" : "Элементы еще не добавлены\nДобавление элементов нажатием кнопки +",
+
+
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} items?"
+  },
+
+  "business": {
+    "select_business": "Выберите бизнес",
+    "business": "Дело",
+    "logo": "Лого",
+    "stamp_opt": "Штамп ( Опционально )",
+    "signature_opt": "Подпись ( Необязательно )",
+    "name": "Имя",
+    "business_name": "Фирменное наименование",
+    "designation_opt": "Обозначение (опционально)",
+    "email_opt": "Электронная почта ( Необязательно )",
+    "phone_opt": "Телефон ( опционально )",
+    "enter_address": "Введите адрес (необязательно)",
+    "enter_city": "Введите город (необязательно)",
+    "zip_code_opt": "Почтовый индекс (необязательно)",
+    "enter_country": "Введите страну (необязательно)",
+    "business_website_opt": "Бизнес-сайт ( Необязательно )",
+    "stamp": "Штемпель",
+    "signature": "Подпись",
+    "designation": "Обозначение",
+    "email": "Отправить по электронной почте",
+    "phone": "Телефон",
+    "address": "Обозначение",
+    "city": "Город",
+    "zip_code": "Почтовый индекс",
+    "country": "Страна",
+    "business_website": "Бизнес-сайт",
+    "update_business": "Обновление бизнеса",
+    "add_business": "Добавить бизнес",
+    "no_business" : "Бизнес еще не добавлен\nДобавьте компанию, нажав кнопку +",
+    "show_business_details" : "Показать детали бизнеса",
+    "edit" :  "  Редактировать  "
+  },
+
+
+  "customer": {
+    "select_customer": "Выберите клиента",
+    "customer": "Клиент",
+    "update_customer": "Обновить клиента",
+    "add_customer": "Добавить клиента",
+    "customer_name": "Имя клиента",
+    "enter_name" : "Введите имя",
+    "enter_phone_number" : "Введите номер телефона",
+    "enter_address" : "Введите адрес",
+    "enter_billing_address" : "Введите платежный адрес",
+    "show_customer_details" : "Показать сведения о клиенте",
+    "name" : "Имя",
+    "phone_number" : "Номер телефона",
+    "address" : "Адрес",
+    "billing_address" : "Платежный адрес",
+    "edit" :  "  Редактировать  ",
+    "no_customer" : "Клиенты еще не добавлены\nДобавление клиентов нажатием кнопки +",
+
+    "update": "Update",
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} Customer?"
+  },
+
+  "payment": {
+    "select_payment": "Выберите способ оплаты",
+    "payment": "Уплата",
+    "update_payment": "Обновить способ оплаты",
+    "add_payment": "Добавить способ оплаты",
+    "payment_method": "Способ оплаты",
+    "details": "Подробности",
+    "no_payment" : "Способы оплаты еще не добавлены\nДобавьте способы оплаты, нажав кнопку +"
+  },
+
+
+
+  "show_invoices":{
+    "select_category" : "Выберите категорию",
+    "create_invoice" : "Создать счет-фактуру",
+    "dashboard_title" : "Создайте профессиональный счет для вашего бизнеса!",
+    "no_invoice_found" : "Счет еще не добавлен",
+    "no_paid_invoice_found" : "Оплаченный счет еще не добавлен",
+    "no_partially_paid_invoice_found" : "Частично оплаченный счет еще не добавлен",
+    "no_unpaid_invoice_found" : "Оплаченный счет еще не добавлен",
+    "all_invoice" : "Все счета-фактуры",
+    "paid_invoice" : "Оплаченные счета",
+    "partially_paid_invoice" : "Частично оплаченные счета",
+    "unpaid_invoices" : "Неоплаченные счета",
+    "cancel" : "Отмена",
+    "no_specific_invoice_found":"Нет {tab_Selected} основывать",
+    "tab_Selected":"{tab_Selected}"
+  },
+
+  "create_invoice":{
+    "change_template" : "Изменить шаблон",
+    "choose_template" : "Выберите шаблон",
+    "create_invoice" : "Создать счет-фактуру",
+    "update_invoice" : "Обновить счет-фактуру",
+    "business_information" : "Деловая информация",
+    "info" : "ИНФОРМАЦИЯ",
+    "invoice" : "Накладная",
+    "invoice_number":"Накладная# {number}",
+    "due_date":"СРОК",
+    "add_customer":"ДОБАВИТЬ КЛИЕНТА",
+    "add_item":"ДОБАВИТЬ ЭЛЕМЕНТ",
+    "sub_total":"Суб-итог",
+    "delivery_charges":"Стоимость доставки",
+    "grand_total":"Общий итог",
+    "paid_amount":"Оплаченная сумма",
+    "total_amount_due":"Общая сумма задолженности",
+    "add_payment_methods":"Добавление способов оплаты",
+    "terms":"Условия",
+    "other_notes":"Другие примечания",
+    "discount":"Скидка",
+    "discount_percent":"Процент скидки",
+    "bill_to":"Счет на",
+    "save":"Спасать",
+    "preview":"Предварительный просмотр",
+    "sub_title":"{quantity} {hello} {price}"
+  },
+
+  "info_sheet":{
+    "invoice_info" : "Информация о счете-фактуре",
+    "edit_info" : "   Редактировать информацию   ",
+    "due_date":"СРОК",
+    "current_date" : "Текущая дата"
+  },
+
+  "discount_sheet":{
+    "discount" : "Текущая дата",
+    "discount_type" : "Тип скидки",
+    "discount_percent" : "Процент скидки",
+    "discount_amount" : "Сумма скидки",
+    "add_discount" : "Добавить скидку",
+    "select_discount_type" : "Выберите тип скидки"
+  },
+
+  "tax_sheet":{
+    "tax" : "Налог",
+    "TAX" : "НАЛОГ",
+    "label" : "Ярлык",
+    "rate" : "Скорость",
+    "add_tax" : "Добавить налог"
+  },
+
+
+  "delivery_sheet":{
+    "delivery_charges" : "Стоимость доставки",
+    "amount" : "Количество",
+    "add_charges" : "Добавить сборы"
+  },
+
+
+  "amount_sheet":{
+    "paid_amount" : "Оплаченная сумма",
+    "amount" : "Количество",
+    "fill" : "Заполнять",
+    "note_amount_to_be_paid":"Заметка:  {amount} подлежит оплате",
+    "add_payment" : "Добавить платеж"
+  }
+}
+
+

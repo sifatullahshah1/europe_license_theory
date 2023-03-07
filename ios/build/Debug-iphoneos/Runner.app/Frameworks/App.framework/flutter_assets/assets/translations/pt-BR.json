@@ -1,0 +1,296 @@
+{
+  "language_name" : "Português",
+  "app_name" : "Gerador de faturas fácil",
+
+
+  "languages":{
+    "arabic" : "عربى",
+    "danish" : "Danish",
+    "german" : "German",
+    "english" : "English",
+    "spanish" : "Spanish",
+    "estonian" : "Estonian",
+    "finnish" : "Finnish",
+    "filipino" : "Filipino",
+    "french" : "French(FR)" ,
+    "french_canadian" : "French (CA)",
+    "indonesian" : "Indonesian",
+    "italian" : "Italian",
+    "korean" : "Korean",
+    "malayalam" : "Malayalam",
+    "dutch" : "Dutch",
+    "portuguese_br" : "Português (BR)",
+    "portuguese_pt" : "Português (PT)",
+    "russian" : "Russian",
+    "swedish" : "Swedish",
+    "thai" : "Thai",
+    "turkish" : "Turkish",
+    "select_language": "Selecionar idioma",
+    "set_language": "Done"
+  },
+
+
+  "splash_text" : "Gerador de faturas fácil",
+  "loading_data" : "Aguarde",
+  "reload" : "Recarregar",
+  "continue" : "Continuar",
+
+  "record_added_successfully" : "Registro adicionado com êxito",
+  "record_failed_to_add" : "Lamentar registro falhou ao adicionar",
+  "file_not_generated" : "Arquivo não gerado, toque novamente depois de alguns segundos",
+  "please_enter_valid_name" : "Introduza um nome válido",
+  "please_enter_valid_item_name" : "Insira o nome do item válido",
+  "please_enter_valid_item_price" : "Introduza o preço do artigo válido",
+  "please_enter_valid_item_quantity" : "Insira a quantidade de item válida",
+
+  "please_enter_valid_values" : "Primeiro, adicione valores válidos",
+  "please_enter_valid_email" : "Introduza um e-mail válido",
+  "please_enter_valid_title" : "Introduza um título válido",
+  "setting_updated_successfully" : "Configuração atualizada com êxito",
+  "invalid_values_check_value_or_quantity" :  "Os valores são inválidos, verifique o preço ou o valor da quantidade",
+  "sorry_message_short" : "Desculpe mensagem é para curto (min 15 Caracteres)",
+  "please_enter_valid_business_name" : "Introduza um nome comercial válido",
+  "first_complete_invoice_details" : "Primeiro completar os detalhes da fatura",
+  "feedback_thank_message" : "Um grande obrigado!, Agradecemos sinceramente a sua visão porque nos ajuda a construir uma melhor experiência do cliente.",
+  "paid_amount_should_be_equal_less" : "O valor pago deve ser igual ou menor que o valor total",
+  "please_provide_all_values" : "Por favor, forneça todos os valores",
+  "please_enter_amount_less":"Please Digite {amount} quantidade ou menos",
+
+
+  "country_select" : {
+    "select_country": "Selecione o país",
+    "enter_country_name": "Digite o nome do País"
+  },
+
+
+  "bottomsheet": {
+    "close_app": "Fechar aplicativo",
+    "cancel": "Cancelar",
+    "edit": "Editá",
+    "confirm_delete": "Confirmar exclusão",
+    "delete": "Excluir",
+    "view": "Vista",
+    "update": "Atualização"
+  },
+
+  "dashboard": {
+    "business": "Negócio",
+    "home": "página principal",
+    "customers": "Clientes",
+    "product": "Produto"
+  },
+
+
+
+  "feedback": {
+    "feedback": "gabarito",
+    "no_feedback_found": "Escreva seus comentários clicando no botão Escrever comentários",
+    "write_feedback": "Escrever gabarito",
+    "title": "Título",
+    "email": "correio eletrónico",
+    "message": "Mensagem",
+    "send": "Enviar",
+    "response": "Resposta"
+  },
+
+  "setting": {
+    "invoice_setting": "Configuração de fatura",
+    "default_currency": "Moeda padrão",
+    "number_formate": "Formato numérico",
+    "date_formate": "Formato de data",
+    "payment_method": "Método de Pagamento",
+    "privacy_policy": "Política de privacidade",
+    "rate_us": "Avalie-nos",
+    "share_app": "Compartilhar aplicativo",
+    "save": "Salvar",
+    "due_term": "Prazo de Vencimento"
+  },
+
+  "items": {
+    "select_product": "Selecione o produto",
+    "item": "Item",
+    "from_list": "  Da lista  ",
+    "update_item": "Item de atualização",
+    "add_item": "Adicionar item",
+    "item_name": "Nome do item",
+    "price_per_item": "Preço por item",
+    "enter_description": "Digite a descrição",
+    "quantity": "Quantidade",
+    "discount": "Desconto",
+    "type": "Tipo",
+    "taxable": "Tributável %",
+    "tax_rate": "Taxa de Imposto",
+    "add_item_to_list": "Adicionar item à sua lista?",
+    "description": "descrição",
+    "add": "Adicionar",
+    "update": "Atualização",
+    "edit": "   Editá   ",
+    "show_item_details": "Mostrar Itens",
+    "no_item" : "Nenhum item adicionado ainda\nAdicionar itens clicando no botão +",
+
+
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} items?"
+  },
+
+  "business": {
+    "select_business": "Selecione Empresa",
+    "business": "Empresa",
+    "logo": "Logotipo",
+    "stamp_opt": "Selo ( Opcional )",
+    "signature_opt": "Assinatura ( Opcional )",
+    "name": "Nome",
+    "business_name": "Empresa Nome",
+    "designation_opt": "Designação ( Opcional )",
+    "email_opt": "Email ( Opcional )",
+    "phone_opt": "Telefone ( Opcional )",
+    "enter_address": "Digite Endereço ( Opcional )",
+    "enter_city": "Digite Cidade ( Opcional )",
+    "zip_code_opt": "cep ( Opcional )",
+    "enter_country": "Digite País ( Opcional )",
+    "business_website_opt": "Empresa Sítio Web ( Opcional )",
+    "stamp": "Selo",
+    "signature": "Assinatura",
+    "designation": "Designação",
+    "email": "Email",
+    "phone": "Telefone",
+    "address": "Endereço",
+    "city": "Cidade",
+    "zip_code": "cep",
+    "country": "País",
+    "business_website": "Empresa Sítio Web",
+    "update_business": "Atualização Empresa",
+    "add_business": "Adicionar Empresa",
+    "no_business" : "Nenhuma Empresa adicionada ainda\nAdicionar Empresa clicando no botão +",
+    "show_business_details" : "Show Empresa Details",
+    "edit" :  "  Editá  "
+  },
+
+
+  "customer": {
+    "select_customer": "Selecione Cliente",
+    "customer": "Cliente",
+    "update_customer": "Atualização Cliente",
+    "add_customer": "Adicionar Cliente",
+    "customer_name": "Cliente Nome",
+    "enter_name" : "Digite Nome",
+    "enter_phone_number" : "Digite Telefone",
+    "enter_address" : "Digite Endereço",
+    "enter_billing_address" : "Digite Billing Endereço",
+    "show_customer_details" : "Mostrar Cliente Detalhes",
+    "name" : "Nome",
+    "phone_number" : "Telefone",
+    "address" : "Endereço",
+    "billing_address" : "Billing Endereço",
+    "edit" :  "  Editá  ",
+    "no_customer" : "Nenhum cliente adicionado ainda\nAdicionar Clientes clicando no botão +",
+
+    "update": "Update",
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} Customer?"
+  },
+
+
+  "payment": {
+    "select_payment": "Selecione Pagamento Método",
+    "payment": "Pagamento",
+    "update_payment": "Atualização Pagamento Método",
+    "add_payment": "Adicionar Pagamento Método",
+    "payment_method": "Método de Pagamento",
+    "details": "Detalhes",
+    "no_payment" : "Nenhum método de pagamento adicionado ainda\nAdicionar Métodos de Pagamento clicando no botão +"
+  },
+
+
+
+  "show_invoices":{
+    "select_category" : "Selecione Categoria",
+    "create_invoice" : "Criar fatura",
+    "dashboard_title" : "Crie uma fatura profissional para o seu Empresa!",
+    "no_invoice_found" : "Nenhuma fatura adicionada ainda",
+    "no_paid_invoice_found" : "Nenhuma fatura paga adicionada ainda",
+    "no_partially_paid_invoice_found" : "Nenhuma fatura parcialmente paga adicionada ainda",
+    "no_unpaid_invoice_found" : "Nenhuma fatura paga adicionada ainda",
+    "all_invoice" : "Todas as faturas",
+    "paid_invoice" : "Faturas pagas",
+    "partially_paid_invoice" : "Faturas parcialmente pagas",
+    "unpaid_invoices" : "Faturas não pagas",
+    "cancel" : "Cancelar",
+    "no_specific_invoice_found":"Não {tab_Selected} Encontrado",
+    "tab_Selected":"{tab_Selected}"
+  },
+
+  "create_invoice":{
+    "change_template" : "Alterar modelo",
+    "choose_template" : "Escolha o modelo",
+    "create_invoice" : "Criar fatura",
+    "update_invoice" : "Atualização Fatura",
+    "business_information" : "Empresa Informação",
+    "info" : "INFORMAÇÃO",
+    "invoice" : "Fatura",
+    "invoice_number":"Fatura# {number}",
+    "due_date":"DATA DE VENCIMENTO",
+    "add_customer":"Adicionar Cliente",
+    "add_item":"Adicionar ITEM",
+    "sub_total":"Sub Total",
+    "delivery_charges":"Entrega Encargos",
+    "grand_total":"Total Geral",
+    "paid_amount":"Valor Pago",
+    "total_amount_due":"Valor Total Devido",
+    "add_payment_methods":"Adicionar Método de Pagamento",
+    "terms":"Termos",
+    "other_notes":"Outras Notas",
+    "discount":"Desconto",
+    "discount_percent":"Porcentagem de desconto",
+    "bill_to":"Faturar para",
+    "save":"Salvar",
+    "preview":"Visualização",
+    "sub_title":"{quantity} {hello} {price}"
+  },
+
+  "info_sheet":{
+    "invoice_info" : "Fatura INFORMAÇÃO",
+    "edit_info" : "   Editá INFORMAÇÃO   ",
+    "due_date":"DATA DE VENCIMENTO",
+    "current_date" : "Data atual"
+  },
+
+  "discount_sheet":{
+    "discount" : "Desconto",
+    "discount_type" : "Desconto Tipo",
+    "discount_percent" : "Desconto Por cento",
+    "discount_amount" : "Desconto Amount",
+    "add_discount" : "Adicionar Desconto",
+    "select_discount_type" : "Selecione Desconto Tipo"
+  },
+
+  "tax_sheet":{
+    "tax" : "Imposto",
+    "TAX" : "Imposto",
+    "label" : "Etiqueta",
+    "rate" : "Avaliar",
+    "add_tax" : "Adicionar Imposto"
+  },
+
+
+  "delivery_sheet":{
+    "delivery_charges" : "Entrega Encargos",
+    "amount" : "Quantidade",
+    "add_charges" : "Adicionar Encargos"
+  },
+
+
+  "amount_sheet":{
+    "paid_amount" : "Valor Pago",
+    "amount" : "Quantidade",
+    "fill" : "Encher",
+    "note_amount_to_be_paid":"Nota:  {amount} deve ser pago",
+    "add_payment" : "Adicionar Payment"
+  }
+}
+
+

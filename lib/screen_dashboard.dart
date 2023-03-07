@@ -1,11 +1,10 @@
-import 'dart:async';
 import 'dart:io';
 
 import 'package:easy_localization/easy_localization.dart';
 import 'package:europe_license_theory/app_theme_work/theme_colors.dart';
 import 'package:europe_license_theory/app_theme_work/theme_texts.dart';
 import 'package:europe_license_theory/app_theme_work/widgets_reusing.dart';
-import 'package:europe_license_theory/utilities/constant_functions.dart';
+import 'package:europe_license_theory/utilities/app_assets.dart';
 import 'package:europe_license_theory/utilities/language_controller.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -189,8 +188,8 @@ class _ScreenDashboardState extends State<ScreenDashboard>
                         tab_index = 0;
                         tabController.index = tab_index;
                       },
-                      // child: GetNavIcon(
-                      //     AppAssets.home_icon, 0, "dashboard.home".tr()),
+                      child: GetNavIcon(
+                          AppAssets.home_icon, 0, "dashboard.home".tr()),
                     ),
                     InkWell(
                       onTap: () {
@@ -205,8 +204,8 @@ class _ScreenDashboardState extends State<ScreenDashboard>
                         tab_index = 2;
                         tabController.index = tab_index;
                       },
-                      // child: GetNavIcon(
-                      //     AppAssets.client_icon, 2, "dashboard.customers".tr()),
+                      child: GetNavIcon(
+                          AppAssets.client_icon, 2, "dashboard.customers".tr()),
                     ),
                     InkWell(
                       onTap: () {

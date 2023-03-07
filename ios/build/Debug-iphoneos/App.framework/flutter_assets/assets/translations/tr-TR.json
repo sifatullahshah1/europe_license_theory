@@ -1,0 +1,298 @@
+{
+  "language_name" : "Turkish",
+  "app_name" : "Kolay Fatura Jeneratörü",
+
+
+  "languages":{
+    "arabic" : "عربى",
+    "danish" : "Danish",
+    "german" : "German",
+    "english" : "English",
+    "spanish" : "Spanish",
+    "estonian" : "Estonian",
+    "finnish" : "Finnish",
+    "filipino" : "Filipino",
+    "french" : "French(FR)" ,
+    "french_canadian" : "French (CA)",
+    "indonesian" : "Indonesian",
+    "italian" : "Italian",
+    "korean" : "Korean",
+    "malayalam" : "Malayalam",
+    "dutch" : "Dutch",
+    "portuguese_br" : "Português (BR)",
+    "portuguese_pt" : "Português (PT)",
+    "russian" : "Russian",
+    "swedish" : "Swedish",
+    "thai" : "Thai",
+    "turkish" : "Turkish",
+    "select_language": "Dil seçin",
+    "set_language": "bitti"
+  },
+
+
+  "splash_text" : "Kolay Fatura Jeneratörü",
+  "loading_data" : "Lütfen bekleyin",
+  "reload" : "Yeni -den yükle",
+  "continue" : "Devam etmek",
+  
+
+  "record_added_successfully" : "Kayıt başarıyla eklendi",
+  "record_failed_to_add" : "Üzgünüm kaydı eklenemedi",
+  "file_not_generated" : "Dosya oluşturulmadı, birkaç saniye sonra tekrar dokunun",
+  "please_enter_valid_name" : "Lütfen geçerli bir ad giriniz",
+  "please_enter_valid_item_name" : "Lütfen geçerli öğe adını giriniz",
+  "please_enter_valid_item_price" : "Lütfen geçerli ürün fiyatını giriniz",
+  "please_enter_valid_item_quantity" : "Lütfen geçerli ürün miktarını giriniz",
+
+
+  "please_enter_valid_values" : "Lütfen önce geçerli değerler ekleyin",
+  "please_enter_valid_email" : "Lütfen geçerli bir e-posta adresi giriniz",
+  "please_enter_valid_title" : "Lütfen geçerli bir başlık giriniz",
+  "setting_updated_successfully" : "Ayar başarıyla güncellendi",
+  "invalid_values_check_value_or_quantity" : "Değerler geçersiz, fiyat veya miktar değerini kontrol et",
+  "sorry_message_short" : "Üzgünüm mesajı kısa (en az 15 karakter)",
+  "please_enter_valid_business_name" : "Lütfen geçerli işletme adını girin",
+  "first_complete_invoice_details" : "Fatura detaylarının tamamı",
+  "feedback_thank_message" : "Büyük Bir Teşekkür ederim!, İçgörünüzü içtenlikle takdir ediyoruz çünkü daha iyi bir müşteri deneyimi oluşturmamıza yardımcı oluyor.",
+  "paid_amount_should_be_equal_less" : "Ödenen tutar toplam tutara eşit veya daha az olmalıdır",
+  "please_provide_all_values" : "Lütfen tüm değerleri sağlayın",
+
+  "please_enter_amount_less":"Lütfen girin {amount} miktar veya daha az",
+
+
+  "country_select" : {
+    "select_country": "Ülke seçin",
+    "enter_country_name": "Ülke adını girin"
+  },
+
+
+
+  "bottomsheet": {
+    "close_app": "Uygulamayı Kapat",
+    "cancel": "İptal",
+    "edit": "Düzenlemek",
+    "confirm_delete": "Silmeyi Onayla",
+    "delete": "Silmek",
+    "view": "Görünüm",
+    "update": "Güncelleştirmek"
+  },
+
+  "dashboard": {
+     "business": "İş",
+    "home": "Ev",
+    "customers": "Müşteri",
+    "product": "Ürün"
+  },
+
+  "feedback": {
+    "feedback": "Geri besleme",
+    "no_feedback_found": "Geri bildirim yaz düğmesine tıklayarak geri bildiriminizi yazın",
+    "write_feedback": "Geri Bildirim Yazın",
+    "title": "Başlık",
+    "email": "E-posta",
+    "message": "İleti",
+    "send": "Gönder",
+    "response": "Yanıt"
+  },
+
+  "setting": {
+    "invoice_setting": "Fatura Ayarı",
+    "default_currency": "Varsayılan Para Birimi",
+    "number_formate": "Sayı Biçimi",
+    "date_formate": "Tarih Biçimi",
+    "payment_method": "Ödeme Yöntemi",
+    "privacy_policy": "Gizlilik Politikası",
+    "rate_us": "Bize Puan Verin",
+    "share_app": "Uygulamayı Paylaş",
+    "save": "Kurtarmak",
+    "due_term": "Vade Sonu"
+  },
+
+  "items": {
+    "select_product": "Ürün Seçiniz",
+    "item": "Madde",
+    "from_list": "  Listeden  ",
+    "update_item": "Güncelleme Öğesi",
+    "add_item": "Öğe Ekle",
+    "item_name": "Öğe Adı",
+    "price_per_item": "Öğe başına fiyat",
+    "enter_description": "Açıklama Girin",
+    "quantity": "Miktar",
+    "discount": "İskonto",
+    "type": "Tür",
+    "taxable": "Vergiye tabi %",
+    "tax_rate": "Vergi Oranı",
+    "add_item_to_list": "Listenize öğe ekleyin ?",
+    "description": "Tarif",
+    "add": "Eklemek",
+    "update": "Güncelleştirmek",
+    "edit": "   Düzenlemek   ",
+    "show_item_details": "Öğe detiallerini göster",
+    "no_item" : "Henüz öğe eklenmedi\n+ düğmesine tıklayarak öğe ekleme",
+
+
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} items?"
+  },
+
+  "business": {
+    "select_business": "İş Seçiniz",
+    "business": "İş",
+    "logo": "Logo",
+    "stamp_opt": "Damga ( İsteğe Bağlı )",
+    "signature_opt": "İmza ( İsteğe bağlı )",
+    "name": "Ad",
+    "business_name": "İşletme Adı",
+    "designation_opt": "Atama ( İsteğe Bağlı )",
+    "email_opt": "E-posta ( İsteğe Bağlı )",
+    "phone_opt": "Telefon ( İsteğe Bağlı )",
+    "enter_address": "Adres Girin ( İsteğe Bağlı )",
+    "enter_city": "Şehir Girin ( İsteğe Bağlı )",
+    "zip_code_opt": "Posta Kodu ( İsteğe Bağlı )",
+    "enter_country": "Ülke Girin ( İsteğe Bağlı )",
+    "business_website_opt": "İşletme Web Sitesi (İsteğe Bağlı)",
+    "stamp": "Pul",
+    "signature": "İmza",
+    "designation": "Atama",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "address": "Atama",
+    "city": "Şehir",
+    "zip_code": "Posta Kodu",
+    "country": "Ülke",
+    "business_website": "İşletme Web Sitesi",
+    "update_business": "Güncelleme İşi",
+    "add_business": "İş Ekle",
+    "no_business" : "Henüz işletme eklenmedi\n+ düğmesine tıklayarak işletme ekleme",
+    "show_business_details" : "İşletme Ayrıntılarını Göster",
+    "edit" :  "  Düzenlemek  "
+  },
+
+
+  "customer": {
+    "select_customer": "Müşteri Seç",
+    "customer": "Müşteri",
+    "update_customer": "Müşteriyi Güncelle",
+    "add_customer": "Müşteri Ekle",
+    "customer_name": "Müşteri Adı",
+    "enter_name" : "Adı Girin",
+    "enter_phone_number" : "Telefon Numarasını Girin",
+    "enter_address" : "Adres Girin",
+    "enter_billing_address" : "Fatura Adresini Girin",
+    "show_customer_details" : "Müşteri Bilgilerini Göster",
+    "name" : "Ad",
+    "phone_number" : "Telefon numarası",
+    "address" : "Adres",
+    "billing_address" : "Fatura Adresi",
+    "edit" :  "  Düzenlemek  ",
+    "no_customer" : "Henüz müşteri eklenmedi\n+ düğmesine tıklayarak Müşteri Ekleme",
+
+    "update": "Update",
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} Customer?"
+  },
+
+
+  "payment": {
+    "select_payment": "Ödeme Yöntemini Seçin",
+    "payment": "Ödeme",
+    "update_payment": "Ödeme Yöntemini Güncelle",
+    "add_payment": "Ödeme Yöntemi Ekle",
+    "payment_method": "Ödeme Yöntemi",
+    "details": "Şey",
+    "no_payment" : "Henüz Ödeme Yöntemi eklenmedi\n+ düğmesine tıklayarak Ödeme Yöntemleri ekleyin"
+  },
+
+
+
+  "show_invoices":{
+    "select_category" : "Kategori Seç",
+    "create_invoice" : "Fatura Oluştur",
+    "dashboard_title" : "İşletmeniz için profesyonel bir fatura oluşturun!",
+    "no_invoice_found" : "Henüz fatura eklenmedi",
+    "no_paid_invoice_found" : "Henüz ödenmiş fatura eklenmedi",
+    "no_partially_paid_invoice_found" : "Kısmen ödenmiş fatura henüz eklenmedi",
+    "no_unpaid_invoice_found" : "Henüz ödenmiş fatura eklenmedi",
+    "all_invoice" : "Tüm faturalar",
+    "paid_invoice" : "Ödenmiş faturalar",
+    "partially_paid_invoice" : "Kısmen ödenmiş faturalar",
+    "unpaid_invoices" : "Ödenmemiş Faturalar",
+    "cancel" : "İptal",
+    "no_specific_invoice_found":"Hayır {tab_Selected} kurmak",
+    "tab_Selected":"{tab_Selected}"
+  },
+
+  "create_invoice":{
+    "change_template" : "Şablonu Değiştir",
+    "choose_template" : "Şablon Seç",
+    "create_invoice" : "Fatura Oluştur",
+    "update_invoice" : "Faturayı Güncelleme",
+    "business_information" : "İş Bilgileri",
+    "info" : "BİLGİ",
+    "invoice" : "Fatura",
+    "invoice_number":"Fatura# {number}",
+    "due_date":"VADE TARİHİ",
+    "add_customer":"MÜŞTERİ EKLE",
+    "add_item":"ÖĞE EKLE",
+    "sub_total":"Alt Toplam",
+    "delivery_charges":"Teslimat Ücretleri",
+    "grand_total":"Genel Toplam",
+    "paid_amount":"Ödenen Tutar",
+    "total_amount_due":"Ödenmesi Gereken Toplam Tutar",
+    "add_payment_methods":"Ödeme Yöntemleri Ekle",
+    "terms":"Terim",
+    "other_notes":"Diğer Notlar",
+    "discount":"İskonto",
+    "discount_percent":"İndirim Yüzdesi",
+    "bill_to":"Fatura",
+    "save":"Kurtarmak",
+    "preview":"Önizleme",
+    "sub_title":"{quantity} {hello} {price}"
+  },
+
+  "info_sheet":{
+    "invoice_info" : "Fatura Bilgileri",
+    "edit_info" : "   Bilgileri Düzenle   ",
+    "due_date":"VADE TARİHİ",
+    "current_date" : "Geçerli Tarih"
+  },
+
+  "discount_sheet":{
+    "discount" : "İskonto",
+    "discount_type" : "İndirim Türü",
+    "discount_percent" : "İndirim Yüzdesi",
+    "discount_amount" : "İndirim Tutarı",
+    "add_discount" : "İndirim Ekle",
+    "select_discount_type" : "İndirim Türünü Seçin"
+  },
+
+  "tax_sheet":{
+    "tax" : "Vergi",
+    "TAX" : "VERGİ",
+    "label" : "Etiket",
+    "rate" : "Oran",
+    "add_tax" : "Vergi Ekle"
+  },
+
+
+  "delivery_sheet":{
+    "delivery_charges" : "Teslimat Ücretleri",
+    "amount" : "Miktar",
+    "add_charges" : "Ücret Ekleme"
+  },
+
+
+  "amount_sheet":{
+    "paid_amount" : "Ödenen Tutar",
+    "amount" : "Miktar",
+    "fill" : "Doldurmak",
+    "note_amount_to_be_paid":"Not:  {amount} ödenecektir",
+    "add_payment" : "Ödeme Ekle"
+  }
+}
+
+

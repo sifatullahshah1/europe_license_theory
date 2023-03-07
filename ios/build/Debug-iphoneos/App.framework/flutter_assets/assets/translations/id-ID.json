@@ -1,0 +1,300 @@
+{
+  "language_name" : "Indonesian",
+  "app_name" : "Generator Faktur Mudah",
+
+  "languages":{
+    "arabic" : "عربى",
+    "danish" : "Danish",
+    "german" : "German",
+    "english" : "English",
+    "spanish" : "Spanish",
+    "estonian" : "Estonian",
+    "finnish" : "Finnish",
+    "filipino" : "Filipino",
+    "french" : "French(FR)" ,
+    "french_canadian" : "French (CA)",
+    "indonesian" : "Indonesian",
+    "italian" : "Italian",
+    "korean" : "Korean",
+    "malayalam" : "Malayalam",
+    "dutch" : "Dutch",
+    "portuguese_br" : "Português (BR)",
+    "portuguese_pt" : "Português (PT)",
+    "russian" : "Russian",
+    "swedish" : "Swedish",
+    "thai" : "Thai",
+    "turkish" : "Turkish",
+    "select_language": "Select language",
+    "set_language": "Done"
+  },
+
+  "splash_text" : "Generator Faktur Mudah",
+  "loading_data" : "Harap Tunggu",
+  "reload" : "Muat Ulang",
+  "continue" : "Lanjutkan",
+  
+
+  "record_added_successfully" : "Rekaman berhasil ditambahkan",
+  "record_failed_to_add" : "Maaf catatan gagal ditambahkan",
+  "file_not_generated" : "File tidak dihasilkan, ketuk lagi setelah beberapa detik",
+  "please_enter_valid_name" : "Silakan masukkan nama yang valid",
+  "please_enter_valid_item_name" : "Silakan masukkan nama barang yang valid",
+  "please_enter_valid_item_price" : "Silakan masukkan harga barang yang valid",
+  "please_enter_valid_item_quantity" : "Silakan masukkan jumlah barang yang valid",
+
+
+  "please_enter_valid_values" : "Silakan tambahkan nilai yang valid terlebih dahulu",
+  "please_enter_valid_email" : "Silakan masukkan email yang valid",
+  "please_enter_valid_title" : "Silakan masukkan judul yang valid",
+  "setting_updated_successfully" : "Pengaturan berhasil diperbarui",
+  "invalid_values_check_value_or_quantity" : "Nilai tidak valid, periksa harga atau nilai kuantitas",
+  "sorry_message_short" : "Pesan maaf adalah singkat (min 15 karakter)",
+  "please_enter_valid_business_name" : "Silakan masukkan nama bisnis yang valid",
+  "first_complete_invoice_details" : "Detail faktur lengkap pertama",
+  "feedback_thank_message" : "Terima kasih banyak!, Kami sangat menghargai wawasan Anda karena membantu kami membangun pengalaman pelanggan yang lebih baik.",
+  "paid_amount_should_be_equal_less" : "Jumlah yang dibayarkan harus sama atau kurang dari jumlah total",
+  "please_provide_all_values" : "Harap berikan semua nilai",
+
+
+  "please_enter_amount_less":"Silakan masukkan  {amount}  jumlah atau kurang",
+
+
+  "country_select" : {
+    "select_country": "Pilih negara",
+    "enter_country_name": "Masukkan nama negara"
+  },
+
+
+
+  "bottomsheet": {
+    "close_app": "Tutup Aplikasi",
+    "cancel": "Batal",
+    "edit": "Sunting",
+    "confirm_delete": "Konfirmasi Hapus",
+    "delete": "Hapus",
+    "view": "Lihat",
+    "update": "Perbarui"
+  },
+
+  "dashboard": {
+    "business": "Bisnis",
+    "home": "Rumah",
+    "customers": "Pelanggan",
+    "product": "Produk"
+  },
+
+
+
+  "feedback": {
+    "feedback": "Umpan balik",
+    "no_feedback_found": "Tulis umpan balik Anda dengan mengklik tombol tulis umpan balik",
+    "write_feedback": "Tulis umpan balik",
+    "title": "Judul",
+    "email": "Email",
+    "message": "Pesan",
+    "send": "Kirim",
+    "response": "Tanggapan"
+  },
+
+  "setting": {
+    "invoice_setting": "Pengaturan Faktur",
+    "default_currency": "Mata Uang Default",
+    "number_formate": "Format Angka",
+    "date_formate": "Format Tanggal",
+    "payment_method": "Metode Pembayaran",
+    "privacy_policy": "Kebijakan Privasi",
+    "rate_us": "Nilai Kami",
+    "share_app": "Bagikan Aplikasi",
+    "save": "Simpan",
+    "due_term": "Jangka Waktu jatuh tempo"
+  },
+
+  "items": {
+    "select_product": "Pilih Produk",
+    "item": "Item",
+    "from_list": " Dari Daftar ",
+    "update_item": "Perbarui Item",
+    "add_item": "Tambahkan Item",
+    "item_name": "Nama Barang",
+    "price_per_item": "Harga per item",
+    "enter_description": "Masukkan Deskripsi",
+    "quantity": "Kuantitas",
+    "discount": "Diskon",
+    "type": "Jenis",
+    "taxable": "Kena Pajak %",
+    "tax_rate": "Tarif Pajak",
+    "add_item_to_list": "Tambahkan item ke daftar Anda?",
+    "description": "Deskripsi",
+    "add": "Tambah",
+    "update": "Perbarui",
+    "edit": "   Sunting   ",
+    "show_item_details": "Tampilkan Item detial",
+    "no_item" : "Belum ada item yang ditambahkan \nTambahkan item dengan mengklik tombol +",
+
+
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} items?"
+  },
+
+  "business": {
+    "select_business": "Pilih Bisnis",
+    "business": "Bisnis",
+    "logo": "Logo",
+    "stamp_opt": "Stempel (Opsional)",
+    "signature_opt": "",
+    "name": "Nama",
+    "business_name": "Nama Bisnis",
+    "designation_opt": "Penunjukan ( Opsional )",
+    "email_opt": "Email (Opsional)",
+    "phone_opt": "Telepon ( Opsional )",
+    "enter_address": "Masukkan Alamat ( Opsional )",
+    "enter_city": "Masuk Kota ( Opsional )",
+    "zip_code_opt": "Kode Pos (Opsional)",
+    "enter_country": "Masuk ke Negara ( Opsional)",
+    "business_website_opt": "Situs Web Bisnis (Opsional)",
+    "stamp": "Stempel",
+    "signature": "Tanda tangan",
+    "designation": "Penunjukan",
+    "email": "Email",
+    "phone": "Telepon",
+    "address": "Penunjukan",
+    "city": "Kota",
+    "zip_code": "Kode Pos",
+    "country": "Negara",
+    "business_website":  "Situs Web Bisnis",
+    "update_business": "Perbarui Bisnis",
+    "add_business": "Tambahkan Bisnis",
+    "no_business" : "Belum ada bisnis yang ditambahkannTambahkan bisnis dengan mengklik tombol +",
+    "show_business_details" : "Tampilkan Detail Bisnis",
+    "edit" :  "  mengedit  "
+  },
+
+
+  "customer": {
+    "select_customer": "Pilih Pelanggan",
+    "customer": "Pelanggan",
+    "update_customer": "Perbarui Pelanggan",
+    "add_customer": "Tambahkan Pelanggan",
+    "customer_name": "Nama Pelanggan",
+    "enter_name" : "Masukkan Nama",
+    "enter_phone_number" : "Masukkan Nomor Telepon",
+    "enter_address" : "Masukkan Alamat",
+    "enter_billing_address" : "Masukkan Alamat Penagihan",
+    "show_customer_details" : "Tampilkan Detail Pelanggan",
+    "name" : "Nama",
+    "phone_number" : "Nomor Telepon",
+    "address" : "Alamat",
+    "billing_address" : "Alamat Penagihan",
+    "edit" :  "  mengedit  ",
+    "no_customer" : "Belum ada pelanggan yang ditambahkan\nTambahkan Pelanggan dengan mengklik tombol +",
+
+    "update": "Update",
+    "import": "Import",
+    "export": "Export",
+    "do_you_want_excel": "Do you want excel file to",
+    "want_to_update": "Do you want to update {length} Customer?"
+  },
+
+
+  "payment": {
+    "select_payment": "Pilih Metode Pembayaran",
+    "payment": "Pembayaran",
+    "update_payment": "perbarui metode pembayaran",
+    "add_payment": "Tambahkan Metode Pembayaran",
+    "payment_method": "Metode Pembayaran",
+    "detail": "Detail",
+    "no_payment" : "Belum ada Metode Pembayaran yang ditambahkan\nTambahkan Metode Pembayaran dengan mengklik tombol +"
+  },
+
+
+
+  "show_invoices":{
+    
+"select_category" : "Pilih Kategori",
+    "create_invoice" : "Buat Invoice",
+    "dashboard_title" : "Buat faktur profesional untuk bisnis Anda!",
+    "no_invoice_found" : "Belum ada faktur yang ditambahkan",
+    "no_paid_invoice_found" : "Belum ada faktur berbayar yang ditambahkan",
+    "no_partially_paid_invoice_found" : "Belum ada faktur yang dibayar sebagian",
+    "no_unpaid_invoice_found" : "Belum ada faktur berbayar yang ditambahkan",
+    "all_invoice" : "Semua faktur",
+    "paid_invoice" : "Faktur berbayar",
+    "partially_paid_invoice" : "Faktur yang Dibayar Sebagian",
+    "unpaid_invoices" : "Faktur Belum Dibayar",
+    "cancel" : "Batal",
+    "no_specific_invoice_found":"Tidak {tab_Selected} Ditemukan",
+    "tab_Selected":"{tab_Selected}"
+  },
+
+  "create_invoice":{
+    "change_template" : "Ubah Template",
+    "choose_template" : "Pilih Template",
+    "create_invoice" : "Buat Faktur",
+    "update_invoice" : "Perbarui Faktur",
+    "business_information" : "Informasi Bisnis",
+    "info" : "INFO",
+    "invoice" : "Faktur",
+    "invoice_number":"Faktur # {number}",
+    "due_date":"TANGGAL JATUH TEMPO",
+    "add_customer":"TAMBAHKAN PELANGGAN",
+    "add_item":"TAMBAHKAN ITEM",
+    "sub_total":"Subtotal",
+    "delivery_charges":"Biaya Pengiriman",
+    "grand_total":"Total Keseluruhan",
+    "paid_amount":"Jumlah Bayaran",
+    "total_amount_due":"Jumlah Total Jatuh Tempo",
+    "add_payment_methods":"Tambahkan Metode Pembayaran",
+    "terms":"Istilah",
+    "other_notes":"Catatan Lainnya",
+    "discount":"Diskon",
+    "discount_percent":"Persentase Diskon",
+    "bill_to":"Tagihan ke",
+    "save":"Simpan",
+    "preview":"Pratayang",
+    "sub_title":"{quantity} {hello} {price}"
+  },
+
+  "info_sheet":{
+    "invoice_info" : "Info Faktur",
+    "edit_info" : "   Edit Info   ",
+    "due_date":"TANGGAL JATUH TEMPO",
+    "current_date" : "Tanggal Saat Ini"
+  },
+
+  "discount_sheet":{
+    "discount" : "Diskon",
+    "discount_type" : "Jenis Diskon",
+    "discount_percent" : "Persentase Diskon",
+    "discount_amount" : "Jumlah Diskon",
+    "add_discount" : "Tambahkan Diskon",
+    "select_discount_type" : "Pilih Jenis Diskon"
+  },
+
+  "tax_sheet":{
+    "tax" : "Pajak",
+    "TAX" : "PAJAK",
+    "label" : "Label",
+    "rate" : "Menilai",
+    "add_tax" : "Tambahkan Pajak"
+  },
+
+
+  "delivery_sheet":{
+    "delivery_charges" : "Biaya Pengiriman",
+    "amount" : "Jumlah",
+    "add_charges" : "Tambahkan Biaya"
+  },
+
+
+  "amount_sheet":{
+    "paid_amount" : "Jumlah Bayaran",
+    "amount" : "Jumlah",
+    "fill" : "Isi",
+    "note_amount_to_be_paid":"Nota:  {amount} harus dibayar",
+    "add_payment" : "Tambahkan Pembayaran"
+  }
+}
+
+
