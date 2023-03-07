@@ -1,4 +1,4 @@
-package com.example.europe_license_theory;
+package europe.license.theory;
 
 import io.flutter.embedding.android.FlutterActivity;
 
