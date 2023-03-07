@@ -1,0 +1,10 @@
+dependencies: \
+  /Users/mac/Desktop/Flutters\ Apps/Binary\ Apps/europe_license_theory/ios/Pods/GoogleDataTransport/GoogleDataTransport/GDTCCTLibrary/GDTCOREvent+GDTCCTSupport.m \
+  /Users/mac/Desktop/Flutters\ Apps/Binary\ Apps/europe_license_theory/ios/Pods/GoogleDataTransport/GoogleDataTransport/GDTCCTLibrary/Public/GDTCOREvent+GDTCCTSupport.h \
+  /Users/mac/Desktop/Flutters\ Apps/Binary\ Apps/europe_license_theory/ios/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCOREvent.h \
+  /Users/mac/Desktop/Flutters\ Apps/Binary\ Apps/europe_license_theory/ios/Pods/Headers/Public/nanopb/nanopb.modulemap \
+  /Users/mac/Desktop/Flutters\ Apps/Binary\ Apps/europe_license_theory/ios/Pods/Headers/Public/GoogleUtilities/GoogleUtilities.modulemap \
+  /Users/mac/Desktop/Flutters\ Apps/Binary\ Apps/europe_license_theory/ios/Pods/Headers/Public/FBLPromises/PromisesObjC.modulemap \
+  /Users/mac/Desktop/Flutters\ Apps/Binary\ Apps/europe_license_theory/ios/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCOREventDataObject.h \
+  /Users/mac/Desktop/Flutters\ Apps/Binary\ Apps/europe_license_theory/ios/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORTargets.h \
+  /Users/mac/Desktop/Flutters\ Apps/Binary\ Apps/europe_license_theory/ios/Pods/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GoogleDataTransport/GDTCORConsoleLogger.h

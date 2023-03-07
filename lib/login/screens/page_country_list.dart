@@ -1,10 +1,10 @@
 import 'package:easy_localization/easy_localization.dart';
+import 'package:europe_license_theory/app_theme_work/theme_colors.dart';
+import 'package:europe_license_theory/app_theme_work/theme_textformfields.dart';
+import 'package:europe_license_theory/app_theme_work/theme_texts.dart';
+import 'package:europe_license_theory/app_theme_work/widgets_reusing.dart';
+import 'package:europe_license_theory/utilities/constant_functions.dart';
 import 'package:flutter/material.dart';
-import 'package:ride_sharing_app/app_theme_work/theme_colors.dart';
-import 'package:ride_sharing_app/app_theme_work/theme_textformfields.dart';
-import 'package:ride_sharing_app/app_theme_work/theme_texts.dart';
-import 'package:ride_sharing_app/app_theme_work/widgets_reusing.dart';
-import 'package:ride_sharing_app/utilities/constant_functions.dart';
 
 import '../models/model_country.dart';
 

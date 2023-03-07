@@ -1,4 +1,5 @@
-import 'package:invoice/login/models/model_country.dart';
+
+import 'package:europe_license_theory/login/models/model_country.dart';
 
 class ModelSetting {
   String due_term;

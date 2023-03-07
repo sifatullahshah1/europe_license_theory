@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:easy_localization/easy_localization.dart';
 import 'package:europe_license_theory/app_theme_work/theme_texts.dart';
+import 'package:europe_license_theory/login/screens/screen_language_selection.dart';
 import 'package:europe_license_theory/screen_dashboard.dart';
 import 'package:europe_license_theory/utilities/app_assets.dart';
 import 'package:europe_license_theory/utilities/constant_functions.dart';
@@ -36,8 +37,8 @@ class _ScreenSplashState extends State<ScreenSplash> {
     ConstantFunctions.getSharePrefModebool("is_show_board")
         .then((is_show_board) {
       if (is_show_board) {
-        // ConstantFunctions.OpenNewScreenClean(
-        //     context, ScreenLanguageSelection(is_from_splash: true));
+        ConstantFunctions.OpenNewScreenClean(
+            context, ScreenLanguageSelection(is_from_splash: true));
         // ConstantFunctions.OpenNewScreenClean(context, ScreenDashboard());
       } else {
         ConstantFunctions.OpenNewScreenClean(context, ScreenDashboard());
@@ -69,7 +70,7 @@ class _ScreenSplashState extends State<ScreenSplash> {
             SizedBox(height: 25),
 
             Text(
-              "splash_text".tr(),
+              "Europe License Theory",
               style: TextStyle(
                   fontSize: 17,
                   color: Colors.black,

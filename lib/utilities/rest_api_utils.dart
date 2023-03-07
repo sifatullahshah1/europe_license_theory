@@ -15,21 +15,20 @@ class RestApiUtils {
   // static String ip_config = "https://cv.codematics.co/api/";
 
   // APIs development Links
-  static String ip_config_dev = "http://cv.sidrafoundation.pk/api/";
+  static String ip_config = "http://cv.sidrafoundation.pk/api/";
 
 
-  // static final String ImageUrl = "http://cv.sidrafoundation.pk/storage/invoice_template_image/";
   static final String ImageUrl = "https://cv.codematics.co/storage/invoice_template_image/";
 
-  // static final String invoice_templates = "${ip_config}v2/invoice-templates";
-  // static final String invoice_template_original = "${ip_config}invoice-template-original";
-  // static final String invoice_template_dummy = "http://cv.codematics.co/api/localized-invoice-template-dummy/";
+  static final String signup = ip_config + "signup";
+  static final String login = ip_config + "login";
+
 
 
   //==================================================================
 
-  // static final String feedback = ip_config + "feedback";
-  // static final String feedback_response = ip_config + "feedback-response";
+  static final String feedback = ip_config + "feedback";
+  static final String feedback_response = ip_config + "feedback-response";
 
   //Response Status and Message
   static String error_400 = "Error occurred";

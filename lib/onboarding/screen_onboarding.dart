@@ -2,7 +2,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:europe_license_theory/app_theme_work/theme_colors.dart';
 import 'package:europe_license_theory/app_theme_work/theme_texts.dart';
 import 'package:europe_license_theory/login/screens/screen_verify_number.dart';
-import 'package:europe_license_theory/onboarding/onboarding/screen_term_condition.dart';
+import 'package:europe_license_theory/onboarding/screen_term_condition.dart';
 import 'package:europe_license_theory/screen_dashboard.dart';
 import 'package:europe_license_theory/utilities/app_assets.dart';
 import 'package:europe_license_theory/utilities/constant_functions.dart';

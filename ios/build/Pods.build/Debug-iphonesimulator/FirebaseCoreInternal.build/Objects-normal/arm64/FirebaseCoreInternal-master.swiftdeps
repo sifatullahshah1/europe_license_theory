@@ -1,0 +1,27 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "f16ec5704c1b2ef489fc96d1a73735bae3cf4d23bedb8197245d68c8b6a2dc16"
+build_start_time: [1678164279, 779045104]
+build_end_time: [1678164279, 861404895]
+inputs:
+  ? "/Users/mac/Desktop/Flutters Apps/Binary Apps/europe_license_theory/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Heartbeat.swift"
+  : [1678106974, 419556140]
+  ? "/Users/mac/Desktop/Flutters Apps/Binary Apps/europe_license_theory/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatController.swift"
+  : [1678106974, 421406507]
+  ? "/Users/mac/Desktop/Flutters Apps/Binary Apps/europe_license_theory/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatStorage.swift"
+  : [1678106974, 422968387]
+  ? "/Users/mac/Desktop/Flutters Apps/Binary Apps/europe_license_theory/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsBundle.swift"
+  : [1678106974, 423852920]
+  ? "/Users/mac/Desktop/Flutters Apps/Binary Apps/europe_license_theory/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsPayload.swift"
+  : [1678106974, 425261974]
+  ? "/Users/mac/Desktop/Flutters Apps/Binary Apps/europe_license_theory/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/RingBuffer.swift"
+  : [1678106974, 420131683]
+  ? "/Users/mac/Desktop/Flutters Apps/Binary Apps/europe_license_theory/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Storage.swift"
+  : [1678106974, 419012308]
+  ? "/Users/mac/Desktop/Flutters Apps/Binary Apps/europe_license_theory/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/StorageFactory.swift"
+  : [1678106974, 425789356]
+  ? "/Users/mac/Desktop/Flutters Apps/Binary Apps/europe_license_theory/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/WeakContainer.swift"
+  : [1678106974, 424495697]
+  ? "/Users/mac/Desktop/Flutters Apps/Binary Apps/europe_license_theory/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatController.swift"
+  : [1678106974, 420665979]
+  ? "/Users/mac/Desktop/Flutters Apps/Binary Apps/europe_license_theory/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatsPayload.swift"
+  : [1678106974, 422035455]

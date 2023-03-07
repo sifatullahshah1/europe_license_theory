@@ -1,12 +1,25 @@
 import 'dart:io';
 
 import 'package:easy_localization/easy_localization.dart';
+import 'package:europe_license_theory/app_theme_work/theme_colors.dart';
+import 'package:europe_license_theory/app_theme_work/theme_textformfields.dart';
+import 'package:europe_license_theory/app_theme_work/theme_texts.dart';
+import 'package:europe_license_theory/app_theme_work/widgets_reusing.dart';
+import 'package:europe_license_theory/login/models/model_country.dart';
+import 'package:europe_license_theory/login/screens/page_country_list.dart';
+import 'package:europe_license_theory/login/screens/screen_signup.dart';
+import 'package:europe_license_theory/login/services/SharedPrefrenceUser.dart';
+import 'package:europe_license_theory/login/services/auth_exception_handler.dart';
+import 'package:europe_license_theory/login/services/service_login.dart';
+import 'package:europe_license_theory/screen_dashboard.dart';
 import 'package:europe_license_theory/utilities/constant_functions.dart';
+import 'package:europe_license_theory/utilities/rest_api_utils.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 
-import '../models/model_country.dart';
 
 class ScreenVerifyNumber extends StatefulWidget {
   const ScreenVerifyNumber({Key? key}) : super(key: key);
@@ -212,17 +225,17 @@ class _ScreenVerifyNumberState extends State<ScreenVerifyNumber> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text("$text_title01",
-                          style: ThemeTexts.textStyleTitle1.copyWith(fontSize: 28)),
+                          style: ThemeTexts.textStyleTitle.copyWith(fontSize: 28)),
                       SizedBox(height: 10),
                       Text("$text_title02",
-                          style: ThemeTexts.textStyleTitle1.copyWith(fontSize: isCodeSend ? 20 : 20, fontWeight: FontWeight.w300, height: 1.4, fontFamily: ThemeTexts.GilroyMedium)),
+                          style: ThemeTexts.textStyleTitle.copyWith(fontSize: isCodeSend ? 20 : 20, fontWeight: FontWeight.w300, height: 1.4)),
                      ],
                   ),
                 ),
                 SizedBox(height: 25),
                 isCodeSend
-                    ? ThemeTextFormFields.GetSimpleTextForm(
-                        context, "", _codeController,
+                    ? ThemeTextFormFields.GetTextFormField(
+                         "", _codeController,
                         hint: "verify_number.enter_code_here".tr(),
                         focusNode: code_node,
                         keyboardType: TextInputType.number,
@@ -309,8 +322,8 @@ class _ScreenVerifyNumberState extends State<ScreenVerifyNumber> {
           ),
           SizedBox(width: 15),
           Expanded(
-            child: ThemeTextFormFields.GetSimpleTextForm(
-                context, "", _phoneController,
+            child: ThemeTextFormFields.GetTextFormField(
+                "", _phoneController,
                 hint: "verify_number.phone_number".tr(),
                 focusNode: phone_number_node,
                 keyboardType: TextInputType.phone,
@@ -372,7 +385,7 @@ class _ScreenVerifyNumberState extends State<ScreenVerifyNumber> {
   void LoginFunction(String phone_number) {
     SharedPrefrenceUser.SaveUserCountry(modelCountry);
 
-    LoginServices.LoginFunction(phone_number, "$fcm_token", this.auth_token_id!)
+    ServiceLogin.LoginFunction(phone_number, "$fcm_token", this.auth_token_id!)
         .then(
       (modelLogin) {
         Navigator.of(context).pop();
