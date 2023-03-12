@@ -9,7 +9,7 @@ class ThemeTexts {
   static String Montserrat = "Montserrat";
   static String Roboto = "Roboto";
   static String RobotoSlab = "RobotoSlab";
-
+  static const String RobotoFlex = "RobotoFlex-Regular";
   static String LatoBold = "LatoBold";
   static String LatoLight = "LatoLight";
   static String LatoRegular = "LatoRegular";
@@ -36,24 +36,25 @@ class ThemeTexts {
   //     fontSize: 13, fontFamily: ThemeTexts.SemiBold, color: Colors.black38);
 
   static const textStyleTitle = TextStyle(
-      fontSize: 17,
-      color: Colors.black87,
-      fontWeight: FontWeight.w500,
+      fontSize: 23,
+      color: Color(0xFF222951),
+      fontWeight: FontWeight.w400,
       decoration: TextDecoration.none,
-      fontFamily: Bold);
+      fontFamily: RobotoFlex);
 
   static const textStyleSubTitle = TextStyle(
-      fontSize: 14,
-      color: Colors.black38,
+      fontSize: 23,
+      color: Color(0xFF222951),
+      fontWeight: FontWeight.w700,
       decoration: TextDecoration.none,
-      fontFamily: SemiBold);
+      fontFamily: RobotoFlex);
 
-  static const textStyleTitle2 = TextStyle(
-      fontSize: 14,
-      color: Colors.black87,
-      fontWeight: FontWeight.w500,
+  static const textStyleSubTitle2 = TextStyle(
+      fontSize: 15,
+      color: Color(0xFF222951),
+      fontWeight: FontWeight.w400,
       decoration: TextDecoration.none,
-      fontFamily: ThemeTexts.Medium);
+      fontFamily: RobotoFlex );
 
   static const textStyleValue = const TextStyle(
       fontSize: 12,
@@ -62,16 +63,16 @@ class ThemeTexts {
       decoration: TextDecoration.none,
       fontFamily: ThemeTexts.SemiBold);
 
-  static var appbar_text_style = textStyleTitle2.copyWith(color: Colors.black);
+  static var appbar_text_style = textStyleSubTitle2.copyWith(color: Colors.black);
   static var action_text_style =
       textStyleSubTitle.copyWith(color: Colors.black);
 
-  static var button_text_fill = textStyleTitle2.copyWith(color: Colors.white);
-  static var button_text_transparent = textStyleTitle2.copyWith(color: Colors.white);
+  static var button_text_fill = textStyleSubTitle2.copyWith(color: Colors.white ,fontWeight: FontWeight.w700 );
+  static var button_text_transparent = textStyleSubTitle2.copyWith(fontWeight: FontWeight.w700);
   static var snakbar_text = TextStyle(
       color: Colors.white, fontSize: 16.5, fontWeight: FontWeight.w600);
 
-  static const textCupertinoTitleStyle = textStyleTitle2;
+  static const textCupertinoTitleStyle = textStyleSubTitle2;
 
   static var floating_button_text = TextStyle(
     fontSize: 17,

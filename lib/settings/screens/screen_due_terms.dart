@@ -102,7 +102,7 @@ class _ScreenDueTermsState extends State<ScreenDueTerms> {
                     },
                     title: Text(
                       "${due_term_list[index]}",
-                      style: ThemeTexts.textStyleTitle2.copyWith(
+                      style: ThemeTexts.textStyleSubTitle2.copyWith(
                         color: selected_index == index
                             ? Colors.black87
                             : Colors.black,

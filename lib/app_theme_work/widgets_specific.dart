@@ -24,7 +24,7 @@ class WidgetsSpecific {
             child: isValue ? checkbox_checked : checkbox_unchecked,
           ),
           SizedBox(width: 5),
-          Text("$title", style: ThemeTexts.textStyleTitle2)
+          Text("$title", style: ThemeTexts.textStyleSubTitle2)
         ],
       ),
     );

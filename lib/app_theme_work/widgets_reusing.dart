@@ -91,7 +91,7 @@ class WidgetsReusing {
         padding: const EdgeInsets.all(5),
         child: Text(
           title,
-          style: ThemeTexts.textStyleTitle2.copyWith(
+          style: ThemeTexts.textStyleSubTitle2.copyWith(
             color: title == "bottomsheet.confirm_delete".tr() ||
                     title == "bottomsheet.delete".tr()
                 ? Colors.red
@@ -154,13 +154,39 @@ class WidgetsReusing {
     );
   }
 
-  static Widget GetTextButtonTransparent(
-      context, String text, onTap, edgeinsets) {
+  static Widget GetTextButtonfill(
+      context, String text, onTap, ) {
     return InkWell(
       onTap: onTap,
       child: Container(
         width: double.infinity,
-        margin: edgeinsets,
+
+        alignment: Alignment.center,
+        decoration: BoxDecoration(
+            color:  Color(0xFF222951),
+            border: Border.all(
+              // color: Theme.of(context).colorScheme.secondary,
+              color: Colors.black87,
+              width: 1.5,
+            ),
+            borderRadius: BorderRadius.all(Radius.circular(15))),
+        height: 50,
+        child: Text(
+          text,
+          style: ThemeTexts.button_text_fill
+          ),
+        ),
+
+    );
+  }
+
+  static Widget GetTextButtonTransparent(
+      context, String text, onTap, ) {
+    return InkWell(
+      onTap: onTap,
+      child: Container(
+        width: double.infinity,
+
         alignment: Alignment.center,
         decoration: BoxDecoration(
             color: Colors.transparent,
@@ -169,14 +195,11 @@ class WidgetsReusing {
               color: Colors.black87,
               width: 1.5,
             ),
-            borderRadius: BorderRadius.all(Radius.circular(5))),
+            borderRadius: BorderRadius.all(Radius.circular(15))),
         height: 50,
         child: Text(
           text,
-          style: ThemeTexts.button_text_transparent.copyWith(
-            // color: Theme.of(context).colorScheme.secondary,
-            color: Colors.black87,
-          ),
+          style: ThemeTexts.button_text_transparent
         ),
       ),
     );

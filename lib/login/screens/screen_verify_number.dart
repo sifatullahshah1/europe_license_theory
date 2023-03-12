@@ -54,6 +54,7 @@ class _ScreenVerifyNumberState extends State<ScreenVerifyNumber> {
   String? auth_token_id = "";
   late FirebaseMessaging firebaseMessaging;
 
+
   bool isVerificationCompleted = false;
 
   @override
@@ -233,7 +234,7 @@ class _ScreenVerifyNumberState extends State<ScreenVerifyNumber> {
                         onTap: onTapBack,
                         child: Text(
                           "Change phone number".tr(),
-                          style: ThemeTexts.textStyleTitle2.copyWith(
+                          style: ThemeTexts.textStyleSubTitle2.copyWith(
                               fontWeight: FontWeight.w400,
                               color: ThemeColors.primary_dark_lt),
                         ),
@@ -294,7 +295,7 @@ class _ScreenVerifyNumberState extends State<ScreenVerifyNumber> {
                   //   ),
                   // ),
                   // SizedBox(width: 8),
-                  Text(modelCountry.code, style: ThemeTexts.textStyleTitle2),
+                  Text(modelCountry.code, style: ThemeTexts.textStyleSubTitle2),
                   SizedBox(width: 5),
                   Icon(Icons.keyboard_arrow_down_outlined,
                       color: ThemeColors.editbox_color_grey)
@@ -387,7 +388,7 @@ class _ScreenVerifyNumberState extends State<ScreenVerifyNumber> {
                   phone_number: phone_number, fcm_token: fcm_token ?? ""));
         } else {
           // Navigator.of(context).pop();
-          WidgetsReusing.getSnakeBar(context, "${modelLogin.message}");
+          WidgetsReusing.getSnakeBar(context, ".....${modelLogin.message}");
         }
       },
     );

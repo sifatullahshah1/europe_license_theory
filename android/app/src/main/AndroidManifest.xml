@@ -6,7 +6,7 @@
 
 
     <application
-        android:label="tere"
+        android:label="europelicensetheory"
         android:usesCleartextTraffic="true"
         android:enabled="true"
         android:exported="true"

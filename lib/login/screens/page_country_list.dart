@@ -112,7 +112,7 @@ class _PageCountryListState extends State<PageCountryList> {
               Expanded(
                 child: Text(
                   modelCountry.name,
-                  style: ThemeTexts.textStyleTitle2,
+                  style: ThemeTexts.textStyleSubTitle2,
                 ),
               ),
               Container(

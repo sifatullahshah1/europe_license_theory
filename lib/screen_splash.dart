@@ -11,6 +11,8 @@ import 'package:europe_license_theory/utilities/language_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import 'login/screens/screen_auth_dashboard.dart';
+
 
 class ScreenSplash extends StatefulWidget {
   @override
@@ -40,9 +42,9 @@ class _ScreenSplashState extends State<ScreenSplash> {
       if (is_show_board) {
         // ConstantFunctions.OpenNewScreenClean(
         //     context, ScreenLanguageSelection(is_from_splash: true));
-        ConstantFunctions.OpenNewScreenClean(context, ScreenVerifyNumber());
+        ConstantFunctions.OpenNewScreenClean(context, ScreenAuthDashboard());
       } else {
-        ConstantFunctions.OpenNewScreenClean(context, ScreenVerifyNumber());
+        ConstantFunctions.OpenNewScreenClean(context, ScreenAuthDashboard());
         // ConstantFunctions.OpenNewScreenClean(context, ScreenDummyImage());
       }
     });

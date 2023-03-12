@@ -73,7 +73,7 @@ class _ScreenOnboardingState extends State<ScreenOnboarding> {
                     },
                     child: Text(
                       "onbaording.skip".tr(),
-                      style: ThemeTexts.textStyleTitle2.copyWith(
+                      style: ThemeTexts.textStyleSubTitle2.copyWith(
                           letterSpacing: 0,
                           fontSize: 17,
                           fontWeight: FontWeight.w500,

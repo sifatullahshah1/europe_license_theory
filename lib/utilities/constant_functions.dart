@@ -1,5 +1,4 @@
 import 'dart:io';
-
 import 'package:easy_localization/easy_localization.dart';
 import 'package:europe_license_theory/app_theme_work/widgets_reusing.dart';
 import 'package:flutter/cupertino.dart';

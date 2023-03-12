@@ -162,7 +162,7 @@ class _ScreenLanguageSelectionState extends State<ScreenLanguageSelection> {
               Expanded(
                 child: Text(
                   modelCountry.name,
-                  style: ThemeTexts.textStyleTitle2,
+                  style: ThemeTexts.textStyleSubTitle2,
                 ),
               ),
               Container(

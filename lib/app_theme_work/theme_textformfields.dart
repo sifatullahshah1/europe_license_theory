@@ -49,7 +49,7 @@ class ThemeTextFormFields {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           title != ""
-              ? Text(title, style: ThemeTexts.textStyleTitle2)
+              ? Text(title, style: ThemeTexts.textStyleSubTitle2)
               : SizedBox(),
           const SizedBox(height: 7),
           SizedBox(
@@ -65,7 +65,7 @@ class ThemeTextFormFields {
               enableSuggestions: true,
               toolbarOptions: ToolbarOptions(
                   copy: true, cut: true, selectAll: true, paste: true),
-              style: ThemeTexts.textStyleTitle2
+              style: ThemeTexts.textStyleSubTitle2
                   .copyWith(color: ThemeColors.edit_textbox_color),
               keyboardType: keyboardType,
               decoration: InputDecoration(
@@ -79,10 +79,10 @@ class ThemeTextFormFields {
                 focusedBorder: borderDecoration,
                 enabledBorder: borderDecoration,
                 floatingLabelBehavior: FloatingLabelBehavior.always,
-                errorStyle: ThemeTexts.textStyleTitle2,
-                hintStyle: ThemeTexts.textStyleTitle2.copyWith(color: Colors.grey),
-                labelStyle: ThemeTexts.textStyleTitle2,
-                floatingLabelStyle: ThemeTexts.textStyleTitle2,
+                errorStyle: ThemeTexts.textStyleSubTitle2,
+                hintStyle: ThemeTexts.textStyleSubTitle2.copyWith(color: Colors.grey),
+                labelStyle: ThemeTexts.textStyleSubTitle2,
+                floatingLabelStyle: ThemeTexts.textStyleSubTitle2,
               ),
             ),
           ),
